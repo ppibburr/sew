@@ -1,0 +1,61 @@
+---
+- !ruby/struct:Axis
+  name: H89 star wheel
+  motor: !ruby/struct:Motor
+    nameplate:
+      so#: 870261873.04.04.001
+      model_type: FH57DY71M/B/TH
+      gear_ratio: 68.22
+      output_speed: 44
+      mtg_position: M3
+      shaft_diameter: 40SRH
+      flange_diameter: ''
+      conduit_box_loc: 0
+      cable_entry: X
+      out_torque_(lb-in): 2233
+      gear_s.f.: 2.3
+      motor_hp: 2
+      motor_voltage: 400
+      frequency: 150
+      connection: DT11
+      motor_amps: 2.7
+      kva_code: ''
+      insulation_class: F
+      brake_rectifier: BME1.5
+      brake_voltage: 230AC
+      other: Term.Strip#1830600, CB@0, CE X. Unit contains other important specifications.
+        Please call SEW.
+  manual: 
+  mark: 
+- !ruby/struct:Axis
+  name: C26 conveyor shifter
+  motor: &1 !ruby/struct:Motor
+    nameplate:
+      so#: 870260448.07.07.001
+      model_type: FA57DT71C4BMG05HR
+      gear_ratio: 199.7
+      output_speed: 8.6
+      mtg_position: M5
+      shaft_diameter: 1.5
+      flange_diameter: ''
+      conduit_box_loc: 0
+      cable_entry: X
+      out_torque_(lb-in): 2415
+      gear_s.f.: 2.2
+      motor_hp: 0.33
+      motor_voltage: 230YY/460Y
+      frequency: 60
+      connection: DT79
+      motor_amps: 1.32/.66
+      kva_code: J
+      insulation_class: B
+      brake_rectifier: BG1.5
+      brake_voltage: 460AC
+      other: CB@0, CE X
+  manual: 
+  mark: 
+- !ruby/struct:Axis
+  name: F56 conveyor shifter
+  motor: *1
+  manual: 
+  mark: 

@@ -1,0 +1,424 @@
+
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><link href="styles/SEWWeb.css" type="text/css" rel="stylesheet" /><title>
+	So Info
+</title>
+    
+    <script type="text/javascript">
+
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-30709885-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function () {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+
+        var blnIPadXX = false;
+        var blnIPad4X = false;
+        var blnIPad5X = false;
+        var blnIPhone = false;
+        var blnAllOth = false;
+
+        function initialize_page() {
+            adjust();
+            initialize_state();
+        }
+
+        function btn_action(item) {
+            submit_action(item);
+        }
+
+        function submit_action(item) {
+            var bool_action = true;
+            var string_val = "";
+
+            var strEnteredValue;
+
+            if (item == "1") {
+                strEnteredValue = document.getElementById("SO_2").value;
+                if (strEnteredValue.length < 6) { string_val = string_val + "Field 2 needs 6 digits: you entered " + strEnteredValue.length + ". "; bool_action = false; }
+
+                strEnteredValue = document.getElementById("SO_3").value;
+                if (strEnteredValue.length < 2) { string_val = string_val + "Field 3 needs 2 digits: you entered " + strEnteredValue.length + ". "; bool_action = false; }
+
+                strEnteredValue = document.getElementById("SO_4").value;
+                if (strEnteredValue.length < 2) { string_val = string_val + "Field 4 needs 2 digits: you entered " + strEnteredValue.length + ". "; bool_action = false; }
+
+                strEnteredValue = document.getElementById("SO_5").value;
+                if (strEnteredValue.length < 3) { string_val = string_val + "Field 5 needs 3 digits: you entered " + strEnteredValue.length + ". "; bool_action = false; }
+
+            }
+
+            if (item == "2") {
+                print_so();
+                bool_action = false;
+            }
+
+            if (item == "3") {
+                window.open('https://itunes.apple.com/us/app/so-info-for-usa/id1353575659?mt=8', '_blank', 'resizable=yes, scrollbars=yes');
+                bool_action = false;
+            }
+
+            if (item == "4") {
+                window.open(string_pid_link, '_blank', 'resizable=yes, scrollbars=yes');
+                bool_action = false;
+
+            }
+
+            if (item == "5") {
+                if (blnIPadXX) { document.getElementById("iPadXX").style.display = "none"; }
+                if (blnIPad4X) { document.getElementById("iPadXX").style.display = "none"; }
+                if (blnIPad5X) { document.getElementById("iPadXX").style.display = "none"; }
+                if (blnIPhone) { document.getElementById("iPhone").style.display = "none"; }
+                if (blnAllOth) { document.getElementById("allOth").style.display = "none"; }
+
+                document.getElementById("soinfo_vpos").style.top = "0px";
+                bool_action = false;
+            }
+
+            if (bool_action) {
+                document.forms.Screen.Operation.value = item;
+                document.forms.Screen.submit();
+            }
+            else {
+                if (item == "1")  alert("Invalid SO Number. " + string_val);
+            }
+        }
+
+        function so_2_field() {
+
+            verify_input("SO_2");
+
+            var strEnteredValue;
+
+            strEnteredValue = document.getElementById("SO_2").value;
+            if (strEnteredValue.length == 6) {
+                document.getElementById("SO_3").focus();
+            }
+        }
+
+        function so_3_field() {
+
+            verify_input("SO_3");
+
+            var strEnteredValue;
+
+            strEnteredValue = document.getElementById("SO_3").value;
+            if (strEnteredValue.length == 2) {
+                document.getElementById("SO_4").focus();
+            }
+        }
+
+        function so_4_field() {
+
+            verify_input("SO_4");
+
+            var strEnteredValue;
+
+            strEnteredValue = document.getElementById("SO_4").value;
+            if (strEnteredValue.length == 2) {
+                document.getElementById("SO_5").focus();
+            }
+        }
+
+        function so_5_field() {
+
+            verify_input("SO_5")
+        }
+
+        var so_2_str = "";
+        var so_3_str = "";
+        var so_4_str = "";
+        var so_5_str = "";
+
+
+        function verify_input(so_id) {
+            var valid = true;
+
+            var digit;
+            var input_str = document.getElementById(so_id).value;
+
+            for (i = 0; i < input_str.length; i++) {
+                digit = input_str.substring(i, i + 1);
+                if (!((digit == 0) || (digit == 1) || (digit == 2) || (digit == 3) || (digit == 4) || (digit == 5) || (digit == 6) || (digit == 7) || (digit == 8) || (digit == 9))) valid = false;
+            }
+
+            if (valid) {
+                if (so_id == "SO_2") so_2_str = document.getElementById(so_id).value;
+                if (so_id == "SO_3") so_3_str = document.getElementById(so_id).value;
+                if (so_id == "SO_4") so_4_str = document.getElementById(so_id).value;
+                if (so_id == "SO_5") so_5_str = document.getElementById(so_id).value;
+            }
+            else {
+                alert("SO Numer contains only digits (0-9).");
+
+                if (so_id == "SO_2") document.getElementById(so_id).value = so_2_str;
+                if (so_id == "SO_3") document.getElementById(so_id).value = so_3_str;
+                if (so_id == "SO_4") document.getElementById(so_id).value = so_4_str;
+                if (so_id == "SO_5") document.getElementById(so_id).value = so_5_str;
+            }
+        }
+
+        function adjust() {
+            var height = 0;
+            height = document.getElementById("dp4_d1").offsetHeight;
+            if (height != 24) {
+                document.getElementById("dp4_d1").style.fontSize = "11px";
+             }
+        }
+
+    </script>
+</head>
+
+<body onload="initialize_page();" class="table_ref">
+<form method="post" action="./SoInfoWeb.aspx" id="Screen">
+<div class="aspNetHidden">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="gMBtgu3j+NYgTO3VTJuTswmaTQby5wgPpLa1rr/Y8dpGL5osxCYlvod8WGa/hmbrfe1ui8of+CRt62qNrnKGk8FTHd/XBYV1dj0ATQGfWoM=" />
+</div>
+
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="4970F6BC" />
+</div>
+
+    
+<SCRIPT language="javascript">
+function initialize_state()
+{
+        document.getElementById("SO_1").value = "870";
+        document.getElementById("SO_2").value = "260448";
+        document.getElementById("SO_3").value = "07";
+        document.getElementById("SO_4").value = "07";
+        document.getElementById("SO_5").value = "001";
+
+        string_pid_link = "http://productid.sew-eurodrive.com/?lang=en";
+}
+function print_so()
+{
+   window.open('SoInfoPrint.aspx?SO1=870&SO2=260448&SO3=07&SO4=07&SO5=001', '_blank', 'resizable=no, scrollbars=no, width=750, height=750');}
+</SCRIPT>
+
+
+    <div id="content_frame">
+
+    	<table id="allOth" class="tablewhite" style="display: none; position: absolute; left: 5px; top: 0px; width: 545px">
+	    <tr class="tableheader"><td style="height: 21px;">
+		    &nbsp;Now available as an iPhone/iPad App!!! <a href="#" name="itunes_button_othr" id="itunes_button_othr" onclick="return submit_action(3);">CLICK HERE</a> for iTunes preview.
+	    </td><td style="width:36px">&nbsp;<a href="#" name="hide_button_othr" id="hide_button_othr" onclick="return submit_action(5);">HIDE</a></td></tr>
+	    </table>
+
+
+    	<table id="iPadXX" class="tablewhite" style="display: none; position: absolute; left: 5px; top: 0px; width: 545px">
+	    <tr class="tableheader"><td style="height: 21px;">
+		    &nbsp; <a href="#" name="open_button_iPad" id="open_button_iPad" onclick="return submit_action(3);">TAP HERE</a> to go to iTunes SO Data App preview page.
+	    </td><td style="width:36px">&nbsp;<a href="#" name="hide_button_iPad" id="hide_button_iPad" onclick="return submit_action(5);">HIDE</a></td></tr>
+	    </table>
+
+    	<table id="iPhone" class="tablewhite" style="display: none; position: absolute; left: 5px; top: 0px; width: 545px">
+	    <tr class="tableheader"><td style="height: 21px;">
+		    &nbsp; <a href="#" name="open_button_iPhn" id="open_button_iPhn" onclick="return submit_action(3);">TAP HERE</a> to go to iTunes SO Data App preview page.
+	    </td><td style="width:36px">&nbsp;<a href="#" name="hide_button_iPhn" id="hide_button_iPhn" onclick="return submit_action(5);">HIDE</a></td></tr>
+	    </table>
+
+    <div id="soinfo_vpos" style="position: absolute; top:0px; left:0px">
+
+	    <table class="tablewhite" style="position: absolute; left: 5px; top: 0px; width: 545px">
+	    <tr class="tableheader"><td style="height: 21px;">
+		    &nbsp;SO# (Serial Number) Information - USA
+	    </td></tr>
+        <tr class="tablebody"><td style="height: 140px;">
+		</td></tr>
+	    </table>
+
+        <div style="font-size: 11px; left: 22px; font-family: Arial; position: absolute; top: 36px;">
+			<img src="images/SO_Data.png" height="124" width="233" alt=""/>
+		</div>
+
+    
+        <div style="left: 271px; position: absolute; top: 055px">
+			<img src="images/href_arrow.gif" alt=""/>
+	    </div>
+
+        <div style="left: 273px; position: absolute; top: 129px">
+			<img src="images/href_arrow.gif" alt=""/>
+	    </div>
+
+        <div id="no_result" style="display: none; font-size: 12px; left: 289px; font-family: Arial; position: absolute; top: 106px; width: 235px">
+            <b><font color="red">SO Number not found. Verify your entry.</font></b>
+        </div>
+        <div style="font-size: 11px; left: 294px; font-family: Arial; position: absolute; top: 50px">
+            <select id="SO_1" name="SO_1" style="font-size: 12px; width: 47px;">
+                <option value="850" selected="selected">850</option>
+                <option value="860">860</option>
+                <option value="870">870</option>
+                <option value="880">880</option>
+                <option value="890">890</option>
+            </select>
+        </div>
+
+        <input id="SO_2" type="text" name="SO_2" maxlength="6" style="left: 345px; position: absolute; top: 50px; width: 49px" onkeyup="so_2_field();" />
+        <input id="SO_3" type="text" name="SO_3" maxlength="2" style="left: 411px; position: absolute; top: 50px; width: 18px" onkeyup="so_3_field();" />
+        <input id="SO_4" type="text" name="SO_4" maxlength="2" style="left: 446px; position: absolute; top: 50px; width: 18px" onkeyup="so_4_field();" />
+        <input id="SO_5" type="text" name="SO_5" maxlength="3" style="left: 481px; position: absolute; top: 50px; width: 25px" onkeyup="so_5_field();" />
+
+        <div style="font-size: 18px; left: 402px; width: 6px; line-height: 13px; font-family: Arial; position: absolute; top: 56px"><b>.</b></div>
+        <div style="font-size: 18px; left: 437px; width: 6px; line-height: 13px; font-family: Arial; position: absolute; top: 56px"><b>.</b></div>
+        <div style="font-size: 18px; left: 472px; width: 6px; line-height: 13px; font-family: Arial; position: absolute; top: 56px"><b>.</b></div>
+
+        <input id="enter" type="button" class="button" style="left: 294px; width: 100px; position: absolute; top: 80px" onclick="btn_action('1')" value="Enter" />
+        <input id="print" type="button" class="button" style="left: 411px; width: 100px; position: absolute; top: 80px" onclick="btn_action('2')" value="Print" />
+    
+        <div style="font-size: 12px; left: 290px; font-family: Arial; line-height: 16px; position: absolute; top: 127px; width: 235px">
+            For USA units starting with <b>87.XXX</b> or units not from USA, click <a class="normal_weight" href="#" name="open_button_sewProductID" id="open_button_sewProductID" onclick="return submit_action(4);"> here</a>
+        </div>
+ 
+        <table class="tablewhite" style="position: absolute; left: 5px; top: 175px; width: 545px;">
+
+    	    <tr><td class="tableheader" style="width: 111px; height: 16px;">
+		        &nbsp;SO#
+	        </td><td class="tablebody" style="height: 16px;">
+		        &nbsp;870260448.07.07.001
+	        </td></tr>
+
+            <tr><td class="tableheader" style="width: 111px; height: 16px;">
+		        &nbsp;Model/Type
+	        </td><td class="tablebody" style="height: 16px;">
+		        &nbsp;FA57DT71C4BMG05HR
+	        </td></tr>
+        </table>
+
+        <table class="tablewhite" style="position: absolute; left: 5px; top: 227px; width: 265px;">
+            <tr><td class="tableheader" style="width: 45%; height: 16px;">
+		        &nbsp;Gear Ratio
+	        </td><td class="tablebody" style="width: 55%; height: 16px;">
+		        &nbsp;199.70
+	        </td></tr>
+
+	        <tr><td class="tableheader" style="width: 45%; height: 16px;">
+		        &nbsp;Output Speed
+	        </td><td class="tablebody" style="width: 55%; height: 16px;">
+		        &nbsp;8.6
+	        </td></tr>
+
+	        <tr><td class="tableheader" style="width: 45%; height: 16px;">
+		        &nbsp;Mtg Position
+	        </td><td class="tablebody" style="width: 55%; height: 16px;">
+		        &nbsp;M5
+	        </td></tr>
+
+	        <tr><td class="tableheader" style="width: 45%; height: 16px;">
+		        &nbsp;Shaft Diameter
+	        </td><td class="tablebody" style="width: 55%; height: 16px;">
+		        &nbsp;1.500
+	        </td></tr>
+
+            <tr><td class="tableheader" style="width: 45%; height: 16px;">
+		        &nbsp;Flange Diameter
+	        </td><td class="tablebody" style="width: 55%; height: 16px;">
+		        &nbsp;
+	        </td></tr>
+
+            <tr><td class="tableheader" style="width: 45%; height: 16px;">
+		        &nbsp;Conduit Box Loc
+	        </td><td class="tablebody" style="width: 55%; height: 16px;">
+		        &nbsp;0
+	        </td></tr>
+
+            <tr><td class="tableheader" style="width: 45%; height: 16px;">
+		        &nbsp;Cable Entry
+	        </td><td class="tablebody" style="width: 55%; height: 16px;">
+		        &nbsp;X
+	        </td></tr>
+
+            <tr><td class="tableheader" style="width: 45%; height: 16px;">
+		        &nbsp;Out Torque (lb-in)
+	        </td><td class="tablebody" style="width: 55%; height: 16px;">
+		        &nbsp;2415
+	        </td></tr>
+
+            <tr><td class="tableheader" style="width: 45%; height: 16px;">
+		        &nbsp;Gear S.F.
+	        </td><td class="tablebody" style="width: 55%; height: 16px;">
+		        &nbsp;2.2
+	        </td></tr>
+	    </table>        
+
+        <table class="tablewhite" style="position: absolute; left: 285px; top: 227px; width: 265px">
+            <tr><td class="tableheader" style="width: 45%; height: 16px;">
+		        &nbsp;Motor HP
+	        </td><td class="tablebody" style="width: 55%; height: 16px;">
+		        &nbsp;.33
+	        </td></tr>
+
+            <tr><td class="tableheader" style="width: 45%; height: 16px;">
+		        &nbsp;Motor Voltage
+	        </td><td class="tablebody" style="width: 55%; height: 16px;">
+		        &nbsp;230YY/460Y
+	        </td></tr>
+
+	        <tr><td class="tableheader" style="width: 45%; height: 16px;">
+		        &nbsp;Frequency
+	        </td><td class="tablebody" style="width: 55%; height: 16px;">
+		        &nbsp;60
+	        </td></tr>
+
+	        <tr><td class="tableheader" style="width: 45%; height: 16px;">
+		        &nbsp;Connection
+	        </td><td class="tablebody" style="width: 55%; height: 16px;">
+		        &nbsp;DT79
+	        </td></tr>
+
+	        <tr><td class="tableheader" style="width: 45%; height: 16px;">
+		        &nbsp;Motor Amps
+	        </td><td class="tablebody" style="width: 55%; height: 16px;">
+		        &nbsp;1.32/.66
+	        </td></tr>
+
+            <tr><td class="tableheader" style="width: 45%; height: 16px;">
+		        &nbsp;KVA Code
+	        </td><td class="tablebody" style="width: 55%; height: 16px;">
+		        &nbsp;J
+	        </td></tr>
+
+            <tr><td class="tableheader" style="width: 45%; height: 16px;">
+		        &nbsp;Insulation Class
+	        </td><td class="tablebody" style="width: 55%; height: 16px;">
+		        &nbsp;B
+	        </td></tr>
+
+            <tr><td class="tableheader" style="width: 45%; height: 16px;">
+		        &nbsp;Brake Rectifier
+	        </td><td class="tablebody" style="width: 55%; height: 16px;">
+		        &nbsp;BG1.5
+	        </td></tr>
+
+            <tr><td class="tableheader" style="width: 45%; height: 16px;">
+		        &nbsp;Brake Voltage
+	        </td><td class="tablebody" style="width: 55%; height: 16px;">
+		        &nbsp;460AC
+	        </td></tr>
+	    </table>
+        
+        <table class="tablewhite" style="left: 5px; position: absolute; top: 440px; width: 545px;">
+
+    	    <tr><td id="dp4_t1" class="tableheader" style="width: 111px; height: 16px;">
+		        &nbsp;Other
+	        </td><td id="dp4_d1" class="tablebodyLTxt" style="height: 16px;">
+		              CB@0, CE X
+	        </td></tr>
+
+        </table>
+    </div>            
+    </div>
+    	
+    <input id="Operation" type="hidden" value="none" name="Operation"/>
+	
+</form>
+</body>
+</html>
