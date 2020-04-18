@@ -8,15 +8,18 @@ def key
   end
 end
 
-def get sn=ARGV.join
+GUESS = ["04","07","06","03","11","12","14", "08", "02", "05", "15", "09", "13"]
+
+
+def get sn=ARGV.join, guess: 0
   sn=sn.gsub(".",'')
   so = []
   so << sn[0..2]
   so << sn[3..8]
-  so << (sn[9..10] || '04')
-  so[-1] = "04" if so[-1] == ''
-  so << (sn[11..12] || '04')
-  so[-1] = "04" if so[-1] == ''  
+  so << (sn[9..10] || GUESS[guess])
+  so[-1] = GUESS[guess] if so[-1] == ''
+  so << (sn[11..12] || GUESS[guess])
+  so[-1] = GUESS[guess] if so[-1] == ''  
   so << (sn[13..15] || '001')
   so[-1] = "001" if so[-1] == ''  
   
@@ -36,7 +39,7 @@ def get sn=ARGV.join
   
   so
 end
-
+$guess = 0
 def parse max_guess: nil, sn: ARGV.join
   so  = get sn
   doc = Nokogiri::HTML(open('./out.html'))
@@ -49,11 +52,12 @@ def parse max_guess: nil, sn: ARGV.join
     l.strip.gsub(/^[[:space:]]/, '')
   end
 
+
   if (buff[1] !~ /^[0-9]+/) || (buff[3] =~ /^MC/)
-    so[2] = "07"
-    so[3] = "07"
-    
-    return parse(max_guess: true, sn: so.join) unless max_guess
+    so[2] = GUESS[$guess+=1]
+    so[3] = GUESS[$guess]
+    sleep 0.11
+    return parse(max_guess: true, sn: so.join) unless $guess >= (GUESS.length)
     puts Err.new("SO# not found").to_yaml
   else
     np = {}

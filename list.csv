@@ -1,2 +1,22 @@
-870261873,H89 star wheel
-870260448,C26 conveyor shifter,F56 conveyor shifter
+870261873,mfg,setter,"H89 star wheel"
+870260448,mfg,"cutter 1","C26 conveyor shifter"
+,mfg,"cutter 2","F56 conveyor shifter"
+890191835,mfg,"1 mill","scrap conveyor"
+,mfg,"2 mill","scrap conveyor"
+,mfg,"3 mill",glaze
+890230000,pkg,"f section","f173 walking beam"
+,pkg,"f section","f179 walking beam"
+870262042,pkg,"h section","h207 travel"
+870261881,mfg,setter,"h88 walking beam transfer"
+870262036,mfg,setter,"h90 walking beam transfer"
+870261966,mfg,setter,"h92 walking beam"
+870261960,mfg,"cutter 1","C29 flipper"
+,mfg,"cutter 2","F59 flipper"
+870262038,pkg,blending,D127
+,pkg,blending,D137
+,pkg,blending,E147
+,pkg,blending,E157
+870262037,PKG,BLENDING,D124
+,PKG,BLENDING,D134
+,PKG,BLENDING,E144
+,PKG,BLENDING,E154

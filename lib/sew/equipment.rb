@@ -1,6 +1,6 @@
 require 'yaml'
 
-Axis = Struct.new(:name, :motor, :manual,:mark)
+Axis = Struct.new(:name,:department, :location, :motor, :manual,:mark)
 
 Equipment = Struct.new(:department, :location, :id, :axi) do
   def self.new *o

@@ -24,29 +24,45 @@ end.parse!
 
 tasks=[[ARGV.join,axi]]
 if list
+  last = nil
   tasks = []
   open(list).read.strip.split("\n").each do |l|
-    a=l.split(",")
-    tasks << [a.shift, a]
+    a=l.split(",").map do |q| q.gsub('"','') end
+    a[0] = last if a[0] == ''
+    tasks << [last=a.shift, a]
   end
 end
   
-tasks.each do |so,axi|  
-  sleep 0.3
-  mtr=YAML.load(`ruby ./bin/so.rb #{so}`.strip)
+mtr  = nil
+last = nil
+tasks.each do |so,axi|    
+  dept,loc,axi = axi
+  
+  unless so == last
+    if !a=DB.find do |q| q.motor.nameplate['so#'] =~ /^#{so}/ end
+      mtr=YAML.load(`ruby ./bin/so.rb #{so}`.strip)
+    else 
+      mtr = a.motor
+    end
+  end
+  
+  last = so
+  
   if mtr.is_a?(Err)
     puts mtr.to_yaml
     raise "No SO# found" 
+  elsif !mtr
+    raise "NilMotorError"
   end
-  axi.map do |q|
-    if a=DB.find do |e| e.name == q end
   
-    else
-      DB << a=Axis.new(q)
-    end
-    a
-  end.each do |a|
-    a.motor = mtr
+  
+  if a=DB.find do |e| e.name.strip.downcase == axi.strip.downcase end
+  
+  else
+    _ = axi.strip.split(" ")
+    _[0] = _[0].upcase
+    axi = _.join(" ")
+    DB << a=Axis.new(axi,dept.upcase,loc.upcase, mtr)
   end
 
   save_db

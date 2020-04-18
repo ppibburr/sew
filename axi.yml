@@ -1,6 +1,8 @@
 ---
 - !ruby/struct:Axis
   name: H89 star wheel
+  department: MFG
+  location: SETTER
   motor: !ruby/struct:Motor
     nameplate:
       so#: 870261873.04.04.001
@@ -29,6 +31,8 @@
   mark: 
 - !ruby/struct:Axis
   name: C26 conveyor shifter
+  department: MFG
+  location: CUTTER 1
   motor: &1 !ruby/struct:Motor
     nameplate:
       so#: 870260448.07.07.001
@@ -56,6 +60,339 @@
   mark: 
 - !ruby/struct:Axis
   name: F56 conveyor shifter
+  department: MFG
+  location: CUTTER 2
   motor: *1
+  manual: 
+  mark: 
+- !ruby/struct:Axis
+  name: SCRAP conveyor
+  department: MFG
+  location: 1 MILL
+  motor: &2 !ruby/struct:Motor
+    nameplate:
+      so#: 890191835.06.06.001
+      model_type: FA37DT80N4
+      gear_ratio: 38.31
+      output_speed: 44
+      mtg_position: M1
+      shaft_diameter: 1.25
+      flange_diameter: ''
+      conduit_box_loc: 0
+      cable_entry: X
+      out_torque_(lb-in): 1420
+      gear_s.f.: 1.2
+      motor_hp: 1
+      motor_voltage: 230YY/460Y
+      frequency: 60
+      connection: DT79
+      motor_amps: 3.70/1.85
+      kva_code: J
+      insulation_class: B
+      brake_rectifier: ''
+      brake_voltage: ''
+      other: CB@0, CE X
+  manual: 
+  mark: 
+- !ruby/struct:Axis
+  name: GLAZE
+  department: MFG
+  location: 3 MILL
+  motor: *2
+  manual: 
+  mark: 
+- !ruby/struct:Axis
+  name: F173 walking beam
+  department: PKG
+  location: F SECTION
+  motor: &3 !ruby/struct:Motor
+    nameplate:
+      so#: 890230000.04.04.001
+      model_type: FH37DT71D4BMG05HR
+      gear_ratio: 43.83
+      output_speed: 39
+      mtg_position: M3
+      shaft_diameter: 30SHR
+      flange_diameter: ''
+      conduit_box_loc: 270
+      cable_entry: X
+      out_torque_(lb-in): 812
+      gear_s.f.: 2.2
+      motor_hp: 0.5
+      motor_voltage: 230YY/460Y
+      frequency: 60
+      connection: DT79
+      motor_amps: 2.00/1.00
+      kva_code: H
+      insulation_class: B
+      brake_rectifier: BGE1.5
+      brake_voltage: 460AC
+      other: CB@270, CE X
+  manual: 
+  mark: 
+- !ruby/struct:Axis
+  name: F179 walking beam
+  department: PKG
+  location: F SECTION
+  motor: *3
+  manual: 
+  mark: 
+- !ruby/struct:Axis
+  name: H207 travel
+  department: PKG
+  location: H SECTION
+  motor: !ruby/struct:Motor
+    nameplate:
+      so#: 870262042.04.04.001
+      model_type: FH47DY71S/B/TH
+      gear_ratio: 17.33
+      output_speed: 173
+      mtg_position: M1
+      shaft_diameter: 35SHR
+      flange_diameter: ''
+      conduit_box_loc: 270
+      cable_entry: X
+      out_torque_(lb-in): 383
+      gear_s.f.: 9.2
+      motor_hp: 1
+      motor_voltage: 400
+      frequency: 150
+      connection: DT11
+      motor_amps: 1.85
+      kva_code: ''
+      insulation_class: F
+      brake_rectifier: BME1.5
+      brake_voltage: 230AC
+      other: Term.Strip#1830600, CB@270, CE X. Unit contains other important specifications.
+        Please call SEW.
+  manual: 
+  mark: 
+- !ruby/struct:Axis
+  name: H88 walking beam transfer
+  department: MFG
+  location: SETTER
+  motor: !ruby/struct:Motor
+    nameplate:
+      so#: 870261881.04.04.001
+      model_type: FH57DY71M/B/TH
+      gear_ratio: 19.11
+      output_speed: 157
+      mtg_position: M5
+      shaft_diameter: 40SRH
+      flange_diameter: ''
+      conduit_box_loc: 270
+      cable_entry: X
+      out_torque_(lb-in): 625
+      gear_s.f.: 8.4
+      motor_hp: 2
+      motor_voltage: 400
+      frequency: 150
+      connection: DT11
+      motor_amps: 2.7
+      kva_code: ''
+      insulation_class: F
+      brake_rectifier: BME1.5
+      brake_voltage: 230AC
+      other: Term.Strip#1830600, CB@270, CE X. Unit contains other important specifications.
+        Please call SEW.
+  manual: 
+  mark: 
+- !ruby/struct:Axis
+  name: H90 walking beam transfer
+  department: MFG
+  location: SETTER
+  motor: !ruby/struct:Motor
+    nameplate:
+      so#: 870262036.04.04.001
+      model_type: FH57DY71S/B/TH
+      gear_ratio: 34.24
+      output_speed: 88
+      mtg_position: M6
+      shaft_diameter: 40SRH
+      flange_diameter: ''
+      conduit_box_loc: 0
+      cable_entry: X
+      out_torque_(lb-in): 757
+      gear_s.f.: 5.8
+      motor_hp: 1
+      motor_voltage: 400
+      frequency: 150
+      connection: DT11
+      motor_amps: 1.85
+      kva_code: ''
+      insulation_class: F
+      brake_rectifier: BME1.5
+      brake_voltage: 230AC
+      other: Term.Strip#1830600, CB@0, CE X. Unit contains other important specifications.
+        Please call SEW.
+  manual: 
+  mark: 
+- !ruby/struct:Axis
+  name: H92 walking beam
+  department: MFG
+  location: SETTER
+  motor: !ruby/struct:Motor
+    nameplate:
+      so#: 870261966.04.04.001
+      model_type: FH57DY71ML/B/TH
+      gear_ratio: 13.52
+      output_speed: 222
+      mtg_position: M6
+      shaft_diameter: 40SRH
+      flange_diameter: ''
+      conduit_box_loc: 270
+      cable_entry: X
+      out_torque_(lb-in): 598
+      gear_s.f.: 8.8
+      motor_hp: 2
+      motor_voltage: 400
+      frequency: 150
+      connection: DT11
+      motor_amps: 3.8
+      kva_code: ''
+      insulation_class: F
+      brake_rectifier: BME1.5
+      brake_voltage: 230AC
+      other: Term.Strip#1830600, CB@270, CE X. Unit contains other important specifications.
+        Please call SEW.
+  manual: 
+  mark: 
+- !ruby/struct:Axis
+  name: C29 flipper
+  department: MFG
+  location: CUTTER 1
+  motor: &4 !ruby/struct:Motor
+    nameplate:
+      so#: 870261960.04.04.001
+      model_type: FH67DY90M/B/TH
+      gear_ratio: 67.65
+      output_speed: 44
+      mtg_position: M5
+      shaft_diameter: 40SHR
+      flange_diameter: ''
+      conduit_box_loc: 180
+      cable_entry: X
+      out_torque_(lb-in): 7184
+      gear_s.f.: 1.0
+      motor_hp: 4
+      motor_voltage: 400
+      frequency: 150
+      connection: DT11
+      motor_amps: 7.9
+      kva_code: ''
+      insulation_class: F
+      brake_rectifier: BME1.5
+      brake_voltage: 230AC
+      other: Term.Strip#1830600, CB@180, CE X. Unit contains other important specifications.
+        Please call SEW.
+  manual: 
+  mark: 
+- !ruby/struct:Axis
+  name: F59 flipper
+  department: MFG
+  location: CUTTER 2
+  motor: *4
+  manual: 
+  mark: 
+- !ruby/struct:Axis
+  name: D127
+  department: PKG
+  location: BLENDING
+  motor: &5 !ruby/struct:Motor
+    nameplate:
+      so#: 870262038.04.04.001
+      model_type: KH47DY71S/B/TH
+      gear_ratio: 56.83
+      output_speed: 53
+      mtg_position: M2A
+      shaft_diameter: 35SHR
+      flange_diameter: ''
+      conduit_box_loc: 90
+      cable_entry: X
+      out_torque_(lb-in): 1257
+      gear_s.f.: 2.8
+      motor_hp: 1
+      motor_voltage: 400
+      frequency: 150
+      connection: DT11
+      motor_amps: 1.85
+      kva_code: ''
+      insulation_class: F
+      brake_rectifier: BME1.5
+      brake_voltage: 230AC
+      other: Term.Strip#1830600, Term.Strip#1830600, CB@90, CE X. Unit contains other
+        important specifications. Please call SEW.
+  manual: 
+  mark: 
+- !ruby/struct:Axis
+  name: D137
+  department: PKG
+  location: BLENDING
+  motor: *5
+  manual: 
+  mark: 
+- !ruby/struct:Axis
+  name: E147
+  department: PKG
+  location: BLENDING
+  motor: *5
+  manual: 
+  mark: 
+- !ruby/struct:Axis
+  name: E157
+  department: PKG
+  location: BLENDING
+  motor: *5
+  manual: 
+  mark: 
+- !ruby/struct:Axis
+  name: D124
+  department: PKG
+  location: BLENDING
+  motor: &6 !ruby/struct:Motor
+    nameplate:
+      so#: 870262037.04.04.001
+      model_type: KH47DY71S/B/TH
+      gear_ratio: 104.37
+      output_speed: 29
+      mtg_position: M2A
+      shaft_diameter: 35SHR
+      flange_diameter: ''
+      conduit_box_loc: 90
+      cable_entry: X
+      out_torque_(lb-in): 2309
+      gear_s.f.: 1.5
+      motor_hp: 1
+      motor_voltage: 400
+      frequency: 150
+      connection: DT11
+      motor_amps: 1.85
+      kva_code: ''
+      insulation_class: F
+      brake_rectifier: BME1.5
+      brake_voltage: 230AC
+      other: Term.Strip#1830600, Term.Strip#1830600, CB@90, CE X. Unit contains other
+        important specifications. Please call SEW.
+  manual: 
+  mark: 
+- !ruby/struct:Axis
+  name: D134
+  department: PKG
+  location: BLENDING
+  motor: *6
+  manual: 
+  mark: 
+- !ruby/struct:Axis
+  name: E144
+  department: PKG
+  location: BLENDING
+  motor: *6
+  manual: 
+  mark: 
+- !ruby/struct:Axis
+  name: E154
+  department: PKG
+  location: BLENDING
+  motor: *6
   manual: 
   mark: 

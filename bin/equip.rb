@@ -11,8 +11,12 @@ OptionParser.new do |opts|
     options[:dept] = v
   end
   
-  opts.on("-l", "--location", "list all in location") do |v|
+  opts.on("-l", "--location NAME", "list all in location") do |v|
     options[:location] = v
+  end  
+
+  opts.on("-s", "--so-number DIGITS", "list all with motors matching DIGITS (accepts partial so numbers)") do |v|
+    options[:so] = v
   end  
 
   opts.on("-h", "--help", "Show this message") do |v|
@@ -21,6 +25,19 @@ OptionParser.new do |opts|
   end 
 end.parse!
 
-if !options[:dept]
-  puts(DB.find_all do |a| a.name.downcase =~ /#{ARGV[-1].downcase}/ end.to_yaml)
+a=nil
+
+if so=options[:so]
+  a=DB.find_all do |a| a.motor.nameplate['so#'].to_s.gsub(".",'') =~ /#{so.gsub(/\./,'')}/ end
+elsif !dept=options[:dept]
+  a=DB.find_all do |a| a.name.downcase =~ /#{ARGV[-1].downcase}/ end
+elsif loc=options[:location]
+  a=DB.find_all do |a| (a.department.downcase =~ /#{dept}/) && (a.location.downcase =~ /#{loc.strip.downcase}/) end
+else
+  a=DB.find_all do |a| (a.department.downcase =~ /#{dept}/) end
+end
+
+if a
+  a=a.map do |a| "#{a.motor.nameplate['so#']} #{a.department.ljust(15)} #{a.location.ljust(15)} #{a.name}" end
+  puts a.to_yaml
 end
