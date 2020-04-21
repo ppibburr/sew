@@ -1,0 +1,17 @@
+{
+F:   "Foot-mounted",
+FAB: "Foot-mounted / Hollow shaft",
+FVB: "Foot-mounted / Hollow shaft / Splined hollow shaft",
+FHB: "Foot-mounted / Hollow shaft / Shrink disc",
+FF:  "B5 flange-mounted",
+FAF: "B5 Flange-mounted / Hollow shaft",
+FVF: "B5 Flange-mounted / Hollow shaft / Splined hollow shaft",
+FHF: "B5 Flange-mounted / Hollow shaft / Shrink disc",
+FA:  "Hollow shaft",
+FV:  "Hollow shaft / Splined hollow shaft",
+FH:  "Hollow shaft / Shrink disc",
+FT:  "Hollow shaft / TorqLOC",
+FAZ: "B14 Flange-mounted / Hollow shaft",
+FVZ: "B14 Flange-mounted / Hollow shaft / Splined hollow shaft",
+FHZ: "B14 Flange-mounted / Hollow shaft / Shrink disc"
+}

@@ -28,7 +28,7 @@ end.parse!
 a=nil
 
 if so=options[:so]
-  a=DB.find_all do |a| a.motor.nameplate['so#'].to_s.gsub(".",'') =~ /#{so.gsub(/\./,'')}/ end
+  a=DB.find_all do |a| a.motor.nameplate['SO_NUMBER'].to_s.gsub(".",'') =~ /#{so.gsub(/\./,'')}/ end
 elsif !dept=options[:dept]
   a=DB.find_all do |a| a.name.downcase =~ /#{ARGV[-1].downcase}/ end
 elsif loc=options[:location]
@@ -38,6 +38,6 @@ else
 end
 
 if a
-  a=a.map do |a| "#{a.motor.nameplate['so#']} #{a.department.ljust(15)} #{a.location.ljust(15)} #{a.name}" end
+  a=a.map do |a| "#{a.motor.nameplate['SO_NUMBER']} #{a.department.ljust(15)} #{a.location.ljust(15)} #{a.name}" end
   puts a.to_yaml
 end

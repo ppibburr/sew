@@ -49,6 +49,15 @@ OptionParser.new do |opts|
     session=false
   end 
 
+  opts.on("-F", "--correct-format", "Fix nameplate field formatting") do |v|
+    fmt_all
+  end 
+
+
+  opts.on("-G", "--gear-unit", "view gear unit info for SO#") do |v|
+    options[:view_gear] = true
+  end 
+
   opts.on("-h", "--help", "Show this message") do |v|
     puts opts
     exit
@@ -58,30 +67,36 @@ end.parse!
 list = nil
 
 if filters.empty? && options.empty? && !ARGV.empty?
-  list = DB.find_all do |a| a.motor.nameplate['so#'].gsub(".",'') =~ /#{ARGV.join}/ end.map do |a| a.motor end.uniq
+  list = DB.find_all do |a| a.motor.nameplate['SO_NUMBER'].gsub(".",'') =~ /#{ARGV.join}/ end.map do |a| a.motor end.uniq
   
 elsif ARGV[0] && v=options[:find]
-  u = DB.find_all do |a| a.motor.nameplate['so#'].gsub(".",'') =~ /#{ARGV.join}/ end[0]
+  u = DB.find_all do |a| a.motor.nameplate['SO_NUMBER'].gsub(".",'') =~ /#{ARGV.join}/ end[0]
   type=nil;size=nil
   case v
   when /gear/
-    u.motor.nameplate['model_type'] =~ /^([A-Z]+)([0-9]+)/
+    u.motor.nameplate['MODEL_TYPE'] =~ /^([A-Z]+)([0-9]+)/
     type,size = $1,$2
       
   when /motor/
-    
+    u.motor.nameplate['MODEL_TYPE'] =~ /^[A-Z]+[0-9]+.*([A-Z][A-Z])([0-9]+)/
+    type,size = $1,$2    
   end
 
+  q=u.motor.nameplate['MOTOR_HP']
   list = DB.find_all do |a|
-    a.motor.nameplate['model_type'] =~ /^#{type}#{size}/
-  end.map do |a| a.motor end.uniq
+    a.motor.nameplate['MODEL_TYPE'] =~ /#{type}([A-Z]|.*)#{size}/
+  end.map do |a| a.motor end.uniq.sort do |a,b| 
+    a.nameplate['MOTOR_HP'] <=> b.nameplate['MOTOR_HP'] 
+  end.sort do |a,b| 
+    ((a.nameplate['MOTOR_HP'] == q) ? 1 : 0) <=> ((b.nameplate['MOTOR_HP'] == q) ? 1 : 0)
+  end
   
 elsif !filters.empty?
   ma=DB.map do |a| a.motor end.uniq
 
   filters.each_pair do |k,t|
     ma=ma.find_all do |m| 
-      va=[m.nameplate[k.to_s]]
+      va=[m.nameplate[k.to_s.upcase]]
       
       if va[-1].is_a?(String)
         va=va[-1].split("/") unless k == :model_type
@@ -124,11 +139,16 @@ elsif !filters.empty?
   end
   
   list=ma
+elsif options[:view_gear]
+  list = DB.find_all do |a| a.motor.nameplate['SO_NUMBER'].gsub(".",'') =~ /#{ARGV.join}/ end.map do |a| a.motor end.uniq  
+  STDERR.puts "SO#: #{ARGV.join}"
+  puts list[-1].gear_unit.to_yaml
+  exit
 end
 
 if list
   list = list.map do |m|
-    "#{m.nameplate['so#']} #{m.nameplate['model_type'].ljust(20)} V:#{m.nameplate['motor_voltage'].to_s.ljust(10)} HP:#{m.nameplate['motor_hp'].to_s.ljust(7)} RPM:#{m.nameplate['output_speed'].to_s.ljust(6)} POSITION:#{m.nameplate['mtg_position'].ljust(5)} Brake:#{m.nameplate['brake_voltage']} #{m.input.to_i}rpm" 
+    "#{m.nameplate['SO_NUMBER']} #{m.nameplate['MODEL_TYPE'].ljust(20)} V:#{m.nameplate['MOTOR_VOLTAGE'].to_s.ljust(10)} HP:#{m.nameplate['MOTOR_HP'].to_s.ljust(7)} RPM:#{m.nameplate['OUTPUT_SPEED'].to_s.ljust(6)} POSITION:#{m.nameplate['MTG_POSITION'].ljust(5)} Brake:#{m.nameplate['BRAKE_VOLTAGE']} #{m.input.to_i}rpm" 
   end
 
   if session
@@ -138,10 +158,10 @@ if list
     
     if (i=STDIN.gets.strip) != ''
       i=i.to_i
-      system "ruby -e \"puts('#{a=DB.find do |a| a.motor.nameplate['so#'] == list[i].split(" ")[0] end;a.motor.to_yaml}')\" | less"
-      puts "Selected: #{i}, SO# #{so=a.motor.nameplate['so#']}\n View equipment utilisation? [Y/n]"
+      system "ruby -e \"puts('#{a=DB.find do |a| a.motor.nameplate['SO_NUMBER'] == list[i].split(" ")[0] end;a.motor.to_yaml}')\" | less"
+      puts "Selected: #{i}, SO# #{so=a.motor.nameplate['SO_NUMBER']}\n View equipment utilisation? [Y/n]"
      
-      if gets.strip.downcase!= 'n'
+      if STDIN.gets.strip.downcase!= 'n'
         puts cmd="ruby bin/equip.rb -s #{so}"
         system cmd
       end

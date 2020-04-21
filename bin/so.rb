@@ -8,7 +8,7 @@ def key
   end
 end
 
-GUESS = ["04","07","06","03","11","12","14", "08", "02", "05", "15", "09", "13"]
+GUESS = ["04","07","06","03","01","11","12","14", "08", "02","10","16" "05", "15", "09", "13","17","18","19","20"]
 
 
 def get sn=ARGV.join, guess: 0
@@ -51,7 +51,8 @@ def parse max_guess: nil, sn: ARGV.join
   end.map do |l| 
     l.strip.gsub(/^[[:space:]]/, '')
   end
-
+  
+  #puts one: buff[1], three: buff[3]
 
   if (buff[1] !~ /^[0-9]+/) || (buff[3] =~ /^MC/)
     so[2] = GUESS[$guess+=1]
@@ -77,7 +78,7 @@ def parse max_guess: nil, sn: ARGV.join
       np['motor_hp'] = ((np['motor_amps'].to_s.split("/")[-1].to_f * np['motor_voltage'].to_s.split("/")[-1].to_f * 0.9) / 746).ceil.to_i
     end
     
-    puts Motor.new(np).to_yaml
+    puts fmt(Motor.new(np)).to_yaml
   end
 rescue => e
   puts Err.new("#{e}").to_yaml

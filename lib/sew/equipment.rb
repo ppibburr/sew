@@ -1,5 +1,5 @@
 require 'yaml'
-
+require 'sew/motor'
 Axis = Struct.new(:name,:department, :location, :motor, :manual,:mark)
 
 Equipment = Struct.new(:department, :location, :id, :axi) do
@@ -22,3 +22,9 @@ else
   DB = YAML.load(open($conf).read)
 end
 
+
+
+def fmt_all
+  DB.map do |a| fmt a.motor end
+  save_db
+end

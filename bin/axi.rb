@@ -39,7 +39,7 @@ tasks.each do |so,axi|
   dept,loc,axi = axi
   
   unless so == last
-    if !a=DB.find do |q| q.motor.nameplate['so#'] =~ /^#{so}/ end
+    if !a=DB.find do |q| q.motor.nameplate['SO_NUMBER'] =~ /^#{so}/ end
       mtr=YAML.load(`ruby ./bin/so.rb #{so}`.strip)
     else 
       mtr = a.motor
