@@ -14,7 +14,7 @@ def save_db
   File.open($conf,'w') do |f| f.puts DB.to_yaml end
 end
 
-$conf = "./axi.yml"
+$conf = "/root/git/sew/axi.yml"
 if !File.exist?($conf)
   DB=[]
   save_db

@@ -15,6 +15,24 @@ GEAR_UNITS = {
 	FAZ: "B14 Flange-mounted / Hollow shaft",
 	FVZ: "B14 Flange-mounted / Hollow shaft / Splined hollow shaft",
 	FHZ: "B14 Flange-mounted / Hollow shaft / Shrink disc"
+  },
+
+  K: {
+	K:   "Foot-mounted",
+	KAB: "Foot-mounted / Hollow shaft",
+	KVB: "Foot-mounted / Hollow shaft / Splined hollow shaft",
+	KHB: "Foot-mounted / Hollow shaft / Shrink disc",
+	KF:  "B5 flange-mounted",
+	KAF: "B5 Flange-mounted / Hollow shaft",
+	KVF: "B5 Flange-mounted / Hollow shaft / Splined hollow shaft",
+	KHF: "B5 Flange-mounted / Hollow shaft / Shrink disc",
+	KA:  "Hollow shaft",
+	KV:  "Hollow shaft / Splined hollow shaft",
+	KH:  "Hollow shaft / Shrink disc",
+	KT:  "Hollow shaft / TorqLOC",
+	KAZ: "B14 Flange-mounted / Hollow shaft",
+	KVZ: "B14 Flange-mounted / Hollow shaft / Splined hollow shaft",
+	KHZ: "B14 Flange-mounted / Hollow shaft / Shrink disc"
   }
 }
 
@@ -36,25 +54,26 @@ Motor = Struct.new(:nameplate) do
     h[:MTG_POSITION] = nameplate['MTG_POSITION']
     h[:GEAR_RATIO]   = nameplate['GEAR_RATIO']
     case m
-    when /^F/
+    when /^([A-Z])/
+      return h unless GEAR_UNITS[series = $1.to_sym]
       gu = nil
       b  = false
-      table = "F"
+      table = $1
      
-      if m =~ /^F(.*)([0-9]+)B[A-Z]+[0-9]+/
+      if m =~ /^#{series}([A-Z]+)([0-9]+)B[A-Z]+[0-9]+/
         gu = "#{$1}#{$2}B"
         table << $1 << "B"
-      elsif m=~/^F([0-9]+)[A-Z]+[0-9]+/
+      elsif m=~/^#{series}([0-9]+)[A-Z]+[0-9]+/
         gu = "#{$1}"
-      elsif m=~/^F([A-Z]+)([0-9]+)[A-Z]+[0-9]+/
+      elsif m=~/^#{series}([A-Z]+)([0-9]+)[A-Z]+[0-9]+/
         gu = "#{$1}#{$2}"
         table << $1
       end
       
-      h[:SERIES] = "F"
-      h[:UNIT]   = "F#{gu}"
-      
-      notes = GEAR_UNITS[:F][table.to_sym]
+      h[:SERIES] = series
+      h[:UNIT]   = "#{series}#{gu}"
+      table.to_sym
+      notes = GEAR_UNITS[series][table.to_sym]
       h[:NOTES] = notes
       
       gu=~/([0-9]+)/

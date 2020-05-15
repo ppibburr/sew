@@ -695,3 +695,34 @@
       XTRA_NOTES: Torque Arm, Term.Strip#1830600, CB@0, CE X
   manual: 
   mark: 
+- !ruby/struct:Axis
+  name: D38 CONVEYOR
+  department: MFG
+  location: CUTTER 2
+  motor: !ruby/struct:Motor
+    nameplate:
+      BRAKE_RECTIFIER: ''
+      BRAKE_VOLTAGE: ''
+      CABLE_ENTRY: X
+      CONDUIT_BOX_LOC: 0
+      CONNECTION: DT79
+      FLANGE_DIAMETER: ''
+      FREQUENCY: 60
+      GEAR_RATIO: 83.15
+      GEAR_SF: 1.0
+      INSULATION_CLASS: B
+      KVA_CODE: G
+      MODEL_TYPE: R97D36DT100L4
+      MOTOR_AMPS: 13.6/6.8
+      MOTOR_HP: 5
+      MOTOR_VOLTAGE: 230YY/460Y
+      MTG_POSITION: M1
+      OUTPUT_SPEED: 4.8-24
+      OUT_TORQUE: 11600
+      SHAFT_DIAMETER: 2.375
+      SO_NUMBER: 870260613.04.04.001
+      TORQUE_UNITS: lb-in
+      XTRA_NOTES: Oil Sight Tube, CB@0, CE X. Unit contains other important specifications.
+        Please call SEW.
+  manual: 
+  mark: 

@@ -32,7 +32,7 @@ if so=options[:so]
 elsif !dept=options[:dept]
   a=DB.find_all do |a| a.name.downcase =~ /#{ARGV[-1].downcase}/ end
 elsif loc=options[:location]
-  a=DB.find_all do |a| (a.department.downcase =~ /#{dept}/) && (a.location.downcase =~ /#{loc.strip.downcase}/) end
+  a=DB.find_all do |a| (a.department.downcase =~ /#{dept.downcase}/) && (a.location.downcase =~ /#{loc.strip.downcase}/) end
 else
   a=DB.find_all do |a| (a.department.downcase =~ /#{dept}/) end
 end
