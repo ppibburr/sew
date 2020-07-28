@@ -37,7 +37,20 @@ GEAR_UNITS = {
 }
 
 
-Motor = Struct.new(:nameplate) do
+Motor = Struct.new(:nameplate, :replacements) do
+  def self.new *o
+    ins=super
+    ins.replacements = []
+    ins
+  end
+  
+  def replace so
+    out = `ruby ./bin/so.rb #{so}`.strip
+    nm = YAML.load(out)
+    (nm.replacements ||= []) << nameplate['SO_NUMBER']
+    nm
+  end
+
   def query k, v, operators={}
     self[k.to_sym]
   end

@@ -29,6 +29,10 @@ OptionParser.new do |opts|
     filters[:gear_ratio] = v
   end  
 
+  opts.on("-R", "--replace SO_NUMBER", "replace SO_NUMBER with value") do |v|
+    options[:replace] = v
+  end  
+
   opts.on("-o", "--output-speed SPEED", "filter by output-speed") do |v|
     filters[:output_speed] = v
   end  
@@ -65,6 +69,16 @@ OptionParser.new do |opts|
 end.parse!
 
 list = nil
+
+if old=options[:replace]
+  p old: old, new: ARGV.last
+  mtr = DB.find_all do |a| a.motor.nameplate['SO_NUMBER'].gsub(".",'') =~ /#{old.gsub(".",'')}/ end.map do |a| a.motor end.uniq
+  p mtr
+  (mtr.last.replacements ||= []) << "ff"
+  save_db
+  p mtr.last
+  exit
+end
 
 if filters.empty? && options.empty? && !ARGV.empty?
   list = DB.find_all do |a| a.motor.nameplate['SO_NUMBER'].gsub(".",'') =~ /#{ARGV.join}/ end.map do |a| a.motor end.uniq

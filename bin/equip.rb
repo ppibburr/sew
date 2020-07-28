@@ -29,6 +29,9 @@ a=nil
 
 if so=options[:so]
   a=DB.find_all do |a| a.motor.nameplate['SO_NUMBER'].to_s.gsub(".",'') =~ /#{so.gsub(/\./,'')}/ end
+  if !a || a.empty?
+    a=DB.find_all do |a| (a.motor.replacements ||=[]).find do |r| p r;r.to_s.gsub(".",'') =~ /#{so.gsub(/\./,'')}/ end end
+  end
 elsif !dept=options[:dept]
   a=DB.find_all do |a| a.name.downcase =~ /#{ARGV[-1].downcase}/ end
 elsif loc=options[:location]

@@ -15,12 +15,23 @@ def save_db
 end
 
 $conf = "#{ENV['HOME']}/git/sew/axi.yml"
+
+
+
+def load_db
+  Object.class_eval do
+    const_set :DB,YAML.load(open($conf).read)
+  end
+end
+
+
 if !File.exist?($conf)
   DB=[]
   save_db
 else
-  DB = YAML.load(open($conf).read)
+  load_db
 end
+
 
 
 
