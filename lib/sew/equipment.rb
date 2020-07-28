@@ -16,8 +16,6 @@ end
 
 $conf = "#{ENV['HOME']}/git/sew/axi.yml"
 
-
-
 def load_db
   Object.class_eval do
     const_set :DB,YAML.load(open($conf).read)
@@ -26,7 +24,7 @@ end
 
 
 if !File.exist?($conf)
-  DB=[]
+  DB={motors: [], axi: []}
   save_db
 else
   load_db
@@ -36,6 +34,6 @@ end
 
 
 def fmt_all
-  DB.map do |a| fmt a.motor end
+  DB[:motors].map do |a| fmt a end
   save_db
 end

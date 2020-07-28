@@ -39,10 +39,11 @@ tasks.each do |so,axi|
   dept,loc,axi = axi
   
   unless so == last
-    if !a=DB.find do |q| q.motor.nameplate['SO_NUMBER'] =~ /^#{so}/ end
+    if !a=DB[:motors].find do |q| q.nameplate['SO_NUMBER'] =~ /^#{so}/ end
       mtr=YAML.load(`ruby ./bin/so.rb #{so}`.strip)
+      DB[:motors] << mtr
     else 
-      mtr = a.motor
+      mtr = a
     end
   end
   
@@ -56,13 +57,13 @@ tasks.each do |so,axi|
   end
   
   
-  if a=DB.find do |e| e.name.strip.downcase == axi.strip.downcase end
+  if a=DB[:axi].find do |e| e.name.strip.downcase == axi.strip.downcase end
   
   else
     _ = axi.strip.split(" ")
     _[0] = _[0].upcase
     axi = _.join(" ")
-    DB << a=Axis.new(axi,dept.upcase,loc.upcase, mtr)
+    DB[:axi] << a=Axis.new(axi,dept.upcase,loc.upcase, mtr)
   end
 
   save_db

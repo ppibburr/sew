@@ -28,16 +28,16 @@ end.parse!
 a=nil
 
 if so=options[:so]
-  a=DB.find_all do |a| a.motor.nameplate['SO_NUMBER'].to_s.gsub(".",'') =~ /#{so.gsub(/\./,'')}/ end
+  a=DB[:axi].find_all do |a| a.motor.nameplate['SO_NUMBER'].to_s.gsub(".",'') =~ /#{so.gsub(/\./,'')}/ end
   if !a || a.empty?
-    a=DB.find_all do |a| (a.motor.replacements ||=[]).find do |r| p r;r.to_s.gsub(".",'') =~ /#{so.gsub(/\./,'')}/ end end
+    a=DB[:motors].find_all do |a| (a.motor.replacements ||=[]).find do |r| p r;r.to_s.gsub(".",'') =~ /#{so.gsub(/\./,'')}/ end end
   end
 elsif !dept=options[:dept]
-  a=DB.find_all do |a| a.name.downcase =~ /#{ARGV[-1].downcase}/ end
+  a=DB[:axi].find_all do |a| a.name.downcase =~ /#{ARGV[-1].downcase}/ end
 elsif loc=options[:location]
-  a=DB.find_all do |a| (a.department.downcase =~ /#{dept.downcase}/) && (a.location.downcase =~ /#{loc.strip.downcase}/) end
+  a=DB[:axi].find_all do |a| (a.department.downcase =~ /#{dept.downcase}/) && (a.location.downcase =~ /#{loc.strip.downcase}/) end
 else
-  a=DB.find_all do |a| (a.department.downcase =~ /#{dept}/) end
+  a=DB[:axi].find_all do |a| (a.department.downcase =~ /#{dept}/) end
 end
 
 if a

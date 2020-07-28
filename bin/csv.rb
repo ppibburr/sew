@@ -2,8 +2,8 @@ $: << File.expand_path(File.join(File.dirname(__FILE__),"..","lib"))
 require 'sew/motor'
 require 'sew/equipment'
 
-units = DB.map do |a|
- a.motor
+units = DB[:motors].map do |a|
+ a
 end.uniq.sort do |a,b| a.nameplate['SO_NUMBER'] <=> b.nameplate['SO_NUMBER'] end
 
 class CSV
@@ -23,7 +23,7 @@ class CSV
   
   def locations m
     "Locations,#{[:DEPT,:LOCATION,:NAME].join(',')}\n"+
-    DB.find_all do |a|
+    DB[:axi].find_all do |a|
       a.motor.nameplate['SO_NUMBER'] == m.nameplate['SO_NUMBER']
     end.map do |a|
       ","+[a.department,a.location,a.name].join(",")

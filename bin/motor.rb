@@ -1,4 +1,5 @@
 $: << File.expand_path(File.join(File.dirname(__FILE__),"..","lib"))
+
 require 'sew/motor'
 require 'sew/equipment'
 require 'optparse'
@@ -72,41 +73,54 @@ list = nil
 
 if old=options[:replace]
   p old: old, new: ARGV.last
-  mtr = DB.find_all do |a| a.motor.nameplate['SO_NUMBER'].gsub(".",'') =~ /#{old.gsub(".",'')}/ end.map do |a| a.motor end.uniq
-  p mtr
-  (mtr.last.replacements ||= []) << "ff"
+  mtr = DB[:motors].find_all do |a| a.nameplate['SO_NUMBER'].gsub(".",'') =~ /#{old.gsub(".",'')}/ end.uniq
+ 
+  if !mtr.last
+    puts "Unit #{old}, not in DataBase."
+    puts "Add? (Y/n)"
+    if STDIN.gets.chomp.downcase == "y"
+      mtr << nm = YAML.load(`ruby bin/so.rb #{old}`.strip)
+      DB[:motors] << nm
+      save_db
+    else
+      puts "Bye!"
+      exit
+    end
+    mtr.last.replace ARGV.last
+  end
+
   save_db
-  p mtr.last
+  p mtr.last.replacements
   exit
 end
 
 if filters.empty? && options.empty? && !ARGV.empty?
-  list = DB.find_all do |a| a.motor.nameplate['SO_NUMBER'].gsub(".",'') =~ /#{ARGV.join}/ end.map do |a| a.motor end.uniq
+  list = DB[:motors].find_all do |a| a.nameplate['SO_NUMBER'].gsub(".",'') =~ /#{ARGV.join}/ end.uniq
   
 elsif ARGV[0] && v=options[:find]
-  u = DB.find_all do |a| a.motor.nameplate['SO_NUMBER'].gsub(".",'') =~ /#{ARGV.join}/ end[0]
+  u = DB[:motors].find_all do |a| a.nameplate['SO_NUMBER'].gsub(".",'') =~ /#{ARGV.join}/ end[0]
   type=nil;size=nil
   case v
   when /gear/
-    u.motor.nameplate['MODEL_TYPE'] =~ /^([A-Z]+)([0-9]+)/
+    u.nameplate['MODEL_TYPE'] =~ /^([A-Z]+)([0-9]+)/
     type,size = $1,$2
       
   when /motor/
-    u.motor.nameplate['MODEL_TYPE'] =~ /^[A-Z]+[0-9]+.*([A-Z][A-Z])([0-9]+)/
+    u.nameplate['MODEL_TYPE'] =~ /^[A-Z]+[0-9]+.*([A-Z][A-Z])([0-9]+)/
     type,size = $1,$2    
   end
 
-  q=u.motor.nameplate['MOTOR_HP']
-  list = DB.find_all do |a|
-    a.motor.nameplate['MODEL_TYPE'] =~ /#{type}([A-Z]|.*)#{size}/
-  end.map do |a| a.motor end.uniq.sort do |a,b| 
+  q=u.nameplate['MOTOR_HP']
+  list = DB[:motors].find_all do |a|
+    a.nameplate['MODEL_TYPE'] =~ /#{type}([A-Z]|.*)#{size}/
+  end.uniq.sort do |a,b| 
     a.nameplate['MOTOR_HP'] <=> b.nameplate['MOTOR_HP'] 
   end.sort do |a,b| 
     ((a.nameplate['MOTOR_HP'] == q) ? 1 : 0) <=> ((b.nameplate['MOTOR_HP'] == q) ? 1 : 0)
   end
   
 elsif !filters.empty?
-  ma=DB.map do |a| a.motor end.uniq
+  ma=DB[:motors].map do |a| a end.uniq
 
   filters.each_pair do |k,t|
     ma=ma.find_all do |m| 
@@ -154,7 +168,7 @@ elsif !filters.empty?
   
   list=ma
 elsif options[:view_gear]
-  list = DB.find_all do |a| a.motor.nameplate['SO_NUMBER'].gsub(".",'') =~ /#{ARGV.join}/ end.map do |a| a.motor end.uniq  
+  list = DB[:motors].find_all do |a| a.nameplate['SO_NUMBER'].gsub(".",'') =~ /#{ARGV.join}/ end.uniq  
   STDERR.puts "SO#: #{ARGV.join}"
   puts list[-1].gear_unit.to_yaml
   exit
@@ -172,10 +186,10 @@ if list
     
     if (i=STDIN.gets.strip) != ''
       i=i.to_i
-      system "ruby -e \"puts('#{a=DB.find do |a| a.motor.nameplate['SO_NUMBER'] == list[i].split(" ")[0] end;a.motor.to_yaml}')\" | less"
-      puts "Selected: #{i}, SO# #{so=a.motor.nameplate['SO_NUMBER']}\n View equipment utilisation? [Y/n]"
+      system "ruby -e \"puts('#{m=DB[:motors].find do |a| a.nameplate['SO_NUMBER'] == list[i].split(" ")[0] end;m.to_yaml}')\" | less"
+      puts "Selected: #{i}, SO# #{so=m.nameplate['SO_NUMBER']}\n View equipment utilisation? [Y/n]"
      
-      if STDIN.gets.strip.downcase!= 'n'
+      if STDIN.gets.strip.downcase != 'n'
         puts cmd="ruby bin/equip.rb -s #{so}"
         system cmd
       end

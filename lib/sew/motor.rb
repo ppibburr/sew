@@ -45,8 +45,12 @@ Motor = Struct.new(:nameplate, :replacements) do
   end
   
   def replace so
-    out = `ruby ./bin/so.rb #{so}`.strip
-    nm = YAML.load(out)
+    if !nm=DB[:motors].find do |m| m.nameplate['SO_NUMBER'].gsub(".",'') == so.gsub(".",'') end
+      out = `ruby ./bin/so.rb #{so}`.strip
+      nm = YAML.load(out)
+      DB[:motors] << nm
+      save_db
+    end
     (nm.replacements ||= []) << nameplate['SO_NUMBER']
     nm
   end
