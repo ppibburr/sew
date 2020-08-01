@@ -38,20 +38,17 @@ GEAR_UNITS = {
 
 
 Motor = Struct.new(:nameplate, :replacements) do
-  def self.new *o
-    ins=super
-    ins.replacements = []
-    ins
-  end
+
   
   def replace so
     if !nm=DB[:motors].find do |m| m.nameplate['SO_NUMBER'].gsub(".",'') == so.gsub(".",'') end
-      out = `ruby ./bin/so.rb #{so}`.strip
-      nm = YAML.load(out)
-      DB[:motors] << nm
-      save_db
+      #out = `ruby ./bin/so.rb #{so}`.strip
+      #nm = YAML.load(out)
+      #DB[:motors] << nm
+     # save_db
     end
-    (nm.replacements ||= []) << nameplate['SO_NUMBER']
+    (self.replacements ||=[]) << so
+    (nm.replacements ||= []) << nameplate['SO_NUMBER'] if nm
     nm
   end
 

@@ -4,6 +4,45 @@ require 'sew/motor'
 require 'sew/equipment'
 require 'optparse'
 
+
+def tag so: nil
+  qr
+
+  if so
+    m = DB[:motors].find do |m| m.nameplate['SO_NUMBER'].gsub(".",'') == so=so.gsub(".",'') end
+    if !m
+      m = DB[:motors].find do |m| m.replacements.find do |q| q.gsub(".",'') == so.gsub(".",'') end end
+    end
+  
+    `wkhtmltoimage  --width 640 http://0.0.0.0:4567/sew/print/#{so} #{so}.png`
+    `cat #{so}.png | lp -o landscape -o fit-to-page`
+  else
+    DB[:axi].map do |a| 
+      m = a.motor
+    end.uniq.each do |m|
+      so = m.nameplate['SO_NUMBER'].gsub(".",'')
+      2.times do
+        `wkhtmltoimage  --width 640 http://0.0.0.0:4567/sew/print/#{so} #{so}.png`
+        `cat #{so}.png | lp -o landscape -o fit-to-page`
+        sleep 1   
+      end 
+    end
+  end
+
+end
+
+
+def qr
+  DB[:motors].each do |m|
+    so = m.nameplate['SO_NUMBER']
+    if !File.exist?(f="#{ENV['HOME']}/git/sew/qr/#{so=so.gsub(".",'')}.png")
+      `qrencode -o #{f} http://10.33.15.11:4567/sew/#{so}`
+    end
+  end
+
+end
+
+
 options={}
 filters={}
 session=true
@@ -58,6 +97,14 @@ OptionParser.new do |opts|
     fmt_all
   end 
 
+  opts.on("-T", "--tag", "print Tags") do |v|
+    tag so: ARGV.last;exit
+  end 
+
+  opts.on("-Q", "--qr", "Populate QR Codes") do |v|
+    qr;exit
+  end 
+
 
   opts.on("-G", "--gear-unit", "view gear unit info for SO#") do |v|
     options[:view_gear] = true
@@ -71,31 +118,78 @@ end.parse!
 
 list = nil
 
+
+a=[]
+
+DB[:motors].find_all do |m|
+  if !m.is_a?(Motor)
+    a << m
+  end
+end
+
+a.each do |e|
+  DB[:motors].delete e
+end
+
+save_db
+
 if old=options[:replace]
   p old: old, new: ARGV.last
-  mtr = DB[:motors].find_all do |a| a.nameplate['SO_NUMBER'].gsub(".",'') =~ /#{old.gsub(".",'')}/ end.uniq
+  om = mtr = DB[:motors].find_all do |a| a.nameplate['SO_NUMBER'].gsub(".",'') =~ /#{old.gsub(".",'')}/ end.uniq.last
  
-  if !mtr.last
+  if !mtr
     puts "Unit #{old}, not in DataBase."
     puts "Add? (Y/n)"
-    if STDIN.gets.chomp.downcase == "y"
-      mtr << nm = YAML.load(`ruby bin/so.rb #{old}`.strip)
+    if true#STDIN.gets.chomp.downcase == "y"
+      nm = YAML.load(`ruby bin/so.rb #{old}`.strip)
       DB[:motors] << nm
       save_db
     else
       puts "Bye!"
       exit
     end
-    mtr.last.replace ARGV.last
+    
+    om = nm
   end
+  
+  puts "OLD: #{om.nameplate['MODEL_TYPE']}"
+
+  nm=mtr = DB[:motors].find_all do |a| a.nameplate['SO_NUMBER'].gsub(".",'') =~ /#{ARGV.join.gsub(".",'')}/ end.uniq.last
+ 
+  if !mtr
+    puts "Unit #{ARGV.last}, not in DataBase."
+    puts "Add? (Y/n)"
+    if true#STDIN.gets.chomp.downcase == "y"
+      #nm = YAML.load(`ruby bin/so.rb #{ARGV.join}`.strip)
+      #DB[:motors] << nm
+      #save_db
+    else
+      puts "Bye!"
+      exit
+    end
+  end
+  
+  #puts "NEW: #{nm.nameplate['MODEL_TYPE']}"
+  #puts "Continue? (Y/n)"
+  
+  if true#STDIN.gets.chomp.strip.downcase == "y"
+    om.replace ARGV.last
+  else 
+    puts :whatever
+  end
+  
 
   save_db
-  p mtr.last.replacements
+  p om.replacements
   exit
 end
 
 if filters.empty? && options.empty? && !ARGV.empty?
   list = DB[:motors].find_all do |a| a.nameplate['SO_NUMBER'].gsub(".",'') =~ /#{ARGV.join}/ end.uniq
+  
+  if list.empty?
+    list = DB[:motors].find_all do |a| (a.replacements ||=[]).find do |q| q.gsub(".",'') =~ /#{ARGV.last.gsub(".",'')}/ end end.uniq
+  end
   
 elsif ARGV[0] && v=options[:find]
   u = DB[:motors].find_all do |a| a.nameplate['SO_NUMBER'].gsub(".",'') =~ /#{ARGV.join}/ end[0]
@@ -176,7 +270,7 @@ end
 
 if list
   list = list.map do |m|
-    "#{m.nameplate['SO_NUMBER']} #{m.nameplate['MODEL_TYPE'].ljust(20)} V:#{m.nameplate['MOTOR_VOLTAGE'].to_s.ljust(10)} HP:#{m.nameplate['MOTOR_HP'].to_s.ljust(7)} RPM:#{m.nameplate['OUTPUT_SPEED'].to_s.ljust(6)} POSITION:#{m.nameplate['MTG_POSITION'].ljust(5)} Brake:#{m.nameplate['BRAKE_VOLTAGE']} #{m.input.to_i}rpm" 
+    "#{m.nameplate['SO_NUMBER']} #{m.nameplate['MODEL_TYPE'].ljust(20)} V:#{m.nameplate['MOTOR_VOLTAGE'].to_s.ljust(10)} HP:#{m.nameplate['MOTOR_HP'].to_s.ljust(7)} RPM:#{m.nameplate['OUTPUT_SPEED'].to_s.ljust(6)} POSITION:#{m.nameplate['MTG_POSITION'].ljust(5)} Brake:#{m.nameplate['BRAKE_VOLTAGE']} #{m.input.to_i}rpm"+"\nReplacements: #{m.replacements.to_yaml}\n"
   end
 
   if session
@@ -190,7 +284,7 @@ if list
       puts "Selected: #{i}, SO# #{so=m.nameplate['SO_NUMBER']}\n View equipment utilisation? [Y/n]"
      
       if STDIN.gets.strip.downcase != 'n'
-        puts cmd="ruby bin/equip.rb -s #{so}"
+        puts cmd="ruby #{ENV['HOME']}/git/sew/bin/equip.rb -s #{so}"
         system cmd
       end
     end

@@ -8,11 +8,19 @@ list=nil
 OptionParser.new do |opts|
   opts.banner = "Usage: #{$0} [options] [S.O. Number]"
 
+  opts.on("-d", "--department NAME", "Specify department name") do |v|
+    axi[0]=v
+  end
+
+  opts.on("-l", "--department NAME", "Specify location name") do |v|
+    axi[1]=v
+  end
+
   opts.on("-a", "--axis NAME", "Specify axis name") do |v|
-    axi << v
+    axi[2]=v
   end
   
-  opts.on("-l", "--list PATH", "Specify CSV input list") do |v|
+  opts.on("-L", "--list PATH", "Specify CSV input list") do |v|
     list = v
   end  
 
@@ -39,8 +47,8 @@ tasks.each do |so,axi|
   dept,loc,axi = axi
   
   unless so == last
-    if !a=DB[:motors].find do |q| q.nameplate['SO_NUMBER'] =~ /^#{so}/ end
-      mtr=YAML.load(`ruby ./bin/so.rb #{so}`.strip)
+    if !a=DB[:motors].find do |q| q.nameplate['SO_NUMBER'].gsub(".",'') =~ /^#{so.gsub(".",'')}/ end
+      mtr=YAML.load(`ruby #{ENV['HOME']}/git/sew/bin/so.rb #{so}`.strip)
       DB[:motors] << mtr
     else 
       mtr = a
@@ -64,6 +72,7 @@ tasks.each do |so,axi|
     _[0] = _[0].upcase
     axi = _.join(" ")
     DB[:axi] << a=Axis.new(axi,dept.upcase,loc.upcase, mtr)
+    
   end
 
   save_db

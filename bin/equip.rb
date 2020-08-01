@@ -29,9 +29,8 @@ a=nil
 
 if so=options[:so]
   a=DB[:axi].find_all do |a| a.motor.nameplate['SO_NUMBER'].to_s.gsub(".",'') =~ /#{so.gsub(/\./,'')}/ end
-  if !a || a.empty?
-    a=DB[:motors].find_all do |a| (a.motor.replacements ||=[]).find do |r| p r;r.to_s.gsub(".",'') =~ /#{so.gsub(/\./,'')}/ end end
-  end
+  a.push(*DB[:motors].find_all do |a| (a.replacements ||=[]).find do |r| r.to_s.gsub(".",'') =~ /#{so.gsub(/\./,'')}/ end end)
+  a=a.uniq
 elsif !dept=options[:dept]
   a=DB[:axi].find_all do |a| a.name.downcase =~ /#{ARGV[-1].downcase}/ end
 elsif loc=options[:location]
