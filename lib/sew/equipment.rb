@@ -1,4 +1,7 @@
 require 'yaml'
+
+$: << File.join(File.dirname(__FILE__),"..")
+
 require 'sew/motor'
 Axis = Struct.new(:name,:department, :location, :motor, :manual,:mark)
 

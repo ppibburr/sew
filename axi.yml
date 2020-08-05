@@ -1324,6 +1324,33 @@
   replacements: []
   qty: 1
   shelf: ZE
+- !ruby/struct:Motor
+  nameplate:
+    BRAKE_RECTIFIER: ''
+    BRAKE_VOLTAGE: ''
+    CABLE_ENTRY: X
+    CONDUIT_BOX_LOC: 270
+    CONNECTION: DT79
+    FLANGE_DIAMETER: ''
+    FREQUENCY: 60
+    GEAR_RATIO: 12.1
+    GEAR_SF: 1.9
+    INSULATION_CLASS: B
+    KVA_CODE: K
+    MODEL_TYPE: S57DT90L4
+    MOTOR_AMPS: 6.2/3.10
+    MOTOR_HP: 2
+    MOTOR_VOLTAGE: 230YY/460Y
+    MTG_POSITION: M4A
+    OUTPUT_SPEED: 142
+    OUT_TORQUE: 801
+    SHAFT_DIAMETER: 1.25
+    SO_NUMBER: 890060078.08.08.001
+    TORQUE_UNITS: lb-in
+    XTRA_NOTES: CB@270, CE X
+  replacements: 
+  qty: 
+  shelf: 
 :axi:
 - !ruby/struct:Axis
   name: H89 star wheel

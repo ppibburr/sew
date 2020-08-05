@@ -153,8 +153,26 @@ def get_so so: ,&b
   so
 end
 
+class Array
+  def filter opts={}
+    find_all do |q|
+      !opts.map do |k,v|
+        q.nameplate[k] == v
+      end.index(false)
+    end
+  end
+end
+
 def find_so so: ,&b 
   DB[:motors].find_all do |m|
     m.is_a?(Motor) && (m.nameplate['SO_NUMBER'.gsub(".",'')] =~ /#{so.gsub(".",'')}/)
   end.map &b
+end
+
+def find_motor &b
+  DB[:motors].find_all do |q| b.call q end
+end
+
+def find_model m
+  find_motor do |q| q.nameplate['MODEL_TYPE'] =~ /#{m}/ end
 end

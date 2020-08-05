@@ -8,7 +8,7 @@ def key
   end
 end
 
-GUESS = ["04","07","06","03","01","11","12","14", "08", "02","10","16" "05", "15", "09", "13","17","18","19","20"]
+GUESS = ["04","07","06","03","01","08","11","12", "14", "02","10","16" "05", "15", "09", "13","17","18","19","20"]
 
 
 def get sn=ARGV.join, guess: 0
@@ -54,12 +54,13 @@ def parse max_guess: nil, sn: ARGV.join
   
   #puts one: buff[1], three: buff[3]
 
-  if (buff[1] !~ /^[0-9]+/) || (buff[3] =~ /^MC/)
+  if (buff[1] !~ /^[0-9]+/) || (buff[3] =~ /^MC/) || (buff[3] =~ /^MDX/) || (buff[3] =~ /^MFD/) || (buff[3] =~ /^SAF/)
     so[2] = GUESS[$guess+=1]
     so[3] = GUESS[$guess]
-    sleep 0.11
-    return parse(max_guess: true, sn: so.join) unless $guess >= (GUESS.length)
-    puts Err.new("SO# not found").to_yaml
+    
+    #sleep 0.11
+    #return parse(max_guess: true, sn: so.join) unless $guess >= (GUESS.length)
+    puts Err.new("SO# #{ARGV.join} not found").to_yaml
   else
     np = {}
     field = nil

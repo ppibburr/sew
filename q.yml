@@ -1,0 +1,4708 @@
+---
+:a:
+- - !ruby/struct:Motor
+    nameplate:
+      BRAKE_RECTIFIER: BME1.5
+      BRAKE_VOLTAGE: 230AC
+      CABLE_ENTRY: X
+      CONDUIT_BOX_LOC: 0
+      CONNECTION: DT11
+      FLANGE_DIAMETER: ''
+      FREQUENCY: 150
+      GEAR_RATIO: 68.22
+      GEAR_SF: 2.3
+      INSULATION_CLASS: F
+      KVA_CODE: ''
+      MODEL_TYPE: FH57DY71M/B/TH
+      MOTOR_AMPS: 2.7
+      MOTOR_HP: 2
+      MOTOR_VOLTAGE: 400
+      MTG_POSITION: M3
+      OUTPUT_SPEED: 44
+      OUT_TORQUE: 2233
+      SHAFT_DIAMETER: 40SRH
+      SO_NUMBER: 870261873.04.04.001
+      TORQUE_UNITS: lb-in
+      XTRA_NOTES: Term.Strip#1830600, CB@0, CE X. Unit contains other important specifications.
+        Please call SEW.
+    replacements: 
+    qty: 
+    shelf: 
+  - !ruby/struct:Err
+    message: SO# 870261873.0707.001 not found
+  - !ruby/struct:Err
+    message: SO# 870261873.0606.001 not found
+  - !ruby/struct:Err
+    message: SO# 870261873.0303.001 not found
+  - !ruby/struct:Err
+    message: SO# 870261873.0101.001 not found
+  - !ruby/struct:Err
+    message: SO# 870261873.1111.001 not found
+  - !ruby/struct:Err
+    message: SO# 870261873.1212.001 not found
+  - !ruby/struct:Err
+    message: SO# 870261873.1414.001 not found
+  - !ruby/struct:Err
+    message: SO# 870261873.0808.001 not found
+  - !ruby/struct:Err
+    message: SO# 870261873.0202.001 not found
+  - !ruby/struct:Motor
+    nameplate:
+      BRAKE_RECTIFIER: BG3.0
+      BRAKE_VOLTAGE: 115AC
+      CABLE_ENTRY: 3
+      CONDUIT_BOX_LOC: 270
+      CONNECTION: DT79
+      FLANGE_DIAMETER: 87
+      FREQUENCY: 60
+      GEAR_RATIO: ''
+      GEAR_SF: ''
+      INSULATION_CLASS: B
+      KVA_CODE: K
+      MODEL_TYPE: DFT90L4BMG2HRZ
+      MOTOR_AMPS: 6.2/3.10
+      MOTOR_HP: 2
+      MOTOR_VOLTAGE: 230YY/460Y
+      MTG_POSITION: M1
+      OUTPUT_SPEED: ''
+      OUT_TORQUE: ''
+      SHAFT_DIAMETER: PIN14
+      SO_NUMBER: 870261873.10.10.001
+      TORQUE_UNITS: lb-in
+      XTRA_NOTES: CB@270, CE 3
+    replacements: 
+    qty: 
+    shelf: 
+  - !ruby/struct:Err
+    message: SO# 870261873.16051605.001 not found
+  - !ruby/struct:Err
+    message: SO# 870261873.1515.001 not found
+  - !ruby/struct:Err
+    message: SO# 870261873.0909.001 not found
+  - !ruby/struct:Err
+    message: SO# 870261873.1313.001 not found
+  - !ruby/struct:Err
+    message: SO# 870261873.1717.001 not found
+  - !ruby/struct:Err
+    message: SO# 870261873.1818.001 not found
+  - !ruby/struct:Err
+    message: SO# 870261873.1919.001 not found
+  - !ruby/struct:Err
+    message: SO# 870261873.2020.001 not found
+- - !ruby/struct:Err
+    message: SO# 870260448.0404.001 not found
+  - !ruby/struct:Motor
+    nameplate:
+      BRAKE_RECTIFIER: BG1.5
+      BRAKE_VOLTAGE: 460AC
+      CABLE_ENTRY: X
+      CONDUIT_BOX_LOC: 0
+      CONNECTION: DT79
+      FLANGE_DIAMETER: ''
+      FREQUENCY: 60
+      GEAR_RATIO: 199.7
+      GEAR_SF: 2.2
+      INSULATION_CLASS: B
+      KVA_CODE: J
+      MODEL_TYPE: FA57DT71C4BMG05HR
+      MOTOR_AMPS: 1.32/.66
+      MOTOR_HP: 0.33
+      MOTOR_VOLTAGE: 230YY/460Y
+      MTG_POSITION: M5
+      OUTPUT_SPEED: 8.6
+      OUT_TORQUE: 2415
+      SHAFT_DIAMETER: 1.5
+      SO_NUMBER: 870260448.07.07.001
+      TORQUE_UNITS: lb-in
+      XTRA_NOTES: CB@0, CE X
+    replacements: 
+    qty: 
+    shelf: 
+  - !ruby/struct:Err
+    message: SO# 870260448.0606.001 not found
+  - !ruby/struct:Err
+    message: SO# 870260448.0303.001 not found
+  - !ruby/struct:Err
+    message: SO# 870260448.0101.001 not found
+  - !ruby/struct:Err
+    message: SO# 870260448.1111.001 not found
+  - !ruby/struct:Err
+    message: SO# 870260448.1212.001 not found
+  - !ruby/struct:Err
+    message: SO# 870260448.1414.001 not found
+  - !ruby/struct:Err
+    message: SO# 870260448.0808.001 not found
+  - !ruby/struct:Err
+    message: SO# 870260448.0202.001 not found
+  - !ruby/struct:Err
+    message: SO# 870260448.1010.001 not found
+  - !ruby/struct:Err
+    message: SO# 870260448.16051605.001 not found
+  - !ruby/struct:Motor
+    nameplate:
+      BRAKE_RECTIFIER: BME1.5
+      BRAKE_VOLTAGE: 230AC
+      CABLE_ENTRY: 3
+      CONDUIT_BOX_LOC: 270
+      CONNECTION: DT11
+      FLANGE_DIAMETER: SQ105
+      FREQUENCY: 150
+      GEAR_RATIO: ''
+      GEAR_SF: 1.0
+      INSULATION_CLASS: F
+      KVA_CODE: ''
+      MODEL_TYPE: CFM71L/BR/TF/RH1L/SB60
+      MOTOR_AMPS: 6 / 25
+      MOTOR_HP: 13
+      MOTOR_VOLTAGE: 400'
+      MTG_POSITION: B5
+      OUTPUT_SPEED: ''
+      OUT_TORQUE: ''
+      SHAFT_DIAMETER: 19X40
+      SO_NUMBER: 870260448.15.15.001
+      TORQUE_UNITS: lb-in
+      XTRA_NOTES: Rectifier=STANDARD, Brk Torq=10.3, Mtr Flg=105mm Square flange,
+        IP65
+    replacements: 
+    qty: 
+    shelf: 
+  - !ruby/struct:Err
+    message: SO# 870260448.0909.001 not found
+  - !ruby/struct:Err
+    message: SO# 870260448.1313.001 not found
+  - !ruby/struct:Err
+    message: SO# 870260448.1717.001 not found
+  - !ruby/struct:Err
+    message: SO# 870260448.1818.001 not found
+  - !ruby/struct:Err
+    message: SO# 870260448.1919.001 not found
+  - !ruby/struct:Err
+    message: SO# 870260448.2020.001 not found
+- - !ruby/struct:Err
+    message: SO# 890191835.0404.001 not found
+  - !ruby/struct:Err
+    message: SO# 890191835.0707.001 not found
+  - !ruby/struct:Motor
+    nameplate:
+      BRAKE_RECTIFIER: ''
+      BRAKE_VOLTAGE: ''
+      CABLE_ENTRY: X
+      CONDUIT_BOX_LOC: 0
+      CONNECTION: DT79
+      FLANGE_DIAMETER: ''
+      FREQUENCY: 60
+      GEAR_RATIO: 38.31
+      GEAR_SF: 1.2
+      INSULATION_CLASS: B
+      KVA_CODE: J
+      MODEL_TYPE: FA37DT80N4
+      MOTOR_AMPS: 3.70/1.85
+      MOTOR_HP: 1
+      MOTOR_VOLTAGE: 230YY/460Y
+      MTG_POSITION: M1
+      OUTPUT_SPEED: 44
+      OUT_TORQUE: 1420
+      SHAFT_DIAMETER: 1.25
+      SO_NUMBER: 890191835.06.06.001
+      TORQUE_UNITS: lb-in
+      XTRA_NOTES: CB@0, CE X
+    replacements: 
+    qty: 
+    shelf: 
+  - !ruby/struct:Err
+    message: SO# 890191835.0303.001 not found
+  - !ruby/struct:Err
+    message: SO# 890191835.0101.001 not found
+  - !ruby/struct:Err
+    message: SO# 890191835.1111.001 not found
+  - !ruby/struct:Err
+    message: SO# 890191835.1212.001 not found
+  - !ruby/struct:Err
+    message: SO# 890191835.1414.001 not found
+  - !ruby/struct:Err
+    message: SO# 890191835.0808.001 not found
+  - !ruby/struct:Err
+    message: SO# 890191835.0202.001 not found
+  - !ruby/struct:Err
+    message: SO# 890191835.1010.001 not found
+  - !ruby/struct:Err
+    message: SO# 890191835.16051605.001 not found
+  - !ruby/struct:Err
+    message: SO# 890191835.1515.001 not found
+  - !ruby/struct:Err
+    message: SO# 890191835.0909.001 not found
+  - !ruby/struct:Err
+    message: SO# 890191835.1313.001 not found
+  - !ruby/struct:Err
+    message: SO# 890191835.1717.001 not found
+  - !ruby/struct:Err
+    message: SO# 890191835.1818.001 not found
+  - !ruby/struct:Err
+    message: SO# 890191835.1919.001 not found
+  - !ruby/struct:Err
+    message: SO# 890191835.2020.001 not found
+- - !ruby/struct:Motor
+    nameplate:
+      BRAKE_RECTIFIER: BGE1.5
+      BRAKE_VOLTAGE: 460AC
+      CABLE_ENTRY: X
+      CONDUIT_BOX_LOC: 270
+      CONNECTION: DT79
+      FLANGE_DIAMETER: ''
+      FREQUENCY: 60
+      GEAR_RATIO: 43.83
+      GEAR_SF: 2.2
+      INSULATION_CLASS: B
+      KVA_CODE: H
+      MODEL_TYPE: FH37DT71D4BMG05HR
+      MOTOR_AMPS: 2.00/1.00
+      MOTOR_HP: 0.5
+      MOTOR_VOLTAGE: 230YY/460Y
+      MTG_POSITION: M3
+      OUTPUT_SPEED: 39
+      OUT_TORQUE: 812
+      SHAFT_DIAMETER: 30SHR
+      SO_NUMBER: 890230000.04.04.001
+      TORQUE_UNITS: lb-in
+      XTRA_NOTES: CB@270, CE X
+    replacements: 
+    qty: 
+    shelf: 
+  - !ruby/struct:Motor
+    nameplate:
+      BRAKE_RECTIFIER: ''
+      BRAKE_VOLTAGE: ''
+      CABLE_ENTRY: ''
+      CONDUIT_BOX_LOC: ''
+      CONNECTION: ''
+      FLANGE_DIAMETER: SPEC
+      FREQUENCY: ''
+      GEAR_RATIO: 158.45
+      GEAR_SF: 1.0
+      INSULATION_CLASS: ''
+      KVA_CODE: ''
+      MODEL_TYPE: SAF67AM56 - E-67-30
+      MOTOR_AMPS: ''
+      MOTOR_HP: 0
+      MOTOR_VOLTAGE: ''
+      MTG_POSITION: M5A
+      OUTPUT_SPEED: ''
+      OUT_TORQUE: 4600
+      SHAFT_DIAMETER: SPEC
+      SO_NUMBER: 890230000.07.07.001
+      TORQUE_UNITS: lb-in
+      XTRA_NOTES: S/S Pr.Relief Brthr. Unit contains other important specifications.
+        Please call SEW.
+    replacements: 
+    qty: 
+    shelf: 
+  - !ruby/struct:Err
+    message: SO# 890230000.0606.001 not found
+  - !ruby/struct:Err
+    message: SO# 890230000.0303.001 not found
+  - !ruby/struct:Err
+    message: SO# 890230000.0101.001 not found
+  - !ruby/struct:Err
+    message: SO# 890230000.1111.001 not found
+  - !ruby/struct:Err
+    message: SO# 890230000.1212.001 not found
+  - !ruby/struct:Err
+    message: SO# 890230000.1414.001 not found
+  - !ruby/struct:Err
+    message: SO# 890230000.0808.001 not found
+  - !ruby/struct:Err
+    message: SO# 890230000.0202.001 not found
+  - !ruby/struct:Err
+    message: SO# 890230000.1010.001 not found
+  - !ruby/struct:Err
+    message: SO# 890230000.16051605.001 not found
+  - !ruby/struct:Err
+    message: SO# 890230000.1515.001 not found
+  - !ruby/struct:Err
+    message: SO# 890230000.0909.001 not found
+  - !ruby/struct:Err
+    message: SO# 890230000.1313.001 not found
+  - !ruby/struct:Err
+    message: SO# 890230000.1717.001 not found
+  - !ruby/struct:Err
+    message: SO# 890230000.1818.001 not found
+  - !ruby/struct:Err
+    message: SO# 890230000.1919.001 not found
+  - !ruby/struct:Err
+    message: SO# 890230000.2020.001 not found
+- - !ruby/struct:Motor
+    nameplate:
+      BRAKE_RECTIFIER: BME1.5
+      BRAKE_VOLTAGE: 230AC
+      CABLE_ENTRY: X
+      CONDUIT_BOX_LOC: 270
+      CONNECTION: DT11
+      FLANGE_DIAMETER: ''
+      FREQUENCY: 150
+      GEAR_RATIO: 17.33
+      GEAR_SF: 9.2
+      INSULATION_CLASS: F
+      KVA_CODE: ''
+      MODEL_TYPE: FH47DY71S/B/TH
+      MOTOR_AMPS: 1.85
+      MOTOR_HP: 1
+      MOTOR_VOLTAGE: 400
+      MTG_POSITION: M1
+      OUTPUT_SPEED: 173
+      OUT_TORQUE: 383
+      SHAFT_DIAMETER: 35SHR
+      SO_NUMBER: 870262042.04.04.001
+      TORQUE_UNITS: lb-in
+      XTRA_NOTES: Term.Strip#1830600, CB@270, CE X. Unit contains other important
+        specifications. Please call SEW.
+    replacements: 
+    qty: 
+    shelf: 
+  - !ruby/struct:Err
+    message: SO# 870262042.0707.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262042.0606.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262042.0303.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262042.0101.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262042.1111.001 not found
+  - !ruby/struct:Motor
+    nameplate:
+      BRAKE_RECTIFIER: ''
+      BRAKE_VOLTAGE: ''
+      CABLE_ENTRY: 2
+      CONDUIT_BOX_LOC: 180
+      CONNECTION: R76
+      FLANGE_DIAMETER: ''
+      FREQUENCY: 60
+      GEAR_RATIO: 54.59
+      GEAR_SF: 1.75
+      INSULATION_CLASS: B
+      KVA_CODE: G
+      MODEL_TYPE: S47DRS71S4
+      MOTOR_AMPS: 1.84/.92
+      MOTOR_HP: 0.5
+      MOTOR_VOLTAGE: 230YY/460Y
+      MTG_POSITION: M3B
+      OUTPUT_SPEED: 31
+      OUT_TORQUE: 796
+      SHAFT_DIAMETER: 1.0
+      SO_NUMBER: 870262042.12.12.001
+      TORQUE_UNITS: lb-in
+      XTRA_NOTES: 'Oil=mineral, #Gear Seals=1, Mtr Flg=FG100 D120, IP54, Corr Prot=No,  RAL5001
+        Green Blue'
+    replacements: 
+    qty: 
+    shelf: 
+  - !ruby/struct:Err
+    message: SO# 870262042.1414.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262042.0808.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262042.0202.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262042.1010.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262042.16051605.001 not found
+  - !ruby/struct:Motor
+    nameplate:
+      BRAKE_RECTIFIER: ''
+      BRAKE_VOLTAGE: ''
+      CABLE_ENTRY: X
+      CONDUIT_BOX_LOC: 270
+      CONNECTION: R13
+      FLANGE_DIAMETER: ''
+      FREQUENCY: 50
+      GEAR_RATIO: 16.47
+      GEAR_SF: 1.95
+      INSULATION_CLASS: F
+      KVA_CODE: G
+      MODEL_TYPE: ST47/TDRS71M4
+      MOTOR_AMPS: 2.80/1.62
+      MOTOR_HP: 0.75
+      MOTOR_VOLTAGE: 230'/400Y
+      MTG_POSITION: M1B
+      OUTPUT_SPEED: 83 / 103
+      OUT_TORQUE: 495
+      SHAFT_DIAMETER: 30MM
+      SO_NUMBER: 870262042.15.15.001
+      TORQUE_UNITS: lb-in
+      XTRA_NOTES: 'Oil=mineral, #Gear Seals=1, Mtr Flg=FG100 D120, IP54, RAL5001 Green
+        Blue'
+    replacements: 
+    qty: 
+    shelf: 
+  - !ruby/struct:Err
+    message: SO# 870262042.0909.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262042.1313.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262042.1717.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262042.1818.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262042.1919.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262042.2020.001 not found
+- - !ruby/struct:Motor
+    nameplate:
+      BRAKE_RECTIFIER: BME1.5
+      BRAKE_VOLTAGE: 230AC
+      CABLE_ENTRY: X
+      CONDUIT_BOX_LOC: 270
+      CONNECTION: DT11
+      FLANGE_DIAMETER: ''
+      FREQUENCY: 150
+      GEAR_RATIO: 19.11
+      GEAR_SF: 8.4
+      INSULATION_CLASS: F
+      KVA_CODE: ''
+      MODEL_TYPE: FH57DY71M/B/TH
+      MOTOR_AMPS: 2.7
+      MOTOR_HP: 2
+      MOTOR_VOLTAGE: 400
+      MTG_POSITION: M5
+      OUTPUT_SPEED: 157
+      OUT_TORQUE: 625
+      SHAFT_DIAMETER: 40SRH
+      SO_NUMBER: 870261881.04.04.001
+      TORQUE_UNITS: lb-in
+      XTRA_NOTES: Term.Strip#1830600, CB@270, CE X. Unit contains other important
+        specifications. Please call SEW.
+    replacements: 
+    qty: 
+    shelf: 
+  - !ruby/struct:Err
+    message: SO# 870261881.0707.001 not found
+  - !ruby/struct:Err
+    message: SO# 870261881.0606.001 not found
+  - !ruby/struct:Err
+    message: SO# 870261881.0303.001 not found
+  - !ruby/struct:Err
+    message: SO# 870261881.0101.001 not found
+  - !ruby/struct:Err
+    message: SO# 870261881.1111.001 not found
+  - !ruby/struct:Motor
+    nameplate:
+      BRAKE_RECTIFIER: ''
+      BRAKE_VOLTAGE: ''
+      CABLE_ENTRY: X
+      CONDUIT_BOX_LOC: 180
+      CONNECTION: R13
+      FLANGE_DIAMETER: ''
+      FREQUENCY: 60
+      GEAR_RATIO: 6.8
+      GEAR_SF: 1.6
+      INSULATION_CLASS: F
+      KVA_CODE: K
+      MODEL_TYPE: SA37DRE80M4/APG8
+      MOTOR_AMPS: 1.44
+      MOTOR_HP: 1.0
+      MOTOR_VOLTAGE: 460
+      MTG_POSITION: M1A
+      OUTPUT_SPEED: 256
+      OUT_TORQUE: 221
+      SHAFT_DIAMETER: 20MM
+      SO_NUMBER: 870261881.12.12.001
+      TORQUE_UNITS: lb-in
+      XTRA_NOTES: 'Oil=mineral, #Gear Seals=1, Mtr Flg=FG100 D120, IP55, Corr Prot=Yes,  RAL5001
+        Green Blue,  OS1'
+    replacements: 
+    qty: 
+    shelf: 
+  - !ruby/struct:Err
+    message: SO# 870261881.1414.001 not found
+  - !ruby/struct:Err
+    message: SO# 870261881.0808.001 not found
+  - !ruby/struct:Err
+    message: SO# 870261881.0202.001 not found
+  - !ruby/struct:Err
+    message: SO# 870261881.1010.001 not found
+  - !ruby/struct:Err
+    message: SO# 870261881.16051605.001 not found
+  - !ruby/struct:Err
+    message: SO# 870261881.1515.001 not found
+  - !ruby/struct:Err
+    message: SO# 870261881.0909.001 not found
+  - !ruby/struct:Err
+    message: SO# 870261881.1313.001 not found
+  - !ruby/struct:Err
+    message: SO# 870261881.1717.001 not found
+  - !ruby/struct:Err
+    message: SO# 870261881.1818.001 not found
+  - !ruby/struct:Err
+    message: SO# 870261881.1919.001 not found
+  - !ruby/struct:Err
+    message: SO# 870261881.2020.001 not found
+- - !ruby/struct:Motor
+    nameplate:
+      BRAKE_RECTIFIER: BME1.5
+      BRAKE_VOLTAGE: 230AC
+      CABLE_ENTRY: X
+      CONDUIT_BOX_LOC: 0
+      CONNECTION: DT11
+      FLANGE_DIAMETER: ''
+      FREQUENCY: 150
+      GEAR_RATIO: 34.24
+      GEAR_SF: 5.8
+      INSULATION_CLASS: F
+      KVA_CODE: ''
+      MODEL_TYPE: FH57DY71S/B/TH
+      MOTOR_AMPS: 1.85
+      MOTOR_HP: 1
+      MOTOR_VOLTAGE: 400
+      MTG_POSITION: M6
+      OUTPUT_SPEED: 88
+      OUT_TORQUE: 757
+      SHAFT_DIAMETER: 40SRH
+      SO_NUMBER: 870262036.04.04.001
+      TORQUE_UNITS: lb-in
+      XTRA_NOTES: Term.Strip#1830600, CB@0, CE X. Unit contains other important specifications.
+        Please call SEW.
+    replacements: 
+    qty: 
+    shelf: 
+  - !ruby/struct:Motor
+    nameplate:
+      BRAKE_RECTIFIER: BG3.0
+      BRAKE_VOLTAGE: 120AC
+      CABLE_ENTRY: X
+      CONDUIT_BOX_LOC: 0
+      CONNECTION: DT79
+      FLANGE_DIAMETER: ''
+      FREQUENCY: 60
+      GEAR_RATIO: 44.22
+      GEAR_SF: 1.1
+      INSULATION_CLASS: F
+      KVA_CODE: K
+      MODEL_TYPE: SA57TDT90S4BMG2HR-KS
+      MOTOR_AMPS: 5.20/2.60
+      MOTOR_HP: 1.5
+      MOTOR_VOLTAGE: 230YY/460Y
+      MTG_POSITION: M1
+      OUTPUT_SPEED: 39
+      OUT_TORQUE: 1958
+      SHAFT_DIAMETER: 30MM
+      SO_NUMBER: 870262036.07.07.001
+      TORQUE_UNITS: lb-in
+      XTRA_NOTES: Torque Arm, CB@0, CE X
+    replacements: 
+    qty: 
+    shelf: 
+  - !ruby/struct:Err
+    message: SO# 870262036.0606.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262036.0303.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262036.0101.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262036.1111.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262036.1212.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262036.1414.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262036.0808.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262036.0202.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262036.1010.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262036.16051605.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262036.1515.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262036.0909.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262036.1313.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262036.1717.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262036.1818.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262036.1919.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262036.2020.001 not found
+- - !ruby/struct:Motor
+    nameplate:
+      BRAKE_RECTIFIER: BME1.5
+      BRAKE_VOLTAGE: 230AC
+      CABLE_ENTRY: X
+      CONDUIT_BOX_LOC: 270
+      CONNECTION: DT11
+      FLANGE_DIAMETER: ''
+      FREQUENCY: 150
+      GEAR_RATIO: 13.52
+      GEAR_SF: 8.8
+      INSULATION_CLASS: F
+      KVA_CODE: ''
+      MODEL_TYPE: FH57DY71ML/B/TH
+      MOTOR_AMPS: 3.8
+      MOTOR_HP: 2
+      MOTOR_VOLTAGE: 400
+      MTG_POSITION: M6
+      OUTPUT_SPEED: 222
+      OUT_TORQUE: 598
+      SHAFT_DIAMETER: 40SRH
+      SO_NUMBER: 870261966.04.04.001
+      TORQUE_UNITS: lb-in
+      XTRA_NOTES: Term.Strip#1830600, CB@270, CE X. Unit contains other important
+        specifications. Please call SEW.
+    replacements: 
+    qty: 
+    shelf: 
+  - !ruby/struct:Err
+    message: SO# 870261966.0707.001 not found
+  - !ruby/struct:Err
+    message: SO# 870261966.0606.001 not found
+  - !ruby/struct:Err
+    message: SO# 870261966.0303.001 not found
+  - !ruby/struct:Err
+    message: SO# 870261966.0101.001 not found
+  - !ruby/struct:Err
+    message: SO# 870261966.1111.001 not found
+  - !ruby/struct:Motor
+    nameplate:
+      BRAKE_RECTIFIER: ''
+      BRAKE_VOLTAGE: ''
+      CABLE_ENTRY: X
+      CONDUIT_BOX_LOC: 0
+      CONNECTION: R72
+      FLANGE_DIAMETER: ''
+      FREQUENCY: 60
+      GEAR_RATIO: 26.32
+      GEAR_SF: 1.7
+      INSULATION_CLASS: F
+      KVA_CODE: G
+      MODEL_TYPE: K107DRS180LC4/TF
+      MOTOR_AMPS: 97.00/48.50
+      MOTOR_HP: 40.0
+      MOTOR_VOLTAGE: 230''/460'
+      MTG_POSITION: M4A
+      OUTPUT_SPEED: 67
+      OUT_TORQUE: 37701
+      SHAFT_DIAMETER: 3.625
+      SO_NUMBER: 870261966.12.12.001
+      TORQUE_UNITS: lb-in
+      XTRA_NOTES: 'RAL5001 Green Blue, #Gear Seals=1, Corr Prot=No, IP54, Mtr Flg=FG300
+        D350, Oil=mineral'
+    replacements: 
+    qty: 
+    shelf: 
+  - !ruby/struct:Err
+    message: SO# 870261966.1414.001 not found
+  - !ruby/struct:Err
+    message: SO# 870261966.0808.001 not found
+  - !ruby/struct:Err
+    message: SO# 870261966.0202.001 not found
+  - !ruby/struct:Err
+    message: SO# 870261966.1010.001 not found
+  - !ruby/struct:Err
+    message: SO# 870261966.16051605.001 not found
+  - !ruby/struct:Err
+    message: SO# 870261966.1515.001 not found
+  - !ruby/struct:Err
+    message: SO# 870261966.0909.001 not found
+  - !ruby/struct:Err
+    message: SO# 870261966.1313.001 not found
+  - !ruby/struct:Err
+    message: SO# 870261966.1717.001 not found
+  - !ruby/struct:Err
+    message: SO# 870261966.1818.001 not found
+  - !ruby/struct:Err
+    message: SO# 870261966.1919.001 not found
+  - !ruby/struct:Err
+    message: SO# 870261966.2020.001 not found
+- - !ruby/struct:Motor
+    nameplate:
+      BRAKE_RECTIFIER: BME1.5
+      BRAKE_VOLTAGE: 230AC
+      CABLE_ENTRY: X
+      CONDUIT_BOX_LOC: 180
+      CONNECTION: DT11
+      FLANGE_DIAMETER: ''
+      FREQUENCY: 150
+      GEAR_RATIO: 67.65
+      GEAR_SF: 1.0
+      INSULATION_CLASS: F
+      KVA_CODE: ''
+      MODEL_TYPE: FH67DY90M/B/TH
+      MOTOR_AMPS: 7.9
+      MOTOR_HP: 4
+      MOTOR_VOLTAGE: 400
+      MTG_POSITION: M5
+      OUTPUT_SPEED: 44
+      OUT_TORQUE: 7184
+      SHAFT_DIAMETER: 40SHR
+      SO_NUMBER: 870261960.04.04.001
+      TORQUE_UNITS: lb-in
+      XTRA_NOTES: Term.Strip#1830600, CB@180, CE X. Unit contains other important
+        specifications. Please call SEW.
+    replacements: 
+    qty: 
+    shelf: 
+  - !ruby/struct:Motor
+    nameplate:
+      BRAKE_RECTIFIER: ''
+      BRAKE_VOLTAGE: ''
+      CABLE_ENTRY: X
+      CONDUIT_BOX_LOC: 270
+      CONNECTION: DT79
+      FLANGE_DIAMETER: ''
+      FREQUENCY: 60
+      GEAR_RATIO: 16.86
+      GEAR_SF: 1.1
+      INSULATION_CLASS: F
+      KVA_CODE: G
+      MODEL_TYPE: K47DT100L4
+      MOTOR_AMPS: 13.6/6.8
+      MOTOR_HP: 5
+      MOTOR_VOLTAGE: 230YY/460Y
+      MTG_POSITION: M1A
+      OUTPUT_SPEED: 18-107
+      OUT_TORQUE: 3163
+      SHAFT_DIAMETER: 1.25
+      SO_NUMBER: 870261960.07.07.001
+      TORQUE_UNITS: lb-in
+      XTRA_NOTES: Inverter Duty, CB@270, CE X
+    replacements: 
+    qty: 
+    shelf: 
+  - !ruby/struct:Err
+    message: SO# 870261960.0606.001 not found
+  - !ruby/struct:Err
+    message: SO# 870261960.0303.001 not found
+  - !ruby/struct:Err
+    message: SO# 870261960.0101.001 not found
+  - !ruby/struct:Err
+    message: SO# 870261960.1111.001 not found
+  - !ruby/struct:Motor
+    nameplate:
+      BRAKE_RECTIFIER: ''
+      BRAKE_VOLTAGE: ''
+      CABLE_ENTRY: X
+      CONDUIT_BOX_LOC: 90
+      CONNECTION: R76
+      FLANGE_DIAMETER: ''
+      FREQUENCY: 60
+      GEAR_RATIO: 64.75
+      GEAR_SF: 2
+      INSULATION_CLASS: F
+      KVA_CODE: K
+      MODEL_TYPE: K77DRE100L4
+      MOTOR_AMPS: 8.00/4.00
+      MOTOR_HP: 3.0
+      MOTOR_VOLTAGE: 230YY/460Y
+      MTG_POSITION: M3B
+      OUTPUT_SPEED: 27
+      OUT_TORQUE: 6947
+      SHAFT_DIAMETER: 1.75
+      SO_NUMBER: 870261960.12.12.001
+      TORQUE_UNITS: lb-in
+      XTRA_NOTES: 'Oil=mineral, #Gear Seals=1, Mtr Flg=FG165 D200, IP55, Corr Prot=Yes,  Epoxy
+        S/S Gray,  OS2'
+    replacements: 
+    qty: 
+    shelf: 
+  - !ruby/struct:Err
+    message: SO# 870261960.1414.001 not found
+  - !ruby/struct:Err
+    message: SO# 870261960.0808.001 not found
+  - !ruby/struct:Err
+    message: SO# 870261960.0202.001 not found
+  - !ruby/struct:Err
+    message: SO# 870261960.1010.001 not found
+  - !ruby/struct:Err
+    message: SO# 870261960.16051605.001 not found
+  - !ruby/struct:Err
+    message: SO# 870261960.1515.001 not found
+  - !ruby/struct:Err
+    message: SO# 870261960.0909.001 not found
+  - !ruby/struct:Err
+    message: SO# 870261960.1313.001 not found
+  - !ruby/struct:Err
+    message: SO# 870261960.1717.001 not found
+  - !ruby/struct:Err
+    message: SO# 870261960.1818.001 not found
+  - !ruby/struct:Err
+    message: SO# 870261960.1919.001 not found
+  - !ruby/struct:Err
+    message: SO# 870261960.2020.001 not found
+- - !ruby/struct:Motor
+    nameplate:
+      BRAKE_RECTIFIER: BME1.5
+      BRAKE_VOLTAGE: 230AC
+      CABLE_ENTRY: X
+      CONDUIT_BOX_LOC: 90
+      CONNECTION: DT11
+      FLANGE_DIAMETER: ''
+      FREQUENCY: 150
+      GEAR_RATIO: 56.83
+      GEAR_SF: 2.8
+      INSULATION_CLASS: F
+      KVA_CODE: ''
+      MODEL_TYPE: KH47DY71S/B/TH
+      MOTOR_AMPS: 1.85
+      MOTOR_HP: 1
+      MOTOR_VOLTAGE: 400
+      MTG_POSITION: M2A
+      OUTPUT_SPEED: 53
+      OUT_TORQUE: 1257
+      SHAFT_DIAMETER: 35SHR
+      SO_NUMBER: 870262038.04.04.001
+      TORQUE_UNITS: lb-in
+      XTRA_NOTES: Term.Strip#1830600, Term.Strip#1830600, CB@90, CE X. Unit contains
+        other important specifications. Please call SEW.
+    replacements: 
+    qty: 
+    shelf: 
+  - !ruby/struct:Err
+    message: SO# 870262038.0707.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262038.0606.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262038.0303.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262038.0101.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262038.1111.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262038.1212.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262038.1414.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262038.0808.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262038.0202.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262038.1010.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262038.16051605.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262038.1515.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262038.0909.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262038.1313.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262038.1717.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262038.1818.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262038.1919.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262038.2020.001 not found
+- - !ruby/struct:Motor
+    nameplate:
+      BRAKE_RECTIFIER: BME1.5
+      BRAKE_VOLTAGE: 230AC
+      CABLE_ENTRY: X
+      CONDUIT_BOX_LOC: 90
+      CONNECTION: DT11
+      FLANGE_DIAMETER: ''
+      FREQUENCY: 150
+      GEAR_RATIO: 104.37
+      GEAR_SF: 1.5
+      INSULATION_CLASS: F
+      KVA_CODE: ''
+      MODEL_TYPE: KH47DY71S/B/TH
+      MOTOR_AMPS: 1.85
+      MOTOR_HP: 1
+      MOTOR_VOLTAGE: 400
+      MTG_POSITION: M2A
+      OUTPUT_SPEED: 29
+      OUT_TORQUE: 2309
+      SHAFT_DIAMETER: 35SHR
+      SO_NUMBER: 870262037.04.04.001
+      TORQUE_UNITS: lb-in
+      XTRA_NOTES: Term.Strip#1830600, Term.Strip#1830600, CB@90, CE X. Unit contains
+        other important specifications. Please call SEW.
+    replacements: 
+    qty: 
+    shelf: 
+  - !ruby/struct:Err
+    message: SO# 870262037.0707.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262037.0606.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262037.0303.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262037.0101.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262037.1111.001 not found
+  - !ruby/struct:Motor
+    nameplate:
+      BRAKE_RECTIFIER: ''
+      BRAKE_VOLTAGE: ''
+      CABLE_ENTRY: 2
+      CONDUIT_BOX_LOC: 270
+      CONNECTION: R76
+      FLANGE_DIAMETER: 200MM
+      FREQUENCY: 60
+      GEAR_RATIO: 85.83
+      GEAR_SF: 1.45
+      INSULATION_CLASS: F
+      KVA_CODE: L
+      MODEL_TYPE: SAF67DRE90M4/DH - 18711
+      MOTOR_AMPS: 4.50/2.25
+      MOTOR_HP: 1.5
+      MOTOR_VOLTAGE: 230YY/460Y
+      MTG_POSITION: M1A
+      OUTPUT_SPEED: 3.5-21.0
+      OUT_TORQUE: 3230
+      SHAFT_DIAMETER: 1.5
+      SO_NUMBER: 870262037.12.12.001
+      TORQUE_UNITS: lb-in
+      XTRA_NOTES: 'Oil=mineral, #Gear Seals=1, Mtr Flg=FG130 D160, IP66, Corr Prot=Yes,  RAL5001
+        Green Blue,  OS1'
+    replacements: 
+    qty: 
+    shelf: 
+  - !ruby/struct:Err
+    message: SO# 870262037.1414.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262037.0808.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262037.0202.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262037.1010.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262037.16051605.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262037.1515.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262037.0909.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262037.1313.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262037.1717.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262037.1818.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262037.1919.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262037.2020.001 not found
+- - !ruby/struct:Motor
+    nameplate:
+      BRAKE_RECTIFIER: BME1.5
+      BRAKE_VOLTAGE: 230AC
+      CABLE_ENTRY: X
+      CONDUIT_BOX_LOC: 180
+      CONNECTION: DT11
+      FLANGE_DIAMETER: ''
+      FREQUENCY: 150
+      GEAR_RATIO: 38.23
+      GEAR_SF: 1.1
+      INSULATION_CLASS: F
+      KVA_CODE: ''
+      MODEL_TYPE: FH77DY112L/B/TH
+      MOTOR_AMPS: 24
+      MOTOR_HP: 12
+      MOTOR_VOLTAGE: 400
+      MTG_POSITION: M5
+      OUTPUT_SPEED: 78
+      OUT_TORQUE: 11890
+      SHAFT_DIAMETER: 50SHR
+      SO_NUMBER: 870262064.04.04.001
+      TORQUE_UNITS: lb-in
+      XTRA_NOTES: Term.Strip#1830600, CB@180, CE X. Unit contains other important
+        specifications. Please call SEW.
+    replacements: 
+    qty: 
+    shelf: 
+  - !ruby/struct:Err
+    message: SO# 870262064.0707.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262064.0606.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262064.0303.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262064.0101.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262064.1111.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262064.1212.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262064.1414.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262064.0808.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262064.0202.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262064.1010.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262064.16051605.001 not found
+  - !ruby/struct:Motor
+    nameplate:
+      BRAKE_RECTIFIER: ''
+      BRAKE_VOLTAGE: ''
+      CABLE_ENTRY: ''
+      CONDUIT_BOX_LOC: ''
+      CONNECTION: ''
+      FLANGE_DIAMETER: ''
+      FREQUENCY: ''
+      GEAR_RATIO: ''
+      GEAR_SF: ''
+      INSULATION_CLASS: ''
+      KVA_CODE: ''
+      MODEL_TYPE: MFD22A/Z36F/AF1
+      MOTOR_AMPS: ''
+      MOTOR_HP: 0
+      MOTOR_VOLTAGE: ''
+      MTG_POSITION: ''
+      OUTPUT_SPEED: ''
+      OUT_TORQUE: ''
+      SHAFT_DIAMETER: ''
+      SO_NUMBER: 870262064.15.15.001
+      TORQUE_UNITS: lb-in
+      XTRA_NOTES: ". Unit contains other important specifications. Please call SEW."
+    replacements: 
+    qty: 
+    shelf: 
+  - !ruby/struct:Err
+    message: SO# 870262064.0909.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262064.1313.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262064.1717.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262064.1818.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262064.1919.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262064.2020.001 not found
+- - !ruby/struct:Err
+    message: SO# 890251181.0404.001 not found
+  - !ruby/struct:Motor
+    nameplate:
+      BRAKE_RECTIFIER: ''
+      BRAKE_VOLTAGE: ''
+      CABLE_ENTRY: X
+      CONDUIT_BOX_LOC: 0
+      CONNECTION: DT79
+      FLANGE_DIAMETER: ''
+      FREQUENCY: 60
+      GEAR_RATIO: 51.18
+      GEAR_SF: 1.4
+      INSULATION_CLASS: F
+      KVA_CODE: J
+      MODEL_TYPE: KH77TDV112M4TH
+      MOTOR_AMPS: 14.0/7.0
+      MOTOR_HP: 5.4
+      MOTOR_VOLTAGE: 230YY/460Y
+      MTG_POSITION: M1A
+      OUTPUT_SPEED: 34
+      OUT_TORQUE: 10068
+      SHAFT_DIAMETER: 50MM
+      SO_NUMBER: 890251181.07.07.001
+      TORQUE_UNITS: lb-in
+      XTRA_NOTES: Torque Arm, Term.Strip#1830600, CB@0, CE X
+    replacements: 
+    qty: 
+    shelf: 
+  - !ruby/struct:Err
+    message: SO# 890251181.0606.001 not found
+  - !ruby/struct:Err
+    message: SO# 890251181.0303.001 not found
+  - !ruby/struct:Err
+    message: SO# 890251181.0101.001 not found
+  - !ruby/struct:Err
+    message: SO# 890251181.1111.001 not found
+  - !ruby/struct:Err
+    message: SO# 890251181.1212.001 not found
+  - !ruby/struct:Err
+    message: SO# 890251181.1414.001 not found
+  - !ruby/struct:Err
+    message: SO# 890251181.0808.001 not found
+  - !ruby/struct:Err
+    message: SO# 890251181.0202.001 not found
+  - !ruby/struct:Err
+    message: SO# 890251181.1010.001 not found
+  - !ruby/struct:Err
+    message: SO# 890251181.16051605.001 not found
+  - !ruby/struct:Err
+    message: SO# 890251181.1515.001 not found
+  - !ruby/struct:Err
+    message: SO# 890251181.0909.001 not found
+  - !ruby/struct:Err
+    message: SO# 890251181.1313.001 not found
+  - !ruby/struct:Err
+    message: SO# 890251181.1717.001 not found
+  - !ruby/struct:Err
+    message: SO# 890251181.1818.001 not found
+  - !ruby/struct:Err
+    message: SO# 890251181.1919.001 not found
+  - !ruby/struct:Err
+    message: SO# 890251181.2020.001 not found
+- - !ruby/struct:Motor
+    nameplate:
+      BRAKE_RECTIFIER: BME1.5
+      BRAKE_VOLTAGE: 230AC
+      CABLE_ENTRY: X
+      CONDUIT_BOX_LOC: 0
+      CONNECTION: DT11
+      FLANGE_DIAMETER: ''
+      FREQUENCY: 150
+      GEAR_RATIO: 33.74
+      GEAR_SF: 1.2
+      INSULATION_CLASS: F
+      KVA_CODE: ''
+      MODEL_TYPE: FH77DY112L/B/TH
+      MOTOR_AMPS: 24
+      MOTOR_HP: 12
+      MOTOR_VOLTAGE: 400
+      MTG_POSITION: M6
+      OUTPUT_SPEED: 89
+      OUT_TORQUE: 10420
+      SHAFT_DIAMETER: 50SHR
+      SO_NUMBER: 870262061.04.04.001
+      TORQUE_UNITS: lb-in
+      XTRA_NOTES: Term.Strip#1830600, CB@0, CE X. Unit contains other important specifications.
+        Please call SEW.
+    replacements: 
+    qty: 
+    shelf: 
+  - !ruby/struct:Err
+    message: SO# 870262061.0707.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262061.0606.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262061.0303.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262061.0101.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262061.1111.001 not found
+  - !ruby/struct:Motor
+    nameplate:
+      BRAKE_RECTIFIER: ''
+      BRAKE_VOLTAGE: ''
+      CABLE_ENTRY: X
+      CONDUIT_BOX_LOC: 180
+      CONNECTION: R76
+      FLANGE_DIAMETER: 120MM
+      FREQUENCY: 60
+      GEAR_RATIO: 65.61
+      GEAR_SF: 1.3
+      INSULATION_CLASS: B
+      KVA_CODE: G
+      MODEL_TYPE: RF17DRS71S4
+      MOTOR_AMPS: ".89/.44"
+      MOTOR_HP: 0.25
+      MOTOR_VOLTAGE: 230YY/460Y
+      MTG_POSITION: M2
+      OUTPUT_SPEED: 26
+      OUT_TORQUE: 584
+      SHAFT_DIAMETER: 20MM
+      SO_NUMBER: 870262061.12.12.001
+      TORQUE_UNITS: lb-in
+      XTRA_NOTES: 'Oil=mineral, #Gear Seals=1, Mtr Flg=None, IP54, Corr Prot=No,  RAL5001
+        Green Blue'
+    replacements: 
+    qty: 
+    shelf: 
+  - !ruby/struct:Err
+    message: SO# 870262061.1414.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262061.0808.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262061.0202.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262061.1010.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262061.16051605.001 not found
+  - !ruby/struct:Motor
+    nameplate:
+      BRAKE_RECTIFIER: ''
+      BRAKE_VOLTAGE: ''
+      CABLE_ENTRY: X
+      CONDUIT_BOX_LOC: 0
+      CONNECTION: R76
+      FLANGE_DIAMETER: ''
+      FREQUENCY: 60
+      GEAR_RATIO: 201.0
+      GEAR_SF: 1.2
+      INSULATION_CLASS: F
+      KVA_CODE: D
+      MODEL_TYPE: SA57DRS71S6/DH
+      MOTOR_AMPS: 1.30/.65
+      MOTOR_HP: 0.33
+      MOTOR_VOLTAGE: 230YY/460Y
+      MTG_POSITION: M1A
+      OUTPUT_SPEED: 5.5
+      OUT_TORQUE: 2212
+      SHAFT_DIAMETER: 1.375
+      SO_NUMBER: 870262061.15.15.001
+      TORQUE_UNITS: lb-in
+      XTRA_NOTES: 'Oil=mineral, #Gear Seals=1, Mtr Flg=FG100 D120, IP66, Corr Prot=Yes,
+        RAL5001 Green Blue, OS2'
+    replacements: 
+    qty: 
+    shelf: 
+  - !ruby/struct:Err
+    message: SO# 870262061.0909.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262061.1313.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262061.1717.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262061.1818.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262061.1919.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262061.2020.001 not found
+- - !ruby/struct:Motor
+    nameplate:
+      BRAKE_RECTIFIER: BME1.5
+      BRAKE_VOLTAGE: 230AC
+      CABLE_ENTRY: ''
+      CONDUIT_BOX_LOC: ''
+      CONNECTION: DT11
+      FLANGE_DIAMETER: ''
+      FREQUENCY: 150
+      GEAR_RATIO: 48.77
+      GEAR_SF: 1.8
+      INSULATION_CLASS: F
+      KVA_CODE: ''
+      MODEL_TYPE: KH67BDY90S/B/HR/TH
+      MOTOR_AMPS: 5.9
+      MOTOR_HP: 3
+      MOTOR_VOLTAGE: 400
+      MTG_POSITION: M4A
+      OUTPUT_SPEED: 62
+      OUT_TORQUE: 3884
+      SHAFT_DIAMETER: 40SHR
+      SO_NUMBER: 870267843.04.04.001
+      TORQUE_UNITS: lb-in
+      XTRA_NOTES: ". Unit contains other important specifications. Please call SEW."
+    replacements: 
+    qty: 
+    shelf: 
+  - !ruby/struct:Err
+    message: SO# 870267843.0707.001 not found
+  - !ruby/struct:Err
+    message: SO# 870267843.0606.001 not found
+  - !ruby/struct:Err
+    message: SO# 870267843.0303.001 not found
+  - !ruby/struct:Err
+    message: SO# 870267843.0101.001 not found
+  - !ruby/struct:Err
+    message: SO# 870267843.1111.001 not found
+  - !ruby/struct:Err
+    message: SO# 870267843.1212.001 not found
+  - !ruby/struct:Err
+    message: SO# 870267843.1414.001 not found
+  - !ruby/struct:Err
+    message: SO# 870267843.0808.001 not found
+  - !ruby/struct:Err
+    message: SO# 870267843.0202.001 not found
+  - !ruby/struct:Err
+    message: SO# 870267843.1010.001 not found
+  - !ruby/struct:Err
+    message: SO# 870267843.16051605.001 not found
+  - !ruby/struct:Err
+    message: SO# 870267843.1515.001 not found
+  - !ruby/struct:Err
+    message: SO# 870267843.0909.001 not found
+  - !ruby/struct:Err
+    message: SO# 870267843.1313.001 not found
+  - !ruby/struct:Err
+    message: SO# 870267843.1717.001 not found
+  - !ruby/struct:Err
+    message: SO# 870267843.1818.001 not found
+  - !ruby/struct:Err
+    message: SO# 870267843.1919.001 not found
+  - !ruby/struct:Err
+    message: SO# 870267843.2020.001 not found
+- - !ruby/struct:Motor
+    nameplate:
+      BRAKE_RECTIFIER: BME1.5
+      BRAKE_VOLTAGE: 230AC
+      CABLE_ENTRY: X
+      CONDUIT_BOX_LOC: 270
+      CONNECTION: DT11
+      FLANGE_DIAMETER: ''
+      FREQUENCY: 150
+      GEAR_RATIO: 21.43
+      GEAR_SF: 2.9
+      INSULATION_CLASS: F
+      KVA_CODE: ''
+      MODEL_TYPE: FH77DY112ML/B/TH
+      MOTOR_AMPS: 16.5
+      MOTOR_HP: 8
+      MOTOR_VOLTAGE: 400
+      MTG_POSITION: M1
+      OUTPUT_SPEED: 140
+      OUT_TORQUE: 4551
+      SHAFT_DIAMETER: 50SHR
+      SO_NUMBER: 870261968.04.04.001
+      TORQUE_UNITS: lb-in
+      XTRA_NOTES: Term.Strip#1830600, Term.Strip#1830600, CB@270, CE X. Unit contains
+        other important specifications. Please call SEW.
+    replacements: 
+    qty: 
+    shelf: 
+  - !ruby/struct:Err
+    message: SO# 870261968.0707.001 not found
+  - !ruby/struct:Err
+    message: SO# 870261968.0606.001 not found
+  - !ruby/struct:Err
+    message: SO# 870261968.0303.001 not found
+  - !ruby/struct:Err
+    message: SO# 870261968.0101.001 not found
+  - !ruby/struct:Err
+    message: SO# 870261968.1111.001 not found
+  - !ruby/struct:Err
+    message: SO# 870261968.1212.001 not found
+  - !ruby/struct:Err
+    message: SO# 870261968.1414.001 not found
+  - !ruby/struct:Err
+    message: SO# 870261968.0808.001 not found
+  - !ruby/struct:Err
+    message: SO# 870261968.0202.001 not found
+  - !ruby/struct:Err
+    message: SO# 870261968.1010.001 not found
+  - !ruby/struct:Err
+    message: SO# 870261968.16051605.001 not found
+  - !ruby/struct:Motor
+    nameplate:
+      BRAKE_RECTIFIER: ''
+      BRAKE_VOLTAGE: ''
+      CABLE_ENTRY: ''
+      CONDUIT_BOX_LOC: ''
+      CONNECTION: ''
+      FLANGE_DIAMETER: ''
+      FREQUENCY: ''
+      GEAR_RATIO: ''
+      GEAR_SF: ''
+      INSULATION_CLASS: ''
+      KVA_CODE: ''
+      MODEL_TYPE: MDX61B0030-5A3-4-00
+      MOTOR_AMPS: ''
+      MOTOR_HP: 0
+      MOTOR_VOLTAGE: ''
+      MTG_POSITION: ''
+      OUTPUT_SPEED: ''
+      OUT_TORQUE: ''
+      SHAFT_DIAMETER: ''
+      SO_NUMBER: 870261968.15.15.001
+      TORQUE_UNITS: lb-in
+      XTRA_NOTES: 
+    replacements: 
+    qty: 
+    shelf: 
+  - !ruby/struct:Err
+    message: SO# 870261968.0909.001 not found
+  - !ruby/struct:Err
+    message: SO# 870261968.1313.001 not found
+  - !ruby/struct:Err
+    message: SO# 870261968.1717.001 not found
+  - !ruby/struct:Err
+    message: SO# 870261968.1818.001 not found
+  - !ruby/struct:Err
+    message: SO# 870261968.1919.001 not found
+  - !ruby/struct:Err
+    message: SO# 870261968.2020.001 not found
+- - !ruby/struct:Motor
+    nameplate:
+      BRAKE_RECTIFIER: BME1.5
+      BRAKE_VOLTAGE: 230AC
+      CABLE_ENTRY: X
+      CONDUIT_BOX_LOC: 0
+      CONNECTION: DT11
+      FLANGE_DIAMETER: ''
+      FREQUENCY: 150
+      GEAR_RATIO: 90.04
+      GEAR_SF: 1.0
+      INSULATION_CLASS: F
+      KVA_CODE: ''
+      MODEL_TYPE: KH67TDY90S/B/HR/TH
+      MOTOR_AMPS: 5.9
+      MOTOR_HP: 3
+      MOTOR_VOLTAGE: 400
+      MTG_POSITION: M1A
+      OUTPUT_SPEED: 33
+      OUT_TORQUE: 7171
+      SHAFT_DIAMETER: 40SHR
+      SO_NUMBER: 870261864.04.04.001
+      TORQUE_UNITS: lb-in
+      XTRA_NOTES: Torque Arm, Term.Strip#1830600, Term.Strip#1830600, CB@0, CE X.
+        Unit contains other important specifications. Please call SEW.
+    replacements: 
+    qty: 
+    shelf: 
+  - !ruby/struct:Err
+    message: SO# 870261864.0707.001 not found
+  - !ruby/struct:Err
+    message: SO# 870261864.0606.001 not found
+  - !ruby/struct:Err
+    message: SO# 870261864.0303.001 not found
+  - !ruby/struct:Err
+    message: SO# 870261864.0101.001 not found
+  - !ruby/struct:Err
+    message: SO# 870261864.1111.001 not found
+  - !ruby/struct:Motor
+    nameplate:
+      BRAKE_RECTIFIER: ''
+      BRAKE_VOLTAGE: ''
+      CABLE_ENTRY: X
+      CONDUIT_BOX_LOC: 0
+      CONNECTION: R13
+      FLANGE_DIAMETER: 200MM
+      FREQUENCY: 60
+      GEAR_RATIO: ''
+      GEAR_SF: 1.0
+      INSULATION_CLASS: B
+      KVA_CODE: J
+      MODEL_TYPE: DRE132M4/FG/V
+      MOTOR_AMPS: 15.60/9.00
+      MOTOR_HP: 7.5
+      MOTOR_VOLTAGE: 266'/460Y
+      MTG_POSITION: M1
+      OUTPUT_SPEED: ''
+      OUT_TORQUE: ''
+      SHAFT_DIAMETER: PIN22
+      SO_NUMBER: 870261864.12.12.001
+      TORQUE_UNITS: lb-in
+      XTRA_NOTES: Mtr Flg=200MM, IP54, Corr Prot=No,  S/S Gray
+    replacements: 
+    qty: 
+    shelf: 
+  - !ruby/struct:Err
+    message: SO# 870261864.1414.001 not found
+  - !ruby/struct:Err
+    message: SO# 870261864.0808.001 not found
+  - !ruby/struct:Err
+    message: SO# 870261864.0202.001 not found
+  - !ruby/struct:Err
+    message: SO# 870261864.1010.001 not found
+  - !ruby/struct:Err
+    message: SO# 870261864.16051605.001 not found
+  - !ruby/struct:Motor
+    nameplate:
+      BRAKE_RECTIFIER: BGE1.5 SR11
+      BRAKE_VOLTAGE: 460AC
+      CABLE_ENTRY: 3
+      CONDUIT_BOX_LOC: 180
+      CONNECTION: R76E
+      FLANGE_DIAMETER: 6.5
+      FREQUENCY: 60
+      GEAR_RATIO: ''
+      GEAR_SF: 1.0
+      INSULATION_CLASS: F
+      KVA_CODE: H
+      MODEL_TYPE: DRS71M2BE05HR/FC/DH/LN
+      MOTOR_AMPS: 1.1
+      MOTOR_HP: 0.75
+      MOTOR_VOLTAGE: 460Y
+      MTG_POSITION: FC
+      OUTPUT_SPEED: ''
+      OUT_TORQUE: ''
+      SHAFT_DIAMETER: 0.625
+      SO_NUMBER: 870261864.15.15.001
+      TORQUE_UNITS: lb-in
+      XTRA_NOTES: Brk Ctrl=SR11, part no. 0826 761 8, Rectifier=BSR, Brk Rel@213,
+        Brk Torq=31, Mtr Flg=FC5.875 D6.5, IP66, Mtr Seal=Viton, Corr Prot=Yes, S/S
+        Gray, OS4
+    replacements: 
+    qty: 
+    shelf: 
+  - !ruby/struct:Err
+    message: SO# 870261864.0909.001 not found
+  - !ruby/struct:Err
+    message: SO# 870261864.1313.001 not found
+  - !ruby/struct:Err
+    message: SO# 870261864.1717.001 not found
+  - !ruby/struct:Err
+    message: SO# 870261864.1818.001 not found
+  - !ruby/struct:Err
+    message: SO# 870261864.1919.001 not found
+  - !ruby/struct:Err
+    message: SO# 870261864.2020.001 not found
+- - !ruby/struct:Err
+    message: SO# 890165434.0404.001 not found
+  - !ruby/struct:Err
+    message: SO# 890165434.0707.001 not found
+  - !ruby/struct:Motor
+    nameplate:
+      BRAKE_RECTIFIER: BGE1.5
+      BRAKE_VOLTAGE: 460AC
+      CABLE_ENTRY: X
+      CONDUIT_BOX_LOC: 0
+      CONNECTION: DT13
+      FLANGE_DIAMETER: ''
+      FREQUENCY: 60
+      GEAR_RATIO: 73.99
+      GEAR_SF: 1.7
+      INSULATION_CLASS: B
+      KVA_CODE: J
+      MODEL_TYPE: KH77DV100M4BMG4HR
+      MOTOR_AMPS: 7.1/4.1
+      MOTOR_HP: 3
+      MOTOR_VOLTAGE: 266'/460Y
+      MTG_POSITION: M1B
+      OUTPUT_SPEED: 23
+      OUT_TORQUE: 8134
+      SHAFT_DIAMETER: 50MM
+      SO_NUMBER: 890165434.06.06.001
+      TORQUE_UNITS: lb-in
+      XTRA_NOTES: CB@0, CE X
+    replacements: 
+    qty: 
+    shelf: 
+  - !ruby/struct:Motor
+    nameplate:
+      BRAKE_RECTIFIER: BG1.5
+      BRAKE_VOLTAGE: 346AC
+      CABLE_ENTRY: X
+      CONDUIT_BOX_LOC: 270
+      CONNECTION: DT13
+      FLANGE_DIAMETER: ''
+      FREQUENCY: 60
+      GEAR_RATIO: 184.8
+      GEAR_SF: 1.1
+      INSULATION_CLASS: F
+      KVA_CODE: J
+      MODEL_TYPE: S47DT71C4BMG05UC-KS
+      MOTOR_AMPS: ".87/.50"
+      MOTOR_HP: 0.33
+      MOTOR_VOLTAGE: 330'/575Y
+      MTG_POSITION: M4B
+      OUTPUT_SPEED: 9.3
+      OUT_TORQUE: 1327
+      SHAFT_DIAMETER: 1.0
+      SO_NUMBER: 890165434.03.03.001
+      TORQUE_UNITS: lb-in
+      XTRA_NOTES: CB@270, CE X
+    replacements: 
+    qty: 
+    shelf: 
+  - !ruby/struct:Err
+    message: SO# 890165434.0101.001 not found
+  - !ruby/struct:Err
+    message: SO# 890165434.1111.001 not found
+  - !ruby/struct:Err
+    message: SO# 890165434.1212.001 not found
+  - !ruby/struct:Motor
+    nameplate:
+      BRAKE_RECTIFIER: ''
+      BRAKE_VOLTAGE: ''
+      CABLE_ENTRY: 3
+      CONDUIT_BOX_LOC: 180
+      CONNECTION: R76
+      FLANGE_DIAMETER: ''
+      FREQUENCY: 60
+      GEAR_RATIO: 10.23
+      GEAR_SF: 1.85
+      INSULATION_CLASS: F
+      KVA_CODE: K
+      MODEL_TYPE: S37DRE80M2/LN
+      MOTOR_AMPS: 2.50/1.26
+      MOTOR_HP: 1.0
+      MOTOR_VOLTAGE: 230YY/460Y
+      MTG_POSITION: M3B
+      OUTPUT_SPEED: 341
+      OUT_TORQUE: 168
+      SHAFT_DIAMETER: 0.75
+      SO_NUMBER: 890165434.14.14.001
+      TORQUE_UNITS: lb-in
+      XTRA_NOTES: "#Gear Seals=1, IP54, Mtr Flg=FG100 D120, Oil=mineral, RAL5001 Green
+        Blue, Mtr Seal=Viton"
+    replacements: 
+    qty: 
+    shelf: 
+  - !ruby/struct:Err
+    message: SO# 890165434.0808.001 not found
+  - !ruby/struct:Err
+    message: SO# 890165434.0202.001 not found
+  - !ruby/struct:Err
+    message: SO# 890165434.1010.001 not found
+  - !ruby/struct:Err
+    message: SO# 890165434.16051605.001 not found
+  - !ruby/struct:Err
+    message: SO# 890165434.1515.001 not found
+  - !ruby/struct:Motor
+    nameplate:
+      BRAKE_RECTIFIER: ''
+      BRAKE_VOLTAGE: ''
+      CABLE_ENTRY: X
+      CONDUIT_BOX_LOC: 90
+      CONNECTION: DT79
+      FLANGE_DIAMETER: ''
+      FREQUENCY: 60
+      GEAR_RATIO: 29.0
+      GEAR_SF: 1.5
+      INSULATION_CLASS: H
+      KVA_CODE: J
+      MODEL_TYPE: SA47TDT80N4
+      MOTOR_AMPS: 3.70/1.85
+      MOTOR_HP: 1
+      MOTOR_VOLTAGE: 230YY/460Y
+      MTG_POSITION: M4B
+      OUTPUT_SPEED: 59
+      OUT_TORQUE: 885
+      SHAFT_DIAMETER: 1.25
+      SO_NUMBER: 890165434.09.09.001
+      TORQUE_UNITS: lb-in
+      XTRA_NOTES: Torque Arm, Food Grade Oil, CB@90, CE X
+    replacements: 
+    qty: 
+    shelf: 
+  - !ruby/struct:Err
+    message: SO# 890165434.1313.001 not found
+  - !ruby/struct:Err
+    message: SO# 890165434.1717.001 not found
+  - !ruby/struct:Err
+    message: SO# 890165434.1818.001 not found
+  - !ruby/struct:Err
+    message: SO# 890165434.1919.001 not found
+  - !ruby/struct:Err
+    message: SO# 890165434.2020.001 not found
+- - !ruby/struct:Motor
+    nameplate:
+      BRAKE_RECTIFIER: BG1.5
+      BRAKE_VOLTAGE: 230AC
+      CABLE_ENTRY: X
+      CONDUIT_BOX_LOC: 0
+      CONNECTION: DT79
+      FLANGE_DIAMETER: 87
+      FREQUENCY: 60
+      GEAR_RATIO: ''
+      GEAR_SF: ''
+      INSULATION_CLASS: B
+      KVA_CODE: K
+      MODEL_TYPE: DFT90L4BMG2HR
+      MOTOR_AMPS: 6.2/3.10
+      MOTOR_HP: 2
+      MOTOR_VOLTAGE: 230YY/460Y
+      MTG_POSITION: "*"
+      OUTPUT_SPEED: ''
+      OUT_TORQUE: ''
+      SHAFT_DIAMETER: PIN14
+      SO_NUMBER: 870260502.04.04.001
+      TORQUE_UNITS: lb-in
+      XTRA_NOTES: CB@0, CE X
+    replacements: 
+    qty: 
+    shelf: 
+  - !ruby/struct:Motor
+    nameplate:
+      BRAKE_RECTIFIER: BGE1.5 SR11
+      BRAKE_VOLTAGE: 460AC
+      CABLE_ENTRY: X
+      CONDUIT_BOX_LOC: 0
+      CONNECTION: DT79
+      FLANGE_DIAMETER: ''
+      FREQUENCY: 60
+      GEAR_RATIO: 48.37
+      GEAR_SF: 1.5
+      INSULATION_CLASS: B
+      KVA_CODE: G
+      MODEL_TYPE: FA77DT100L4BMG4HR
+      MOTOR_AMPS: 13.6/6.8
+      MOTOR_HP: 5
+      MOTOR_VOLTAGE: 230YY/460Y
+      MTG_POSITION: M6
+      OUTPUT_SPEED: 35
+      OUT_TORQUE: 9073
+      SHAFT_DIAMETER: 50MM
+      SO_NUMBER: 870260502.07.07.001
+      TORQUE_UNITS: lb-in
+      XTRA_NOTES: CB@0, CE X
+    replacements: 
+    qty: 
+    shelf: 
+  - !ruby/struct:Err
+    message: SO# 870260502.0606.001 not found
+  - !ruby/struct:Err
+    message: SO# 870260502.0303.001 not found
+  - !ruby/struct:Err
+    message: SO# 870260502.0101.001 not found
+  - !ruby/struct:Err
+    message: SO# 870260502.1111.001 not found
+  - !ruby/struct:Err
+    message: SO# 870260502.1212.001 not found
+  - !ruby/struct:Err
+    message: SO# 870260502.1414.001 not found
+  - !ruby/struct:Err
+    message: SO# 870260502.0808.001 not found
+  - !ruby/struct:Err
+    message: SO# 870260502.0202.001 not found
+  - !ruby/struct:Err
+    message: SO# 870260502.1010.001 not found
+  - !ruby/struct:Err
+    message: SO# 870260502.16051605.001 not found
+  - !ruby/struct:Motor
+    nameplate:
+      BRAKE_RECTIFIER: ''
+      BRAKE_VOLTAGE: ''
+      CABLE_ENTRY: ''
+      CONDUIT_BOX_LOC: ''
+      CONNECTION: ''
+      FLANGE_DIAMETER: ''
+      FREQUENCY: ''
+      GEAR_RATIO: 105.09
+      GEAR_SF: 1.0
+      INSULATION_CLASS: ''
+      KVA_CODE: ''
+      MODEL_TYPE: F47AM145
+      MOTOR_AMPS: ''
+      MOTOR_HP: 0
+      MOTOR_VOLTAGE: ''
+      MTG_POSITION: M1
+      OUTPUT_SPEED: 17
+      OUT_TORQUE: 3540
+      SHAFT_DIAMETER: 1.25
+      SO_NUMBER: 870260502.15.15.001
+      TORQUE_UNITS: lb-in
+      XTRA_NOTES: 'Oil=mineral, #Gear Seals=1, RAL5001 Green Blue'
+    replacements: 
+    qty: 
+    shelf: 
+  - !ruby/struct:Err
+    message: SO# 870260502.0909.001 not found
+  - !ruby/struct:Err
+    message: SO# 870260502.1313.001 not found
+  - !ruby/struct:Err
+    message: SO# 870260502.1717.001 not found
+  - !ruby/struct:Err
+    message: SO# 870260502.1818.001 not found
+  - !ruby/struct:Err
+    message: SO# 870260502.1919.001 not found
+  - !ruby/struct:Err
+    message: SO# 870260502.2020.001 not found
+- - !ruby/struct:Err
+    message: SO# 890177858.0404.001 not found
+  - !ruby/struct:Err
+    message: SO# 890177858.0707.001 not found
+  - !ruby/struct:Motor
+    nameplate:
+      BRAKE_RECTIFIER: BGE1.5
+      BRAKE_VOLTAGE: 230AC
+      CABLE_ENTRY: X
+      CONDUIT_BOX_LOC: 0
+      CONNECTION: DT79
+      FLANGE_DIAMETER: ''
+      FREQUENCY: 60
+      GEAR_RATIO: 90.04
+      GEAR_SF: 1.1
+      INSULATION_CLASS: F
+      KVA_CODE: K
+      MODEL_TYPE: KA67TDT90L4BMG2HRTH
+      MOTOR_AMPS: 6.2/3.10
+      MOTOR_HP: 2
+      MOTOR_VOLTAGE: 230YY/460Y
+      MTG_POSITION: M3A
+      OUTPUT_SPEED: 19
+      OUT_TORQUE: 6599
+      SHAFT_DIAMETER: 1.5
+      SO_NUMBER: 890177858.06.06.001
+      TORQUE_UNITS: lb-in
+      XTRA_NOTES: Torque Arm, Term.Strip#1830600, CB@0, CE X
+    replacements: 
+    qty: 
+    shelf: 
+  - !ruby/struct:Err
+    message: SO# 890177858.0303.001 not found
+  - !ruby/struct:Err
+    message: SO# 890177858.0101.001 not found
+  - !ruby/struct:Err
+    message: SO# 890177858.1111.001 not found
+  - !ruby/struct:Err
+    message: SO# 890177858.1212.001 not found
+  - !ruby/struct:Err
+    message: SO# 890177858.1414.001 not found
+  - !ruby/struct:Err
+    message: SO# 890177858.0808.001 not found
+  - !ruby/struct:Err
+    message: SO# 890177858.0202.001 not found
+  - !ruby/struct:Err
+    message: SO# 890177858.1010.001 not found
+  - !ruby/struct:Err
+    message: SO# 890177858.16051605.001 not found
+  - !ruby/struct:Err
+    message: SO# 890177858.1515.001 not found
+  - !ruby/struct:Err
+    message: SO# 890177858.0909.001 not found
+  - !ruby/struct:Err
+    message: SO# 890177858.1313.001 not found
+  - !ruby/struct:Err
+    message: SO# 890177858.1717.001 not found
+  - !ruby/struct:Err
+    message: SO# 890177858.1818.001 not found
+  - !ruby/struct:Err
+    message: SO# 890177858.1919.001 not found
+  - !ruby/struct:Err
+    message: SO# 890177858.2020.001 not found
+- - !ruby/struct:Motor
+    nameplate:
+      BRAKE_RECTIFIER: ''
+      BRAKE_VOLTAGE: ''
+      CABLE_ENTRY: X
+      CONDUIT_BOX_LOC: 0
+      CONNECTION: DT79
+      FLANGE_DIAMETER: ''
+      FREQUENCY: 60
+      GEAR_RATIO: 83.15
+      GEAR_SF: 1.0
+      INSULATION_CLASS: B
+      KVA_CODE: G
+      MODEL_TYPE: R97D36DT100L4
+      MOTOR_AMPS: 13.6/6.8
+      MOTOR_HP: 5
+      MOTOR_VOLTAGE: 230YY/460Y
+      MTG_POSITION: M1
+      OUTPUT_SPEED: 4.8-24
+      OUT_TORQUE: 11600
+      SHAFT_DIAMETER: 2.375
+      SO_NUMBER: 870260613.04.04.001
+      TORQUE_UNITS: lb-in
+      XTRA_NOTES: Oil Sight Tube, CB@0, CE X. Unit contains other important specifications.
+        Please call SEW.
+    replacements: 
+    qty: 
+    shelf: 
+  - !ruby/struct:Motor
+    nameplate:
+      BRAKE_RECTIFIER: BGE1.5
+      BRAKE_VOLTAGE: 460AC
+      CABLE_ENTRY: X
+      CONDUIT_BOX_LOC: 90
+      CONNECTION: DT79
+      FLANGE_DIAMETER: ''
+      FREQUENCY: 60
+      GEAR_RATIO: 88.01
+      GEAR_SF: 1.5
+      INSULATION_CLASS: B
+      KVA_CODE: J
+      MODEL_TYPE: FH87DV112M4BMG8HR
+      MOTOR_AMPS: 14.0/7.0
+      MOTOR_HP: 5.4
+      MOTOR_VOLTAGE: 230YY/460Y
+      MTG_POSITION: M3
+      OUTPUT_SPEED: 20
+      OUT_TORQUE: 17314
+      SHAFT_DIAMETER: 65SHR
+      SO_NUMBER: 870260613.07.07.001
+      TORQUE_UNITS: lb-in
+      XTRA_NOTES: CB@90, CE X
+    replacements: 
+    qty: 
+    shelf: 
+  - !ruby/struct:Err
+    message: SO# 870260613.0606.001 not found
+  - !ruby/struct:Err
+    message: SO# 870260613.0303.001 not found
+  - !ruby/struct:Err
+    message: SO# 870260613.0101.001 not found
+  - !ruby/struct:Err
+    message: SO# 870260613.1111.001 not found
+  - !ruby/struct:Motor
+    nameplate:
+      BRAKE_RECTIFIER: ''
+      BRAKE_VOLTAGE: ''
+      CABLE_ENTRY: X
+      CONDUIT_BOX_LOC: 90
+      CONNECTION: R76
+      FLANGE_DIAMETER: 300MM
+      FREQUENCY: 60
+      GEAR_RATIO: 40.04
+      GEAR_SF: 1.3
+      INSULATION_CLASS: F
+      KVA_CODE: J
+      MODEL_TYPE: KF77DRE132M4
+      MOTOR_AMPS: 18.00/9.00
+      MOTOR_HP: 7.5
+      MOTOR_VOLTAGE: 230YY/460Y
+      MTG_POSITION: M5A
+      OUTPUT_SPEED: 7.5-45.0
+      OUT_TORQUE: 10620
+      SHAFT_DIAMETER: 2.0
+      SO_NUMBER: 870260613.12.12.001
+      TORQUE_UNITS: lb-in
+      XTRA_NOTES: 'Oil=mineral, #Gear Seals=1, Mtr Flg=FG165 D200, IP54, Corr Prot=No,  RAL5001
+        Green Blue'
+    replacements: 
+    qty: 
+    shelf: 
+  - !ruby/struct:Err
+    message: SO# 870260613.1414.001 not found
+  - !ruby/struct:Err
+    message: SO# 870260613.0808.001 not found
+  - !ruby/struct:Err
+    message: SO# 870260613.0202.001 not found
+  - !ruby/struct:Err
+    message: SO# 870260613.1010.001 not found
+  - !ruby/struct:Err
+    message: SO# 870260613.16051605.001 not found
+  - !ruby/struct:Err
+    message: SO# 870260613.1515.001 not found
+  - !ruby/struct:Err
+    message: SO# 870260613.0909.001 not found
+  - !ruby/struct:Err
+    message: SO# 870260613.1313.001 not found
+  - !ruby/struct:Err
+    message: SO# 870260613.1717.001 not found
+  - !ruby/struct:Err
+    message: SO# 870260613.1818.001 not found
+  - !ruby/struct:Err
+    message: SO# 870260613.1919.001 not found
+  - !ruby/struct:Err
+    message: SO# 870260613.2020.001 not found
+- - !ruby/struct:Motor
+    nameplate:
+      BRAKE_RECTIFIER: BME1.5
+      BRAKE_VOLTAGE: 230AC
+      CABLE_ENTRY: X
+      CONDUIT_BOX_LOC: 270
+      CONNECTION: DT11
+      FLANGE_DIAMETER: ''
+      FREQUENCY: 150
+      GEAR_RATIO: 25.54
+      GEAR_SF: 4.7
+      INSULATION_CLASS: F
+      KVA_CODE: ''
+      MODEL_TYPE: FH77DY112S/B/TH
+      MOTOR_AMPS: 8.0
+      MOTOR_HP: 4
+      MOTOR_VOLTAGE: 400
+      MTG_POSITION: M5
+      OUTPUT_SPEED: 117
+      OUT_TORQUE: 2712
+      SHAFT_DIAMETER: 50SHR
+      SO_NUMBER: 870262049.04.04.001
+      TORQUE_UNITS: lb-in
+      XTRA_NOTES: Term.Strip#1830600, Term.Strip#1830600, CB@270, CE X. Unit contains
+        other important specifications. Please call SEW.
+    replacements: 
+    qty: 
+    shelf: 
+  - !ruby/struct:Err
+    message: SO# 870262049.0707.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262049.0606.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262049.0303.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262049.0101.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262049.1111.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262049.1212.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262049.1414.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262049.0808.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262049.0202.001 not found
+  - !ruby/struct:Motor
+    nameplate:
+      BRAKE_RECTIFIER: ''
+      BRAKE_VOLTAGE: ''
+      CABLE_ENTRY: X
+      CONDUIT_BOX_LOC: 0
+      CONNECTION: DT79
+      FLANGE_DIAMETER: 120MM
+      FREQUENCY: 60
+      GEAR_RATIO: 25.38
+      GEAR_SF: 1.6
+      INSULATION_CLASS: F
+      KVA_CODE: H
+      MODEL_TYPE: SAF37DT71D4-KS
+      MOTOR_AMPS: 2.00/1.00
+      MOTOR_HP: 0.5
+      MOTOR_VOLTAGE: 230YY/460Y
+      MTG_POSITION: M1B
+      OUTPUT_SPEED: 67
+      OUT_TORQUE: 383
+      SHAFT_DIAMETER: 0.75
+      SO_NUMBER: 870262049.10.10.001
+      TORQUE_UNITS: lb-in
+      XTRA_NOTES: USDA White 1010, CB@0, CE X
+    replacements: 
+    qty: 
+    shelf: 
+  - !ruby/struct:Err
+    message: SO# 870262049.16051605.001 not found
+  - !ruby/struct:Motor
+    nameplate:
+      BRAKE_RECTIFIER: ''
+      BRAKE_VOLTAGE: ''
+      CABLE_ENTRY: X
+      CONDUIT_BOX_LOC: 270
+      CONNECTION: R76
+      FLANGE_DIAMETER: 160MM
+      FREQUENCY: 60
+      GEAR_RATIO: ''
+      GEAR_SF: 1.0
+      INSULATION_CLASS: H
+      KVA_CODE: L
+      MODEL_TYPE: DRE90M4/FG/DH
+      MOTOR_AMPS: 4.50/2.25
+      MOTOR_HP: 1.5
+      MOTOR_VOLTAGE: 230YY/460Y
+      MTG_POSITION: M1
+      OUTPUT_SPEED: ''
+      OUT_TORQUE: ''
+      SHAFT_DIAMETER: 14MM
+      SO_NUMBER: 870262049.15.15.001
+      TORQUE_UNITS: lb-in
+      XTRA_NOTES: Mtr Flg=FG130 D160, IP65, Corr Prot=Yes, RAL5001 Green Blue, OS2
+    replacements: 
+    qty: 
+    shelf: 
+  - !ruby/struct:Err
+    message: SO# 870262049.0909.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262049.1313.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262049.1717.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262049.1818.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262049.1919.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262049.2020.001 not found
+- - !ruby/struct:Err
+    message: SO# 870198503.0404.001 not found
+  - !ruby/struct:Err
+    message: SO# 870198503.0707.001 not found
+  - !ruby/struct:Motor
+    nameplate:
+      BRAKE_RECTIFIER: BGE1.5 SR11
+      BRAKE_VOLTAGE: 460AC
+      CABLE_ENTRY: X
+      CONDUIT_BOX_LOC: 270
+      CONNECTION: DT79
+      FLANGE_DIAMETER: ''
+      FREQUENCY: 60
+      GEAR_RATIO: 113.56
+      GEAR_SF: 1.6
+      INSULATION_CLASS: B
+      KVA_CODE: K
+      MODEL_TYPE: KA77TDT90L4BMG2HR
+      MOTOR_AMPS: 6.2/3.10
+      MOTOR_HP: 2
+      MOTOR_VOLTAGE: 230YY/460Y
+      MTG_POSITION: M1A
+      OUTPUT_SPEED: 15
+      OUT_TORQUE: 8322
+      SHAFT_DIAMETER: 50MM
+      SO_NUMBER: 870198503.06.06.001
+      TORQUE_UNITS: lb-in
+      XTRA_NOTES: Torque Arm, CB@270, CE X
+    replacements: 
+    qty: 
+    shelf: 
+  - !ruby/struct:Err
+    message: SO# 870198503.0303.001 not found
+  - !ruby/struct:Err
+    message: SO# 870198503.0101.001 not found
+  - !ruby/struct:Err
+    message: SO# 870198503.1111.001 not found
+  - !ruby/struct:Motor
+    nameplate:
+      BRAKE_RECTIFIER: ''
+      BRAKE_VOLTAGE: ''
+      CABLE_ENTRY: X
+      CONDUIT_BOX_LOC: 0
+      CONNECTION: R76
+      FLANGE_DIAMETER: 200MM
+      FREQUENCY: 60
+      GEAR_RATIO: 19.58
+      GEAR_SF: 1.65
+      INSULATION_CLASS: F
+      KVA_CODE: H
+      MODEL_TYPE: KF47DRS90L4
+      MOTOR_AMPS: 8.20/4.10
+      MOTOR_HP: 3.0
+      MOTOR_VOLTAGE: 230YY/460Y
+      MTG_POSITION: M1A
+      OUTPUT_SPEED: 88
+      OUT_TORQUE: 2124
+      SHAFT_DIAMETER: 30MM
+      SO_NUMBER: 870198503.12.12.001
+      TORQUE_UNITS: lb-in
+      XTRA_NOTES: 'Oil=mineral, #Gear Seals=1, Mtr Flg=FG130 D160, IP55, Corr Prot=Yes,  RAL5001
+        Green Blue,  OS1'
+    replacements: 
+    qty: 
+    shelf: 
+  - !ruby/struct:Err
+    message: SO# 870198503.1414.001 not found
+  - !ruby/struct:Err
+    message: SO# 870198503.0808.001 not found
+  - !ruby/struct:Err
+    message: SO# 870198503.0202.001 not found
+  - !ruby/struct:Err
+    message: SO# 870198503.1010.001 not found
+  - !ruby/struct:Err
+    message: SO# 870198503.16051605.001 not found
+  - !ruby/struct:Err
+    message: SO# 870198503.1515.001 not found
+  - !ruby/struct:Err
+    message: SO# 870198503.0909.001 not found
+  - !ruby/struct:Err
+    message: SO# 870198503.1313.001 not found
+  - !ruby/struct:Err
+    message: SO# 870198503.1717.001 not found
+  - !ruby/struct:Err
+    message: SO# 870198503.1818.001 not found
+  - !ruby/struct:Err
+    message: SO# 870198503.1919.001 not found
+  - !ruby/struct:Err
+    message: SO# 870198503.2020.001 not found
+- - !ruby/struct:Err
+    message: SO# 890245009.0404.001 not found
+  - !ruby/struct:Motor
+    nameplate:
+      BRAKE_RECTIFIER: BGE1.5 SR11
+      BRAKE_VOLTAGE: 460AC
+      CABLE_ENTRY: X
+      CONDUIT_BOX_LOC: 270
+      CONNECTION: DT79
+      FLANGE_DIAMETER: ''
+      FREQUENCY: 60
+      GEAR_RATIO: 123.85
+      GEAR_SF: 1.6
+      INSULATION_CLASS: B
+      KVA_CODE: H
+      MODEL_TYPE: KH57DT80K6BMG1HR
+      MOTOR_AMPS: 2.5/1.25
+      MOTOR_HP: 0.5
+      MOTOR_VOLTAGE: 230YY/460Y
+      MTG_POSITION: M1A
+      OUTPUT_SPEED: 9.2
+      OUT_TORQUE: 3424
+      SHAFT_DIAMETER: 40MM
+      SO_NUMBER: 890245009.07.07.001
+      TORQUE_UNITS: lb-in
+      XTRA_NOTES: CB@270, CE X
+    replacements: 
+    qty: 
+    shelf: 
+  - !ruby/struct:Err
+    message: SO# 890245009.0606.001 not found
+  - !ruby/struct:Err
+    message: SO# 890245009.0303.001 not found
+  - !ruby/struct:Err
+    message: SO# 890245009.0101.001 not found
+  - !ruby/struct:Err
+    message: SO# 890245009.1111.001 not found
+  - !ruby/struct:Err
+    message: SO# 890245009.1212.001 not found
+  - !ruby/struct:Err
+    message: SO# 890245009.1414.001 not found
+  - !ruby/struct:Err
+    message: SO# 890245009.0808.001 not found
+  - !ruby/struct:Err
+    message: SO# 890245009.0202.001 not found
+  - !ruby/struct:Err
+    message: SO# 890245009.1010.001 not found
+  - !ruby/struct:Err
+    message: SO# 890245009.16051605.001 not found
+  - !ruby/struct:Err
+    message: SO# 890245009.1515.001 not found
+  - !ruby/struct:Err
+    message: SO# 890245009.0909.001 not found
+  - !ruby/struct:Err
+    message: SO# 890245009.1313.001 not found
+  - !ruby/struct:Err
+    message: SO# 890245009.1717.001 not found
+  - !ruby/struct:Err
+    message: SO# 890245009.1818.001 not found
+  - !ruby/struct:Err
+    message: SO# 890245009.1919.001 not found
+  - !ruby/struct:Err
+    message: SO# 890245009.2020.001 not found
+- - !ruby/struct:Err
+    message: SO# 890251184.0404.001 not found
+  - !ruby/struct:Motor
+    nameplate:
+      BRAKE_RECTIFIER: BGE1.5
+      BRAKE_VOLTAGE: 460AC
+      CABLE_ENTRY: X
+      CONDUIT_BOX_LOC: 180
+      CONNECTION: DT79
+      FLANGE_DIAMETER: ''
+      FREQUENCY: 60
+      GEAR_RATIO: 55.76
+      GEAR_SF: 1.1
+      INSULATION_CLASS: B
+      KVA_CODE: H
+      MODEL_TYPE: R37DT80K4BMG1HR
+      MOTOR_AMPS: 2.90/1.45
+      MOTOR_HP: 0.75
+      MOTOR_VOLTAGE: 230YY/460Y
+      MTG_POSITION: M6
+      OUTPUT_SPEED: 30
+      OUT_TORQUE: 1550
+      SHAFT_DIAMETER: 1.0
+      SO_NUMBER: 890251184.07.07.001
+      TORQUE_UNITS: lb-in
+      XTRA_NOTES: CB@180, CE X
+    replacements: 
+    qty: 
+    shelf: 
+  - !ruby/struct:Err
+    message: SO# 890251184.0606.001 not found
+  - !ruby/struct:Err
+    message: SO# 890251184.0303.001 not found
+  - !ruby/struct:Err
+    message: SO# 890251184.0101.001 not found
+  - !ruby/struct:Err
+    message: SO# 890251184.1111.001 not found
+  - !ruby/struct:Err
+    message: SO# 890251184.1212.001 not found
+  - !ruby/struct:Err
+    message: SO# 890251184.1414.001 not found
+  - !ruby/struct:Err
+    message: SO# 890251184.0808.001 not found
+  - !ruby/struct:Err
+    message: SO# 890251184.0202.001 not found
+  - !ruby/struct:Err
+    message: SO# 890251184.1010.001 not found
+  - !ruby/struct:Err
+    message: SO# 890251184.16051605.001 not found
+  - !ruby/struct:Err
+    message: SO# 890251184.1515.001 not found
+  - !ruby/struct:Err
+    message: SO# 890251184.0909.001 not found
+  - !ruby/struct:Err
+    message: SO# 890251184.1313.001 not found
+  - !ruby/struct:Err
+    message: SO# 890251184.1717.001 not found
+  - !ruby/struct:Err
+    message: SO# 890251184.1818.001 not found
+  - !ruby/struct:Err
+    message: SO# 890251184.1919.001 not found
+  - !ruby/struct:Err
+    message: SO# 890251184.2020.001 not found
+- - !ruby/struct:Motor
+    nameplate:
+      BRAKE_RECTIFIER: ''
+      BRAKE_VOLTAGE: ''
+      CABLE_ENTRY: X
+      CONDUIT_BOX_LOC: 0
+      CONNECTION: DT79
+      FLANGE_DIAMETER: ''
+      FREQUENCY: 60
+      GEAR_RATIO: 9.41
+      GEAR_SF: 4.1
+      INSULATION_CLASS: B
+      KVA_CODE: H
+      MODEL_TYPE: R27DT80K4Z
+      MOTOR_AMPS: 2.90/1.45
+      MOTOR_HP: 0.75
+      MOTOR_VOLTAGE: 230YY/460Y
+      MTG_POSITION: M3
+      OUTPUT_SPEED: 181
+      OUT_TORQUE: 262
+      SHAFT_DIAMETER: 1.0
+      SO_NUMBER: 890251185.04.04.001
+      TORQUE_UNITS: lb-in
+      XTRA_NOTES: CB@0, CE X
+    replacements: 
+    qty: 
+    shelf: 
+  - !ruby/struct:Motor
+    nameplate:
+      BRAKE_RECTIFIER: BGE1.5
+      BRAKE_VOLTAGE: 460AC
+      CABLE_ENTRY: X
+      CONDUIT_BOX_LOC: 180
+      CONNECTION: DT79
+      FLANGE_DIAMETER: ''
+      FREQUENCY: 60
+      GEAR_RATIO: 18.05
+      GEAR_SF: 3.5
+      INSULATION_CLASS: B
+      KVA_CODE: H
+      MODEL_TYPE: R37DT80K4BMG1HR
+      MOTOR_AMPS: 2.90/1.45
+      MOTOR_HP: 0.75
+      MOTOR_VOLTAGE: 230YY/460Y
+      MTG_POSITION: M6
+      OUTPUT_SPEED: 94
+      OUT_TORQUE: 502
+      SHAFT_DIAMETER: 1.0
+      SO_NUMBER: 890251185.07.07.001
+      TORQUE_UNITS: lb-in
+      XTRA_NOTES: CB@180, CE X
+    replacements: 
+    qty: 
+    shelf: 
+  - !ruby/struct:Err
+    message: SO# 890251185.0606.001 not found
+  - !ruby/struct:Err
+    message: SO# 890251185.0303.001 not found
+  - !ruby/struct:Err
+    message: SO# 890251185.0101.001 not found
+  - !ruby/struct:Err
+    message: SO# 890251185.1111.001 not found
+  - !ruby/struct:Err
+    message: SO# 890251185.1212.001 not found
+  - !ruby/struct:Err
+    message: SO# 890251185.1414.001 not found
+  - !ruby/struct:Err
+    message: SO# 890251185.0808.001 not found
+  - !ruby/struct:Err
+    message: SO# 890251185.0202.001 not found
+  - !ruby/struct:Err
+    message: SO# 890251185.1010.001 not found
+  - !ruby/struct:Err
+    message: SO# 890251185.16051605.001 not found
+  - !ruby/struct:Motor
+    nameplate:
+      BRAKE_RECTIFIER: ''
+      BRAKE_VOLTAGE: ''
+      CABLE_ENTRY: X
+      CONDUIT_BOX_LOC: 180
+      CONNECTION: R76
+      FLANGE_DIAMETER: ''
+      FREQUENCY: 60
+      GEAR_RATIO: 21.81
+      GEAR_SF: 3.0
+      INSULATION_CLASS: F
+      KVA_CODE: L
+      MODEL_TYPE: K47DRE90M4/DH
+      MOTOR_AMPS: 4.50/2.25
+      MOTOR_HP: 1.5
+      MOTOR_VOLTAGE: 230YY/460Y
+      MTG_POSITION: M1A
+      OUTPUT_SPEED: 80
+      OUT_TORQUE: 1168
+      SHAFT_DIAMETER: 1.25
+      SO_NUMBER: 890251185.15.15.001
+      TORQUE_UNITS: lb-in
+      XTRA_NOTES: 'Oil=mineral, #Gear Seals=1, Mtr Flg=FG130 D160, IP66, Corr Prot=Yes,
+        RAL5001 Green Blue, OS2'
+    replacements: 
+    qty: 
+    shelf: 
+  - !ruby/struct:Err
+    message: SO# 890251185.0909.001 not found
+  - !ruby/struct:Err
+    message: SO# 890251185.1313.001 not found
+  - !ruby/struct:Err
+    message: SO# 890251185.1717.001 not found
+  - !ruby/struct:Err
+    message: SO# 890251185.1818.001 not found
+  - !ruby/struct:Err
+    message: SO# 890251185.1919.001 not found
+  - !ruby/struct:Err
+    message: SO# 890251185.2020.001 not found
+- - !ruby/struct:Err
+    message: SO# 870260457.0404.001 not found
+  - !ruby/struct:Motor
+    nameplate:
+      BRAKE_RECTIFIER: BGE1.5 SR11
+      BRAKE_VOLTAGE: 460AC
+      CABLE_ENTRY: X
+      CONDUIT_BOX_LOC: 180
+      CONNECTION: DT79
+      FLANGE_DIAMETER: ''
+      FREQUENCY: 60
+      GEAR_RATIO: 11.83
+      GEAR_SF: 4.9
+      INSULATION_CLASS: B
+      KVA_CODE: H
+      MODEL_TYPE: R37DT80K4BMG1HR
+      MOTOR_AMPS: 2.90/1.45
+      MOTOR_HP: 0.75
+      MOTOR_VOLTAGE: 230YY/460Y
+      MTG_POSITION: M3
+      OUTPUT_SPEED: 144
+      OUT_TORQUE: 329
+      SHAFT_DIAMETER: 25MM
+      SO_NUMBER: 870260457.07.07.001
+      TORQUE_UNITS: lb-in
+      XTRA_NOTES: CB@180, CE X
+    replacements: 
+    qty: 
+    shelf: 
+  - !ruby/struct:Err
+    message: SO# 870260457.0606.001 not found
+  - !ruby/struct:Err
+    message: SO# 870260457.0303.001 not found
+  - !ruby/struct:Err
+    message: SO# 870260457.0101.001 not found
+  - !ruby/struct:Err
+    message: SO# 870260457.1111.001 not found
+  - !ruby/struct:Err
+    message: SO# 870260457.1212.001 not found
+  - !ruby/struct:Err
+    message: SO# 870260457.1414.001 not found
+  - !ruby/struct:Err
+    message: SO# 870260457.0808.001 not found
+  - !ruby/struct:Err
+    message: SO# 870260457.0202.001 not found
+  - !ruby/struct:Motor
+    nameplate:
+      BRAKE_RECTIFIER: ''
+      BRAKE_VOLTAGE: ''
+      CABLE_ENTRY: X
+      CONDUIT_BOX_LOC: 0
+      CONNECTION: DT79
+      FLANGE_DIAMETER: 200MM
+      FREQUENCY: 60
+      GEAR_RATIO: ''
+      GEAR_SF: ''
+      INSULATION_CLASS: F
+      KVA_CODE: J
+      MODEL_TYPE: DFT90S6-KS
+      MOTOR_AMPS: 4.8/2.4
+      MOTOR_HP: 1
+      MOTOR_VOLTAGE: 230YY/460Y
+      MTG_POSITION: B5
+      OUTPUT_SPEED: ''
+      OUT_TORQUE: ''
+      SHAFT_DIAMETER: IEC24
+      SO_NUMBER: 870260457.10.10.001
+      TORQUE_UNITS: lb-in
+      XTRA_NOTES: CB@0, CE X
+    replacements: 
+    qty: 
+    shelf: 
+  - !ruby/struct:Err
+    message: SO# 870260457.16051605.001 not found
+  - !ruby/struct:Motor
+    nameplate:
+      BRAKE_RECTIFIER: BGE1.5 UR15
+      BRAKE_VOLTAGE: 460AC
+      CABLE_ENTRY: X
+      CONDUIT_BOX_LOC: 270
+      CONNECTION: R43
+      FLANGE_DIAMETER: ''
+      FREQUENCY: 60
+      GEAR_RATIO: 37.3
+      GEAR_SF: 3.5
+      INSULATION_CLASS: F
+      KVA_CODE: H
+      MODEL_TYPE: R57DRS90M8/2BE2HR/Z
+      MOTOR_AMPS: 1.23/2.70
+      MOTOR_HP: ".40/1.73"
+      MOTOR_VOLTAGE: 460Y
+      MTG_POSITION: M6
+      OUTPUT_SPEED: 23 / 94
+      OUT_TORQUE: 1097
+      SHAFT_DIAMETER: 30MM
+      SO_NUMBER: 870260457.15.15.001
+      TORQUE_UNITS: lb-in
+      XTRA_NOTES: 'Oil=mineral, #Gear Seals=1, Brk Ctrl=UR15, part no. 0826 759 6,
+        Rectifier=BUR, Brk Rel@303, Brk Torq=89, Mtr Flg=FG130 D160, IP54, Mtr Seal=Viton,
+        RAL5001 Green Blue'
+    replacements: 
+    qty: 
+    shelf: 
+  - !ruby/struct:Err
+    message: SO# 870260457.0909.001 not found
+  - !ruby/struct:Err
+    message: SO# 870260457.1313.001 not found
+  - !ruby/struct:Err
+    message: SO# 870260457.1717.001 not found
+  - !ruby/struct:Err
+    message: SO# 870260457.1818.001 not found
+  - !ruby/struct:Err
+    message: SO# 870260457.1919.001 not found
+  - !ruby/struct:Err
+    message: SO# 870260457.2020.001 not found
+- - !ruby/struct:Motor
+    nameplate:
+      BRAKE_RECTIFIER: BME1.5
+      BRAKE_VOLTAGE: 230AC
+      CABLE_ENTRY: X
+      CONDUIT_BOX_LOC: 180
+      CONNECTION: DT11
+      FLANGE_DIAMETER: ''
+      FREQUENCY: 150
+      GEAR_RATIO: 38.23
+      GEAR_SF: 1.1
+      INSULATION_CLASS: F
+      KVA_CODE: ''
+      MODEL_TYPE: FH77DY112L/B/TH
+      MOTOR_AMPS: 24
+      MOTOR_HP: 12
+      MOTOR_VOLTAGE: 400
+      MTG_POSITION: M5
+      OUTPUT_SPEED: 78
+      OUT_TORQUE: 11890
+      SHAFT_DIAMETER: 50SHR
+      SO_NUMBER: 870262064.04.04.001
+      TORQUE_UNITS: lb-in
+      XTRA_NOTES: Term.Strip#1830600, CB@180, CE X. Unit contains other important
+        specifications. Please call SEW.
+    replacements: 
+    qty: 
+    shelf: 
+  - !ruby/struct:Err
+    message: SO# 870262064.0707.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262064.0606.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262064.0303.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262064.0101.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262064.1111.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262064.1212.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262064.1414.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262064.0808.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262064.0202.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262064.1010.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262064.16051605.001 not found
+  - !ruby/struct:Motor
+    nameplate:
+      BRAKE_RECTIFIER: ''
+      BRAKE_VOLTAGE: ''
+      CABLE_ENTRY: ''
+      CONDUIT_BOX_LOC: ''
+      CONNECTION: ''
+      FLANGE_DIAMETER: ''
+      FREQUENCY: ''
+      GEAR_RATIO: ''
+      GEAR_SF: ''
+      INSULATION_CLASS: ''
+      KVA_CODE: ''
+      MODEL_TYPE: MFD22A/Z36F/AF1
+      MOTOR_AMPS: ''
+      MOTOR_HP: 0
+      MOTOR_VOLTAGE: ''
+      MTG_POSITION: ''
+      OUTPUT_SPEED: ''
+      OUT_TORQUE: ''
+      SHAFT_DIAMETER: ''
+      SO_NUMBER: 870262064.15.15.001
+      TORQUE_UNITS: lb-in
+      XTRA_NOTES: ". Unit contains other important specifications. Please call SEW."
+    replacements: 
+    qty: 
+    shelf: 
+  - !ruby/struct:Err
+    message: SO# 870262064.0909.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262064.1313.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262064.1717.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262064.1818.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262064.1919.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262064.2020.001 not found
+- - !ruby/struct:Motor
+    nameplate:
+      BRAKE_RECTIFIER: BME1.5
+      BRAKE_VOLTAGE: 230AC
+      CABLE_ENTRY: X
+      CONDUIT_BOX_LOC: 180
+      CONNECTION: DT11
+      FLANGE_DIAMETER: ''
+      FREQUENCY: 150
+      GEAR_RATIO: 38.23
+      GEAR_SF: 1.1
+      INSULATION_CLASS: F
+      KVA_CODE: ''
+      MODEL_TYPE: FH77DY112L/B/TH
+      MOTOR_AMPS: 24
+      MOTOR_HP: 12
+      MOTOR_VOLTAGE: 400
+      MTG_POSITION: M5
+      OUTPUT_SPEED: 78
+      OUT_TORQUE: 11890
+      SHAFT_DIAMETER: 50SHR
+      SO_NUMBER: 870262064.04.04.001
+      TORQUE_UNITS: lb-in
+      XTRA_NOTES: Term.Strip#1830600, CB@180, CE X. Unit contains other important
+        specifications. Please call SEW.
+    replacements: 
+    qty: 
+    shelf: 
+  - !ruby/struct:Err
+    message: SO# 870262064.0707.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262064.0606.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262064.0303.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262064.0101.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262064.1111.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262064.1212.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262064.1414.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262064.0808.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262064.0202.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262064.1010.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262064.16051605.001 not found
+  - !ruby/struct:Motor
+    nameplate:
+      BRAKE_RECTIFIER: ''
+      BRAKE_VOLTAGE: ''
+      CABLE_ENTRY: ''
+      CONDUIT_BOX_LOC: ''
+      CONNECTION: ''
+      FLANGE_DIAMETER: ''
+      FREQUENCY: ''
+      GEAR_RATIO: ''
+      GEAR_SF: ''
+      INSULATION_CLASS: ''
+      KVA_CODE: ''
+      MODEL_TYPE: MFD22A/Z36F/AF1
+      MOTOR_AMPS: ''
+      MOTOR_HP: 0
+      MOTOR_VOLTAGE: ''
+      MTG_POSITION: ''
+      OUTPUT_SPEED: ''
+      OUT_TORQUE: ''
+      SHAFT_DIAMETER: ''
+      SO_NUMBER: 870262064.15.15.001
+      TORQUE_UNITS: lb-in
+      XTRA_NOTES: ". Unit contains other important specifications. Please call SEW."
+    replacements: 
+    qty: 
+    shelf: 
+  - !ruby/struct:Err
+    message: SO# 870262064.0909.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262064.1313.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262064.1717.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262064.1818.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262064.1919.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262064.2020.001 not found
+- - !ruby/struct:Motor
+    nameplate:
+      BRAKE_RECTIFIER: BME1.5
+      BRAKE_VOLTAGE: 230AC
+      CABLE_ENTRY: X
+      CONDUIT_BOX_LOC: 180
+      CONNECTION: DT11
+      FLANGE_DIAMETER: ''
+      FREQUENCY: 150
+      GEAR_RATIO: 38.23
+      GEAR_SF: 1.1
+      INSULATION_CLASS: F
+      KVA_CODE: ''
+      MODEL_TYPE: FH77DY112L/B/TH
+      MOTOR_AMPS: 24
+      MOTOR_HP: 12
+      MOTOR_VOLTAGE: 400
+      MTG_POSITION: M5
+      OUTPUT_SPEED: 78
+      OUT_TORQUE: 11890
+      SHAFT_DIAMETER: 50SHR
+      SO_NUMBER: 870262064.04.04.001
+      TORQUE_UNITS: lb-in
+      XTRA_NOTES: Term.Strip#1830600, CB@180, CE X. Unit contains other important
+        specifications. Please call SEW.
+    replacements: 
+    qty: 
+    shelf: 
+  - !ruby/struct:Err
+    message: SO# 870262064.0707.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262064.0606.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262064.0303.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262064.0101.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262064.1111.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262064.1212.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262064.1414.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262064.0808.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262064.0202.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262064.1010.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262064.16051605.001 not found
+  - !ruby/struct:Motor
+    nameplate:
+      BRAKE_RECTIFIER: ''
+      BRAKE_VOLTAGE: ''
+      CABLE_ENTRY: ''
+      CONDUIT_BOX_LOC: ''
+      CONNECTION: ''
+      FLANGE_DIAMETER: ''
+      FREQUENCY: ''
+      GEAR_RATIO: ''
+      GEAR_SF: ''
+      INSULATION_CLASS: ''
+      KVA_CODE: ''
+      MODEL_TYPE: MFD22A/Z36F/AF1
+      MOTOR_AMPS: ''
+      MOTOR_HP: 0
+      MOTOR_VOLTAGE: ''
+      MTG_POSITION: ''
+      OUTPUT_SPEED: ''
+      OUT_TORQUE: ''
+      SHAFT_DIAMETER: ''
+      SO_NUMBER: 870262064.15.15.001
+      TORQUE_UNITS: lb-in
+      XTRA_NOTES: ". Unit contains other important specifications. Please call SEW."
+    replacements: 
+    qty: 
+    shelf: 
+  - !ruby/struct:Err
+    message: SO# 870262064.0909.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262064.1313.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262064.1717.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262064.1818.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262064.1919.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262064.2020.001 not found
+- - !ruby/struct:Motor
+    nameplate:
+      BRAKE_RECTIFIER: BME1.5
+      BRAKE_VOLTAGE: 230AC
+      CABLE_ENTRY: X
+      CONDUIT_BOX_LOC: 180
+      CONNECTION: DT11
+      FLANGE_DIAMETER: ''
+      FREQUENCY: 150
+      GEAR_RATIO: 38.23
+      GEAR_SF: 1.1
+      INSULATION_CLASS: F
+      KVA_CODE: ''
+      MODEL_TYPE: FH77DY112L/B/TH
+      MOTOR_AMPS: 24
+      MOTOR_HP: 12
+      MOTOR_VOLTAGE: 400
+      MTG_POSITION: M5
+      OUTPUT_SPEED: 78
+      OUT_TORQUE: 11890
+      SHAFT_DIAMETER: 50SHR
+      SO_NUMBER: 870262064.04.04.001
+      TORQUE_UNITS: lb-in
+      XTRA_NOTES: Term.Strip#1830600, CB@180, CE X. Unit contains other important
+        specifications. Please call SEW.
+    replacements: 
+    qty: 
+    shelf: 
+  - !ruby/struct:Err
+    message: SO# 870262064.0707.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262064.0606.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262064.0303.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262064.0101.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262064.1111.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262064.1212.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262064.1414.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262064.0808.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262064.0202.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262064.1010.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262064.16051605.001 not found
+  - !ruby/struct:Motor
+    nameplate:
+      BRAKE_RECTIFIER: ''
+      BRAKE_VOLTAGE: ''
+      CABLE_ENTRY: ''
+      CONDUIT_BOX_LOC: ''
+      CONNECTION: ''
+      FLANGE_DIAMETER: ''
+      FREQUENCY: ''
+      GEAR_RATIO: ''
+      GEAR_SF: ''
+      INSULATION_CLASS: ''
+      KVA_CODE: ''
+      MODEL_TYPE: MFD22A/Z36F/AF1
+      MOTOR_AMPS: ''
+      MOTOR_HP: 0
+      MOTOR_VOLTAGE: ''
+      MTG_POSITION: ''
+      OUTPUT_SPEED: ''
+      OUT_TORQUE: ''
+      SHAFT_DIAMETER: ''
+      SO_NUMBER: 870262064.15.15.001
+      TORQUE_UNITS: lb-in
+      XTRA_NOTES: ". Unit contains other important specifications. Please call SEW."
+    replacements: 
+    qty: 
+    shelf: 
+  - !ruby/struct:Err
+    message: SO# 870262064.0909.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262064.1313.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262064.1717.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262064.1818.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262064.1919.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262064.2020.001 not found
+- - !ruby/struct:Motor
+    nameplate:
+      BRAKE_RECTIFIER: BME1.5
+      BRAKE_VOLTAGE: 230AC
+      CABLE_ENTRY: X
+      CONDUIT_BOX_LOC: 0
+      CONNECTION: DT11
+      FLANGE_DIAMETER: ''
+      FREQUENCY: 150
+      GEAR_RATIO: 17.49
+      GEAR_SF: 3.0
+      INSULATION_CLASS: F
+      KVA_CODE: ''
+      MODEL_TYPE: FH77DY112L/B/TH
+      MOTOR_AMPS: 24
+      MOTOR_HP: 12
+      MOTOR_VOLTAGE: 400
+      MTG_POSITION: M6
+      OUTPUT_SPEED: 172
+      OUT_TORQUE: 5390
+      SHAFT_DIAMETER: 50SHR
+      SO_NUMBER: 870262054.04.04.001
+      TORQUE_UNITS: lb-in
+      XTRA_NOTES: Term.Strip#1830600, CB@0, CE X. Unit contains other important specifications.
+        Please call SEW.
+    replacements: 
+    qty: 
+    shelf: 
+  - !ruby/struct:Err
+    message: SO# 870262054.0707.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262054.0606.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262054.0303.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262054.0101.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262054.1111.001 not found
+  - !ruby/struct:Motor
+    nameplate:
+      BRAKE_RECTIFIER: ''
+      BRAKE_VOLTAGE: ''
+      CABLE_ENTRY: X
+      CONDUIT_BOX_LOC: 270
+      CONNECTION: R76
+      FLANGE_DIAMETER: ''
+      FREQUENCY: 60
+      GEAR_RATIO: 47.32
+      GEAR_SF: 2.1
+      INSULATION_CLASS: F
+      KVA_CODE: G
+      MODEL_TYPE: S57DRS71M4/DH - 18711
+      MOTOR_AMPS: 2.50/1.25
+      MOTOR_HP: 0.75
+      MOTOR_VOLTAGE: 230YY/460Y
+      MTG_POSITION: M1A
+      OUTPUT_SPEED: 6.3-38.0
+      OUT_TORQUE: 1053
+      SHAFT_DIAMETER: 1.25
+      SO_NUMBER: 870262054.12.12.001
+      TORQUE_UNITS: lb-in
+      XTRA_NOTES: 'Oil=mineral, #Gear Seals=1, Mtr Flg=FG100 D120, IP66, Corr Prot=Yes,  RAL5001
+        Green Blue,  OS1'
+    replacements: 
+    qty: 
+    shelf: 
+  - !ruby/struct:Err
+    message: SO# 870262054.1414.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262054.0808.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262054.0202.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262054.1010.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262054.16051605.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262054.1515.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262054.0909.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262054.1313.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262054.1717.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262054.1818.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262054.1919.001 not found
+  - !ruby/struct:Err
+    message: SO# 870262054.2020.001 not found
+- - !ruby/struct:Err
+    message: SO# 850180282.0404.001 not found
+  - !ruby/struct:Err
+    message: SO# 850180282.0707.001 not found
+  - !ruby/struct:Motor
+    nameplate:
+      BRAKE_RECTIFIER: BGE1.5 SR11
+      BRAKE_VOLTAGE: 480AC
+      CABLE_ENTRY: X
+      CONDUIT_BOX_LOC: 0
+      CONNECTION: DT13
+      FLANGE_DIAMETER: ''
+      FREQUENCY: 60
+      GEAR_RATIO: 135.28
+      GEAR_SF: 2.7
+      INSULATION_CLASS: B
+      KVA_CODE: J
+      MODEL_TYPE: KH77DT80N4BMG1HR
+      MOTOR_AMPS: 3.20/1.85
+      MOTOR_HP: 1
+      MOTOR_VOLTAGE: 266'/460Y
+      MTG_POSITION: M3B
+      OUTPUT_SPEED: 13
+      OUT_TORQUE: 5015
+      SHAFT_DIAMETER: 50MM
+      SO_NUMBER: 850180282.06.06.001
+      TORQUE_UNITS: lb-in
+      XTRA_NOTES: Special Volt/Freq. CB@0, CE X
+    replacements: 
+    qty: 
+    shelf: 
+  - !ruby/struct:Err
+    message: SO# 850180282.0303.001 not found
+  - !ruby/struct:Err
+    message: SO# 850180282.0101.001 not found
+  - !ruby/struct:Err
+    message: SO# 850180282.1111.001 not found
+  - !ruby/struct:Err
+    message: SO# 850180282.1212.001 not found
+  - !ruby/struct:Motor
+    nameplate:
+      BRAKE_RECTIFIER: ''
+      BRAKE_VOLTAGE: ''
+      CABLE_ENTRY: X
+      CONDUIT_BOX_LOC: 0
+      CONNECTION: R13K
+      FLANGE_DIAMETER: 550MM
+      FREQUENCY: 60
+      GEAR_RATIO: 31.33
+      GEAR_SF: 3.2
+      INSULATION_CLASS: F
+      KVA_CODE: J
+      MODEL_TYPE: FF127DRE180LC4
+      MOTOR_AMPS: 35.5
+      MOTOR_HP: 30.0
+      MOTOR_VOLTAGE: 460'
+      MTG_POSITION: M4
+      OUTPUT_SPEED: 57
+      OUT_TORQUE: 32745
+      SHAFT_DIAMETER: 110MM
+      SO_NUMBER: 850180282.14.14.001
+      TORQUE_UNITS: lb-in
+      XTRA_NOTES: "#Gear Seals=1, IP55, Mtr Flg=FG400 D450, Oil=mineral, RAL5001 Green
+        Blue"
+    replacements: 
+    qty: 
+    shelf: 
+  - !ruby/struct:Err
+    message: SO# 850180282.0808.001 not found
+  - !ruby/struct:Err
+    message: SO# 850180282.0202.001 not found
+  - !ruby/struct:Err
+    message: SO# 850180282.1010.001 not found
+  - !ruby/struct:Err
+    message: SO# 850180282.16051605.001 not found
+  - !ruby/struct:Err
+    message: SO# 850180282.1515.001 not found
+  - !ruby/struct:Err
+    message: SO# 850180282.0909.001 not found
+  - !ruby/struct:Err
+    message: SO# 850180282.1313.001 not found
+  - !ruby/struct:Err
+    message: SO# 850180282.1717.001 not found
+  - !ruby/struct:Err
+    message: SO# 850180282.1818.001 not found
+  - !ruby/struct:Err
+    message: SO# 850180282.1919.001 not found
+  - !ruby/struct:Err
+    message: SO# 850180282.2020.001 not found
+- - !ruby/struct:Motor
+    nameplate:
+      BRAKE_RECTIFIER: BG1.5
+      BRAKE_VOLTAGE: 460AC
+      CABLE_ENTRY: X
+      CONDUIT_BOX_LOC: 0
+      CONNECTION: DT79
+      FLANGE_DIAMETER: ''
+      FREQUENCY: 60
+      GEAR_RATIO: 23.15
+      GEAR_SF: 2.7
+      INSULATION_CLASS: B
+      KVA_CODE: J
+      MODEL_TYPE: R17DT71C4BMG05HR
+      MOTOR_AMPS: 1.32/.66
+      MOTOR_HP: 0.33
+      MOTOR_VOLTAGE: 230YY/460Y
+      MTG_POSITION: M1
+      OUTPUT_SPEED: 74
+      OUT_TORQUE: 280
+      SHAFT_DIAMETER: 20MM
+      SO_NUMBER: 890006267.04.04.001
+      TORQUE_UNITS: lb-in
+      XTRA_NOTES: CB@0, CE X
+    replacements: 
+    qty: 
+    shelf: 
+  - !ruby/struct:Motor
+    nameplate:
+      BRAKE_RECTIFIER: BME1.5
+      BRAKE_VOLTAGE: 230AC
+      CABLE_ENTRY: X
+      CONDUIT_BOX_LOC: 0
+      CONNECTION: DT11
+      FLANGE_DIAMETER: ''
+      FREQUENCY: 150
+      GEAR_RATIO: 14.06
+      GEAR_SF: 1.9
+      INSULATION_CLASS: F
+      KVA_CODE: ''
+      MODEL_TYPE: "**FH77/GDY112L/B/TH/VY"
+      MOTOR_AMPS: 38.5
+      MOTOR_HP: 19
+      MOTOR_VOLTAGE: 400
+      MTG_POSITION: M1
+      OUTPUT_SPEED: 213
+      OUT_TORQUE: 6968
+      SHAFT_DIAMETER: 50MM
+      SO_NUMBER: 890006267.07.07.001
+      TORQUE_UNITS: lb-in
+      XTRA_NOTES: CB@0, CE X
+    replacements: 
+    qty: 
+    shelf: 
+  - !ruby/struct:Err
+    message: SO# 890006267.0606.001 not found
+  - !ruby/struct:Err
+    message: SO# 890006267.0303.001 not found
+  - !ruby/struct:Err
+    message: SO# 890006267.0101.001 not found
+  - !ruby/struct:Err
+    message: SO# 890006267.1111.001 not found
+  - !ruby/struct:Err
+    message: SO# 890006267.1212.001 not found
+  - !ruby/struct:Err
+    message: SO# 890006267.1414.001 not found
+  - !ruby/struct:Err
+    message: SO# 890006267.0808.001 not found
+  - !ruby/struct:Err
+    message: SO# 890006267.0202.001 not found
+  - !ruby/struct:Err
+    message: SO# 890006267.1010.001 not found
+  - !ruby/struct:Err
+    message: SO# 890006267.16051605.001 not found
+  - !ruby/struct:Err
+    message: SO# 890006267.1515.001 not found
+  - !ruby/struct:Err
+    message: SO# 890006267.0909.001 not found
+  - !ruby/struct:Err
+    message: SO# 890006267.1313.001 not found
+  - !ruby/struct:Err
+    message: SO# 890006267.1717.001 not found
+  - !ruby/struct:Err
+    message: SO# 890006267.1818.001 not found
+  - !ruby/struct:Err
+    message: SO# 890006267.1919.001 not found
+  - !ruby/struct:Err
+    message: SO# 890006267.2020.001 not found
+- - !ruby/struct:Motor
+    nameplate:
+      BRAKE_RECTIFIER: BME1.5
+      BRAKE_VOLTAGE: 230AC
+      CABLE_ENTRY: ''
+      CONDUIT_BOX_LOC: ''
+      CONNECTION: DT11
+      FLANGE_DIAMETER: ''
+      FREQUENCY: 150
+      GEAR_RATIO: 90.04
+      GEAR_SF: 1.0
+      INSULATION_CLASS: F
+      KVA_CODE: ''
+      MODEL_TYPE: KH67BDY90S/B/HR/TH
+      MOTOR_AMPS: 5.9
+      MOTOR_HP: 3
+      MOTOR_VOLTAGE: 400
+      MTG_POSITION: M1B
+      OUTPUT_SPEED: 33
+      OUT_TORQUE: 7171
+      SHAFT_DIAMETER: 40SHR
+      SO_NUMBER: 870267832.04.04.001
+      TORQUE_UNITS: lb-in
+      XTRA_NOTES: ". Unit contains other important specifications. Please call SEW."
+    replacements: 
+    qty: 
+    shelf: 
+  - !ruby/struct:Err
+    message: SO# 870267832.0707.001 not found
+  - !ruby/struct:Err
+    message: SO# 870267832.0606.001 not found
+  - !ruby/struct:Err
+    message: SO# 870267832.0303.001 not found
+  - !ruby/struct:Err
+    message: SO# 870267832.0101.001 not found
+  - !ruby/struct:Err
+    message: SO# 870267832.1111.001 not found
+  - !ruby/struct:Err
+    message: SO# 870267832.1212.001 not found
+  - !ruby/struct:Err
+    message: SO# 870267832.1414.001 not found
+  - !ruby/struct:Err
+    message: SO# 870267832.0808.001 not found
+  - !ruby/struct:Err
+    message: SO# 870267832.0202.001 not found
+  - !ruby/struct:Err
+    message: SO# 870267832.1010.001 not found
+  - !ruby/struct:Err
+    message: SO# 870267832.16051605.001 not found
+  - !ruby/struct:Err
+    message: SO# 870267832.1515.001 not found
+  - !ruby/struct:Err
+    message: SO# 870267832.0909.001 not found
+  - !ruby/struct:Err
+    message: SO# 870267832.1313.001 not found
+  - !ruby/struct:Err
+    message: SO# 870267832.1717.001 not found
+  - !ruby/struct:Err
+    message: SO# 870267832.1818.001 not found
+  - !ruby/struct:Err
+    message: SO# 870267832.1919.001 not found
+  - !ruby/struct:Err
+    message: SO# 870267832.2020.001 not found
+- - !ruby/struct:Motor
+    nameplate:
+      BRAKE_RECTIFIER: BGE1.5 SR11
+      BRAKE_VOLTAGE: 460AC
+      CABLE_ENTRY: X
+      CONDUIT_BOX_LOC: 0
+      CONNECTION: DT13
+      FLANGE_DIAMETER: ''
+      FREQUENCY: 60
+      GEAR_RATIO: 75.2
+      GEAR_SF: 1.25
+      INSULATION_CLASS: F
+      KVA_CODE: F
+      MODEL_TYPE: KA47DT90S8BMG2HRZ
+      MOTOR_AMPS: 2.25/1.29
+      MOTOR_HP: 0.5
+      MOTOR_VOLTAGE: 277'/480Y
+      MTG_POSITION: M2A
+      OUTPUT_SPEED: 11
+      OUT_TORQUE: 2830
+      SHAFT_DIAMETER: 35MM
+      SO_NUMBER: 890261826.04.04.001
+      TORQUE_UNITS: lb-in
+      XTRA_NOTES: CB@0, CE X
+    replacements: 
+    qty: 
+    shelf: 
+  - !ruby/struct:Err
+    message: SO# 890261826.0707.001 not found
+  - !ruby/struct:Err
+    message: SO# 890261826.0606.001 not found
+  - !ruby/struct:Err
+    message: SO# 890261826.0303.001 not found
+  - !ruby/struct:Err
+    message: SO# 890261826.0101.001 not found
+  - !ruby/struct:Err
+    message: SO# 890261826.1111.001 not found
+  - !ruby/struct:Err
+    message: SO# 890261826.1212.001 not found
+  - !ruby/struct:Err
+    message: SO# 890261826.1414.001 not found
+  - !ruby/struct:Err
+    message: SO# 890261826.0808.001 not found
+  - !ruby/struct:Err
+    message: SO# 890261826.0202.001 not found
+  - !ruby/struct:Err
+    message: SO# 890261826.1010.001 not found
+  - !ruby/struct:Err
+    message: SO# 890261826.16051605.001 not found
+  - !ruby/struct:Err
+    message: SO# 890261826.1515.001 not found
+  - !ruby/struct:Err
+    message: SO# 890261826.0909.001 not found
+  - !ruby/struct:Err
+    message: SO# 890261826.1313.001 not found
+  - !ruby/struct:Err
+    message: SO# 890261826.1717.001 not found
+  - !ruby/struct:Err
+    message: SO# 890261826.1818.001 not found
+  - !ruby/struct:Err
+    message: SO# 890261826.1919.001 not found
+  - !ruby/struct:Err
+    message: SO# 890261826.2020.001 not found
+- - !ruby/struct:Motor
+    nameplate:
+      BRAKE_RECTIFIER: BME1.5
+      BRAKE_VOLTAGE: 230AC
+      CABLE_ENTRY: X
+      CONDUIT_BOX_LOC: 0
+      CONNECTION: DT11
+      FLANGE_DIAMETER: ''
+      FREQUENCY: 150
+      GEAR_RATIO: 14.56
+      GEAR_SF: 4.9
+      INSULATION_CLASS: F
+      KVA_CODE: ''
+      MODEL_TYPE: R47DY71M/B/TH
+      MOTOR_AMPS: 2.7
+      MOTOR_HP: 2
+      MOTOR_VOLTAGE: 400
+      MTG_POSITION: M6
+      OUTPUT_SPEED: 206
+      OUT_TORQUE: 476
+      SHAFT_DIAMETER: 30MM
+      SO_NUMBER: 870261885.04.04.001
+      TORQUE_UNITS: lb-in
+      XTRA_NOTES: Term.Strip#1830600, CB@0, CE X. Unit contains other important specifications.
+        Please call SEW.
+    replacements: 
+    qty: 
+    shelf: 
+  - !ruby/struct:Err
+    message: SO# 870261885.0707.001 not found
+  - !ruby/struct:Err
+    message: SO# 870261885.0606.001 not found
+  - !ruby/struct:Err
+    message: SO# 870261885.0303.001 not found
+  - !ruby/struct:Err
+    message: SO# 870261885.0101.001 not found
+  - !ruby/struct:Err
+    message: SO# 870261885.1111.001 not found
+  - !ruby/struct:Err
+    message: SO# 870261885.1212.001 not found
+  - !ruby/struct:Err
+    message: SO# 870261885.1414.001 not found
+  - !ruby/struct:Err
+    message: SO# 870261885.0808.001 not found
+  - !ruby/struct:Err
+    message: SO# 870261885.0202.001 not found
+  - !ruby/struct:Err
+    message: SO# 870261885.1010.001 not found
+  - !ruby/struct:Err
+    message: SO# 870261885.16051605.001 not found
+  - !ruby/struct:Motor
+    nameplate:
+      BRAKE_RECTIFIER: ''
+      BRAKE_VOLTAGE: ''
+      CABLE_ENTRY: X
+      CONDUIT_BOX_LOC: 180
+      CONNECTION: R43
+      FLANGE_DIAMETER: ''
+      FREQUENCY: 60
+      GEAR_RATIO: 23.59
+      GEAR_SF: 1.9
+      INSULATION_CLASS: F
+      KVA_CODE: J
+      MODEL_TYPE: R47DRS100M8/2/DH
+      MOTOR_AMPS: 2.70/4.30
+      MOTOR_HP: ".80/3.19"
+      MOTOR_VOLTAGE: 460Y
+      MTG_POSITION: M1
+      OUTPUT_SPEED: 36 / 148
+      OUT_TORQUE: 1389
+      SHAFT_DIAMETER: 1.25
+      SO_NUMBER: 870261885.15.15.001
+      TORQUE_UNITS: lb-in
+      XTRA_NOTES: 'Oil=mineral, #Gear Seals=1, Mtr Flg=FG130 D160, IP66, Mtr Seal=Viton,
+        Corr Prot=Yes, RAL5001 Green Blue, OS2'
+    replacements: 
+    qty: 
+    shelf: 
+  - !ruby/struct:Err
+    message: SO# 870261885.0909.001 not found
+  - !ruby/struct:Err
+    message: SO# 870261885.1313.001 not found
+  - !ruby/struct:Err
+    message: SO# 870261885.1717.001 not found
+  - !ruby/struct:Err
+    message: SO# 870261885.1818.001 not found
+  - !ruby/struct:Err
+    message: SO# 870261885.1919.001 not found
+  - !ruby/struct:Err
+    message: SO# 870261885.2020.001 not found
+- - !ruby/struct:Motor
+    nameplate:
+      BRAKE_RECTIFIER: BGE1.5
+      BRAKE_VOLTAGE: 460AC
+      CABLE_ENTRY: X
+      CONDUIT_BOX_LOC: 270
+      CONNECTION: DT79
+      FLANGE_DIAMETER: ''
+      FREQUENCY: 60
+      GEAR_RATIO: 63.3
+      GEAR_SF: 1.5
+      INSULATION_CLASS: B
+      KVA_CODE: J
+      MODEL_TYPE: KH47DT80N4BMG1HR
+      MOTOR_AMPS: 3.70/1.85
+      MOTOR_HP: 1
+      MOTOR_VOLTAGE: 230YY/460Y
+      MTG_POSITION: M2B
+      OUTPUT_SPEED: 27
+      OUT_TORQUE: 2347
+      SHAFT_DIAMETER: 35SHR
+      SO_NUMBER: 890222948.04.04.001
+      TORQUE_UNITS: lb-in
+      XTRA_NOTES: CB@270, CE X
+    replacements: 
+    qty: 
+    shelf: 
+  - !ruby/struct:Err
+    message: SO# 890222948.0707.001 not found
+  - !ruby/struct:Err
+    message: SO# 890222948.0606.001 not found
+  - !ruby/struct:Err
+    message: SO# 890222948.0303.001 not found
+  - !ruby/struct:Err
+    message: SO# 890222948.0101.001 not found
+  - !ruby/struct:Err
+    message: SO# 890222948.1111.001 not found
+  - !ruby/struct:Err
+    message: SO# 890222948.1212.001 not found
+  - !ruby/struct:Err
+    message: SO# 890222948.1414.001 not found
+  - !ruby/struct:Err
+    message: SO# 890222948.0808.001 not found
+  - !ruby/struct:Err
+    message: SO# 890222948.0202.001 not found
+  - !ruby/struct:Err
+    message: SO# 890222948.1010.001 not found
+  - !ruby/struct:Err
+    message: SO# 890222948.16051605.001 not found
+  - !ruby/struct:Err
+    message: SO# 890222948.1515.001 not found
+  - !ruby/struct:Err
+    message: SO# 890222948.0909.001 not found
+  - !ruby/struct:Err
+    message: SO# 890222948.1313.001 not found
+  - !ruby/struct:Err
+    message: SO# 890222948.1717.001 not found
+  - !ruby/struct:Err
+    message: SO# 890222948.1818.001 not found
+  - !ruby/struct:Err
+    message: SO# 890222948.1919.001 not found
+  - !ruby/struct:Err
+    message: SO# 890222948.2020.001 not found
+- - !ruby/struct:Motor
+    nameplate:
+      BRAKE_RECTIFIER: BGE1.5 SR11
+      BRAKE_VOLTAGE: 460AC
+      CABLE_ENTRY: X
+      CONDUIT_BOX_LOC: 0
+      CONNECTION: DT13
+      FLANGE_DIAMETER: ''
+      FREQUENCY: 60
+      GEAR_RATIO: 75.2
+      GEAR_SF: 1.25
+      INSULATION_CLASS: F
+      KVA_CODE: F
+      MODEL_TYPE: KA47DT90S8BMG2HRZ
+      MOTOR_AMPS: 2.25/1.29
+      MOTOR_HP: 0.5
+      MOTOR_VOLTAGE: 277'/480Y
+      MTG_POSITION: M2A
+      OUTPUT_SPEED: 11
+      OUT_TORQUE: 2830
+      SHAFT_DIAMETER: 35MM
+      SO_NUMBER: 890261826.04.04.001
+      TORQUE_UNITS: lb-in
+      XTRA_NOTES: CB@0, CE X
+    replacements: 
+    qty: 
+    shelf: 
+  - !ruby/struct:Err
+    message: SO# 890261826.0707.001 not found
+  - !ruby/struct:Err
+    message: SO# 890261826.0606.001 not found
+  - !ruby/struct:Err
+    message: SO# 890261826.0303.001 not found
+  - !ruby/struct:Err
+    message: SO# 890261826.0101.001 not found
+  - !ruby/struct:Err
+    message: SO# 890261826.1111.001 not found
+  - !ruby/struct:Err
+    message: SO# 890261826.1212.001 not found
+  - !ruby/struct:Err
+    message: SO# 890261826.1414.001 not found
+  - !ruby/struct:Err
+    message: SO# 890261826.0808.001 not found
+  - !ruby/struct:Err
+    message: SO# 890261826.0202.001 not found
+  - !ruby/struct:Err
+    message: SO# 890261826.1010.001 not found
+  - !ruby/struct:Err
+    message: SO# 890261826.16051605.001 not found
+  - !ruby/struct:Err
+    message: SO# 890261826.1515.001 not found
+  - !ruby/struct:Err
+    message: SO# 890261826.0909.001 not found
+  - !ruby/struct:Err
+    message: SO# 890261826.1313.001 not found
+  - !ruby/struct:Err
+    message: SO# 890261826.1717.001 not found
+  - !ruby/struct:Err
+    message: SO# 890261826.1818.001 not found
+  - !ruby/struct:Err
+    message: SO# 890261826.1919.001 not found
+  - !ruby/struct:Err
+    message: SO# 890261826.2020.001 not found
+- - !ruby/struct:Motor
+    nameplate:
+      BRAKE_RECTIFIER: BME1.5
+      BRAKE_VOLTAGE: 230AC
+      CABLE_ENTRY: X
+      CONDUIT_BOX_LOC: 0
+      CONNECTION: DT11
+      FLANGE_DIAMETER: ''
+      FREQUENCY: 150
+      GEAR_RATIO: 108.29
+      GEAR_SF: 1.5
+      INSULATION_CLASS: F
+      KVA_CODE: ''
+      MODEL_TYPE: KH57DY71M/B/TH
+      MOTOR_AMPS: 2.7
+      MOTOR_HP: 2
+      MOTOR_VOLTAGE: 400
+      MTG_POSITION: M1B
+      OUTPUT_SPEED: 28
+      OUT_TORQUE: 3545
+      SHAFT_DIAMETER: 40SHR
+      SO_NUMBER: 870261895.04.04.001
+      TORQUE_UNITS: lb-in
+      XTRA_NOTES: Term.Strip#1830600, Term.Strip#1830600, CB@0, CE X. Unit contains
+        other important specifications. Please call SEW.
+    replacements: 
+    qty: 
+    shelf: 
+  - !ruby/struct:Err
+    message: SO# 870261895.0707.001 not found
+  - !ruby/struct:Err
+    message: SO# 870261895.0606.001 not found
+  - !ruby/struct:Err
+    message: SO# 870261895.0303.001 not found
+  - !ruby/struct:Err
+    message: SO# 870261895.0101.001 not found
+  - !ruby/struct:Err
+    message: SO# 870261895.1111.001 not found
+  - !ruby/struct:Err
+    message: SO# 870261895.1212.001 not found
+  - !ruby/struct:Err
+    message: SO# 870261895.1414.001 not found
+  - !ruby/struct:Err
+    message: SO# 870261895.0808.001 not found
+  - !ruby/struct:Err
+    message: SO# 870261895.0202.001 not found
+  - !ruby/struct:Motor
+    nameplate:
+      BRAKE_RECTIFIER: ''
+      BRAKE_VOLTAGE: ''
+      CABLE_ENTRY: ''
+      CONDUIT_BOX_LOC: ''
+      CONNECTION: ''
+      FLANGE_DIAMETER: ''
+      FREQUENCY: ''
+      GEAR_RATIO: 14.91
+      GEAR_SF: 1.0
+      INSULATION_CLASS: ''
+      KVA_CODE: ''
+      MODEL_TYPE: R67AM184
+      MOTOR_AMPS: ''
+      MOTOR_HP: 0
+      MOTOR_VOLTAGE: ''
+      MTG_POSITION: M1
+      OUTPUT_SPEED: ''
+      OUT_TORQUE: 2570
+      SHAFT_DIAMETER: 1.375
+      SO_NUMBER: 870261895.10.10.001
+      TORQUE_UNITS: lb-in
+      XTRA_NOTES: 
+    replacements: 
+    qty: 
+    shelf: 
+  - !ruby/struct:Err
+    message: SO# 870261895.16051605.001 not found
+  - !ruby/struct:Err
+    message: SO# 870261895.1515.001 not found
+  - !ruby/struct:Err
+    message: SO# 870261895.0909.001 not found
+  - !ruby/struct:Err
+    message: SO# 870261895.1313.001 not found
+  - !ruby/struct:Err
+    message: SO# 870261895.1717.001 not found
+  - !ruby/struct:Err
+    message: SO# 870261895.1818.001 not found
+  - !ruby/struct:Err
+    message: SO# 870261895.1919.001 not found
+  - !ruby/struct:Err
+    message: SO# 870261895.2020.001 not found
+- - !ruby/struct:Err
+    message: SO# 870251864.0404.001 not found
+  - !ruby/struct:Motor
+    nameplate:
+      BRAKE_RECTIFIER: BME1.5
+      BRAKE_VOLTAGE: 230
+      CABLE_ENTRY: X
+      CONDUIT_BOX_LOC: 0
+      CONNECTION: DT11
+      FLANGE_DIAMETER: 160MM
+      FREQUENCY: 150
+      GEAR_RATIO: 23.59
+      GEAR_SF: ''
+      INSULATION_CLASS: F
+      KVA_CODE: ''
+      MODEL_TYPE: R47CM71L/BR/TF/RH1L/KK
+      MOTOR_AMPS: 6 / 25
+      MOTOR_HP: 13
+      MOTOR_VOLTAGE: 400
+      MTG_POSITION: M1
+      OUTPUT_SPEED: 127
+      OUT_TORQUE: ''
+      SHAFT_DIAMETER: 30MM
+      SO_NUMBER: 870251864.07.07.001
+      TORQUE_UNITS: lb-in
+      XTRA_NOTES: 
+    replacements: 
+    qty: 
+    shelf: 
+  - !ruby/struct:Err
+    message: SO# 870251864.0606.001 not found
+  - !ruby/struct:Err
+    message: SO# 870251864.0303.001 not found
+  - !ruby/struct:Err
+    message: SO# 870251864.0101.001 not found
+  - !ruby/struct:Err
+    message: SO# 870251864.1111.001 not found
+  - !ruby/struct:Err
+    message: SO# 870251864.1212.001 not found
+  - !ruby/struct:Err
+    message: SO# 870251864.1414.001 not found
+  - !ruby/struct:Err
+    message: SO# 870251864.0808.001 not found
+  - !ruby/struct:Err
+    message: SO# 870251864.0202.001 not found
+  - !ruby/struct:Err
+    message: SO# 870251864.1010.001 not found
+  - !ruby/struct:Err
+    message: SO# 870251864.16051605.001 not found
+  - !ruby/struct:Motor
+    nameplate:
+      BRAKE_RECTIFIER: ''
+      BRAKE_VOLTAGE: ''
+      CABLE_ENTRY: ''
+      CONDUIT_BOX_LOC: ''
+      CONNECTION: ''
+      FLANGE_DIAMETER: ''
+      FREQUENCY: ''
+      GEAR_RATIO: ''
+      GEAR_SF: ''
+      INSULATION_CLASS: ''
+      KVA_CODE: ''
+      MODEL_TYPE: MDX61B0040-5A3-4-0T
+      MOTOR_AMPS: ''
+      MOTOR_HP: 0
+      MOTOR_VOLTAGE: ''
+      MTG_POSITION: ''
+      OUTPUT_SPEED: ''
+      OUT_TORQUE: ''
+      SHAFT_DIAMETER: ''
+      SO_NUMBER: 870251864.15.15.001
+      TORQUE_UNITS: lb-in
+      XTRA_NOTES: 
+    replacements: 
+    qty: 
+    shelf: 
+  - !ruby/struct:Err
+    message: SO# 870251864.0909.001 not found
+  - !ruby/struct:Err
+    message: SO# 870251864.1313.001 not found
+  - !ruby/struct:Err
+    message: SO# 870251864.1717.001 not found
+  - !ruby/struct:Err
+    message: SO# 870251864.1818.001 not found
+  - !ruby/struct:Err
+    message: SO# 870251864.1919.001 not found
+  - !ruby/struct:Err
+    message: SO# 870251864.2020.001 not found
+- - !ruby/struct:Err
+    message: SO# 890252439.0404.001 not found
+  - !ruby/struct:Motor
+    nameplate:
+      BRAKE_RECTIFIER: BGE1.5
+      BRAKE_VOLTAGE: 460AC
+      CABLE_ENTRY: X
+      CONDUIT_BOX_LOC: 270
+      CONNECTION: DT43
+      FLANGE_DIAMETER: ''
+      FREQUENCY: 60
+      GEAR_RATIO: 56.89
+      GEAR_SF: 3.9
+      INSULATION_CLASS: F
+      KVA_CODE: E
+      MODEL_TYPE: R67SDT90S6/2BMG2HR
+      MOTOR_AMPS: 1.35/2.35
+      MOTOR_HP: ".4/1.2"
+      MOTOR_VOLTAGE: 460Y/Y
+      MTG_POSITION: M1
+      OUTPUT_SPEED: 18/56
+      OUT_TORQUE: 1350
+      SHAFT_DIAMETER: 35MM
+      SO_NUMBER: 890252439.07.07.001
+      TORQUE_UNITS: lb-in
+      XTRA_NOTES: CB@270, CE X
+    replacements: 
+    qty: 
+    shelf: 
+  - !ruby/struct:Err
+    message: SO# 890252439.0606.001 not found
+  - !ruby/struct:Err
+    message: SO# 890252439.0303.001 not found
+  - !ruby/struct:Err
+    message: SO# 890252439.0101.001 not found
+  - !ruby/struct:Err
+    message: SO# 890252439.1111.001 not found
+  - !ruby/struct:Err
+    message: SO# 890252439.1212.001 not found
+  - !ruby/struct:Err
+    message: SO# 890252439.1414.001 not found
+  - !ruby/struct:Err
+    message: SO# 890252439.0808.001 not found
+  - !ruby/struct:Err
+    message: SO# 890252439.0202.001 not found
+  - !ruby/struct:Err
+    message: SO# 890252439.1010.001 not found
+  - !ruby/struct:Err
+    message: SO# 890252439.16051605.001 not found
+  - !ruby/struct:Err
+    message: SO# 890252439.1515.001 not found
+  - !ruby/struct:Err
+    message: SO# 890252439.0909.001 not found
+  - !ruby/struct:Err
+    message: SO# 890252439.1313.001 not found
+  - !ruby/struct:Err
+    message: SO# 890252439.1717.001 not found
+  - !ruby/struct:Err
+    message: SO# 890252439.1818.001 not found
+  - !ruby/struct:Err
+    message: SO# 890252439.1919.001 not found
+  - !ruby/struct:Err
+    message: SO# 890252439.2020.001 not found
+- - !ruby/struct:Err
+    message: SO# 890264857.0404.001 not found
+  - !ruby/struct:Motor
+    nameplate:
+      BRAKE_RECTIFIER: ''
+      BRAKE_VOLTAGE: ''
+      CABLE_ENTRY: X
+      CONDUIT_BOX_LOC: 270
+      CONNECTION: DT13
+      FLANGE_DIAMETER: 77
+      FREQUENCY: 60
+      GEAR_RATIO: ''
+      GEAR_SF: ''
+      INSULATION_CLASS: F
+      KVA_CODE: G
+      MODEL_TYPE: DFV100L4
+      MOTOR_AMPS: 11.4/6.6
+      MOTOR_HP: 5
+      MOTOR_VOLTAGE: 266'/460Y
+      MTG_POSITION: M1
+      OUTPUT_SPEED: ''
+      OUT_TORQUE: ''
+      SHAFT_DIAMETER: PIN16
+      SO_NUMBER: 890264857.07.07.001
+      TORQUE_UNITS: lb-in
+      XTRA_NOTES: Special Volt/Freq. GFI 36-IP55, CB@270, CE X
+    replacements: 
+    qty: 
+    shelf: 
+  - !ruby/struct:Err
+    message: SO# 890264857.0606.001 not found
+  - !ruby/struct:Err
+    message: SO# 890264857.0303.001 not found
+  - !ruby/struct:Err
+    message: SO# 890264857.0101.001 not found
+  - !ruby/struct:Err
+    message: SO# 890264857.1111.001 not found
+  - !ruby/struct:Err
+    message: SO# 890264857.1212.001 not found
+  - !ruby/struct:Err
+    message: SO# 890264857.1414.001 not found
+  - !ruby/struct:Err
+    message: SO# 890264857.0808.001 not found
+  - !ruby/struct:Err
+    message: SO# 890264857.0202.001 not found
+  - !ruby/struct:Err
+    message: SO# 890264857.1010.001 not found
+  - !ruby/struct:Err
+    message: SO# 890264857.16051605.001 not found
+  - !ruby/struct:Err
+    message: SO# 890264857.1515.001 not found
+  - !ruby/struct:Err
+    message: SO# 890264857.0909.001 not found
+  - !ruby/struct:Err
+    message: SO# 890264857.1313.001 not found
+  - !ruby/struct:Err
+    message: SO# 890264857.1717.001 not found
+  - !ruby/struct:Err
+    message: SO# 890264857.1818.001 not found
+  - !ruby/struct:Err
+    message: SO# 890264857.1919.001 not found
+  - !ruby/struct:Err
+    message: SO# 890264857.2020.001 not found
+- - !ruby/struct:Err
+    message: SO# 890189456.0404.001 not found
+  - !ruby/struct:Err
+    message: SO# 890189456.0707.001 not found
+  - !ruby/struct:Motor
+    nameplate:
+      BRAKE_RECTIFIER: ''
+      BRAKE_VOLTAGE: ''
+      CABLE_ENTRY: X
+      CONDUIT_BOX_LOC: 0
+      CONNECTION: DT79
+      FLANGE_DIAMETER: 300MM
+      FREQUENCY: 60
+      GEAR_RATIO: ''
+      GEAR_SF: ''
+      INSULATION_CLASS: B
+      KVA_CODE: G
+      MODEL_TYPE: DFV132M4TH
+      MOTOR_AMPS: 27.4/13.7
+      MOTOR_HP: 10
+      MOTOR_VOLTAGE: 230YY/460Y
+      MTG_POSITION: V1
+      OUTPUT_SPEED: ''
+      OUT_TORQUE: ''
+      SHAFT_DIAMETER: IEC38
+      SO_NUMBER: 890189456.06.06.001
+      TORQUE_UNITS: lb-in
+      XTRA_NOTES: Term.Strip#1830600, CB@0, CE X
+    replacements: 
+    qty: 
+    shelf: 
+  - !ruby/struct:Err
+    message: SO# 890189456.0303.001 not found
+  - !ruby/struct:Err
+    message: SO# 890189456.0101.001 not found
+  - !ruby/struct:Err
+    message: SO# 890189456.1111.001 not found
+  - !ruby/struct:Err
+    message: SO# 890189456.1212.001 not found
+  - !ruby/struct:Err
+    message: SO# 890189456.1414.001 not found
+  - !ruby/struct:Err
+    message: SO# 890189456.0808.001 not found
+  - !ruby/struct:Err
+    message: SO# 890189456.0202.001 not found
+  - !ruby/struct:Err
+    message: SO# 890189456.1010.001 not found
+  - !ruby/struct:Err
+    message: SO# 890189456.16051605.001 not found
+  - !ruby/struct:Err
+    message: SO# 890189456.1515.001 not found
+  - !ruby/struct:Motor
+    nameplate:
+      BRAKE_RECTIFIER: ''
+      BRAKE_VOLTAGE: ''
+      CABLE_ENTRY: 2
+      CONDUIT_BOX_LOC: 180
+      CONNECTION: DT43
+      FLANGE_DIAMETER: ''
+      FREQUENCY: 60
+      GEAR_RATIO: 158.12
+      GEAR_SF: 1.0
+      INSULATION_CLASS: F
+      KVA_CODE: H
+      MODEL_TYPE: S57DT90L12/2
+      MOTOR_AMPS: ".84/1.46"
+      MOTOR_HP: ".2/1.2"
+      MOTOR_VOLTAGE: 575Y/Y
+      MTG_POSITION: M2A
+      OUTPUT_SPEED: 2.9/20
+      OUT_TORQUE: 2610
+      SHAFT_DIAMETER: 1.25
+      SO_NUMBER: 890189456.09.09.001
+      TORQUE_UNITS: lb-in
+      XTRA_NOTES: CB@180, CE 2, Torque Rated. Unit contains other important specifications.
+        Please call SEW.
+    replacements: 
+    qty: 
+    shelf: 
+  - !ruby/struct:Err
+    message: SO# 890189456.1313.001 not found
+  - !ruby/struct:Err
+    message: SO# 890189456.1717.001 not found
+  - !ruby/struct:Err
+    message: SO# 890189456.1818.001 not found
+  - !ruby/struct:Err
+    message: SO# 890189456.1919.001 not found
+  - !ruby/struct:Err
+    message: SO# 890189456.2020.001 not found
+- - !ruby/struct:Err
+    message: SO# 890189527.0404.001 not found
+  - !ruby/struct:Err
+    message: SO# 890189527.0707.001 not found
+  - !ruby/struct:Motor
+    nameplate:
+      BRAKE_RECTIFIER: ''
+      BRAKE_VOLTAGE: ''
+      CABLE_ENTRY: X
+      CONDUIT_BOX_LOC: 0
+      CONNECTION: DT79
+      FLANGE_DIAMETER: 300MM
+      FREQUENCY: 60
+      GEAR_RATIO: ''
+      GEAR_SF: ''
+      INSULATION_CLASS: B
+      KVA_CODE: H
+      MODEL_TYPE: DFV132S4
+      MOTOR_AMPS: 18.8/9.4
+      MOTOR_HP: 7.5
+      MOTOR_VOLTAGE: 230YY/460Y
+      MTG_POSITION: V1
+      OUTPUT_SPEED: ''
+      OUT_TORQUE: ''
+      SHAFT_DIAMETER: IEC38
+      SO_NUMBER: 890189527.06.06.001
+      TORQUE_UNITS: lb-in
+      XTRA_NOTES: CB@0, CE X
+    replacements: 
+    qty: 
+    shelf: 
+  - !ruby/struct:Motor
+    nameplate:
+      BRAKE_RECTIFIER: ''
+      BRAKE_VOLTAGE: ''
+      CABLE_ENTRY: X
+      CONDUIT_BOX_LOC: 180
+      CONNECTION: DT79
+      FLANGE_DIAMETER: 97
+      FREQUENCY: 60
+      GEAR_RATIO: ''
+      GEAR_SF: ''
+      INSULATION_CLASS: F
+      KVA_CODE: H
+      MODEL_TYPE: DFV132S4Z-KS
+      MOTOR_AMPS: 18.8/9.4
+      MOTOR_HP: 7.5
+      MOTOR_VOLTAGE: 230YY/460Y
+      MTG_POSITION: "*"
+      OUTPUT_SPEED: ''
+      OUT_TORQUE: ''
+      SHAFT_DIAMETER: PIN22
+      SO_NUMBER: 890189527.03.03.001
+      TORQUE_UNITS: lb-in
+      XTRA_NOTES: CB@180, CE X
+    replacements: 
+    qty: 
+    shelf: 
+  - !ruby/struct:Err
+    message: SO# 890189527.0101.001 not found
+  - !ruby/struct:Err
+    message: SO# 890189527.1111.001 not found
+  - !ruby/struct:Err
+    message: SO# 890189527.1212.001 not found
+  - !ruby/struct:Err
+    message: SO# 890189527.1414.001 not found
+  - !ruby/struct:Err
+    message: SO# 890189527.0808.001 not found
+  - !ruby/struct:Err
+    message: SO# 890189527.0202.001 not found
+  - !ruby/struct:Err
+    message: SO# 890189527.1010.001 not found
+  - !ruby/struct:Err
+    message: SO# 890189527.16051605.001 not found
+  - !ruby/struct:Err
+    message: SO# 890189527.1515.001 not found
+  - !ruby/struct:Err
+    message: SO# 890189527.0909.001 not found
+  - !ruby/struct:Err
+    message: SO# 890189527.1313.001 not found
+  - !ruby/struct:Err
+    message: SO# 890189527.1717.001 not found
+  - !ruby/struct:Err
+    message: SO# 890189527.1818.001 not found
+  - !ruby/struct:Err
+    message: SO# 890189527.1919.001 not found
+  - !ruby/struct:Err
+    message: SO# 890189527.2020.001 not found
+- - !ruby/struct:Err
+    message: SO# 870260449.0404.001 not found
+  - !ruby/struct:Motor
+    nameplate:
+      BRAKE_RECTIFIER: BG1.5
+      BRAKE_VOLTAGE: 460AC
+      CABLE_ENTRY: X
+      CONDUIT_BOX_LOC: 270
+      CONNECTION: DT79
+      FLANGE_DIAMETER: ''
+      FREQUENCY: 60
+      GEAR_RATIO: 39.26
+      GEAR_SF: 0.9
+      INSULATION_CLASS: B
+      KVA_CODE: G
+      MODEL_TYPE: FH67DT100L4BMG4HR
+      MOTOR_AMPS: 13.6/6.8
+      MOTOR_HP: 5
+      MOTOR_VOLTAGE: 230YY/460Y
+      MTG_POSITION: M1
+      OUTPUT_SPEED: 43
+      OUT_TORQUE: 7364
+      SHAFT_DIAMETER: 40SHR
+      SO_NUMBER: 870260449.07.07.001
+      TORQUE_UNITS: lb-in
+      XTRA_NOTES: CB@270, CE X
+    replacements: 
+    qty: 
+    shelf: 
+  - !ruby/struct:Err
+    message: SO# 870260449.0606.001 not found
+  - !ruby/struct:Err
+    message: SO# 870260449.0303.001 not found
+  - !ruby/struct:Err
+    message: SO# 870260449.0101.001 not found
+  - !ruby/struct:Err
+    message: SO# 870260449.1111.001 not found
+  - !ruby/struct:Err
+    message: SO# 870260449.1212.001 not found
+  - !ruby/struct:Err
+    message: SO# 870260449.1414.001 not found
+  - !ruby/struct:Err
+    message: SO# 870260449.0808.001 not found
+  - !ruby/struct:Err
+    message: SO# 870260449.0202.001 not found
+  - !ruby/struct:Motor
+    nameplate:
+      BRAKE_RECTIFIER: ''
+      BRAKE_VOLTAGE: ''
+      CABLE_ENTRY: X
+      CONDUIT_BOX_LOC: 0
+      CONNECTION: DT79
+      FLANGE_DIAMETER: ''
+      FREQUENCY: 60
+      GEAR_RATIO: 203.16
+      GEAR_SF: 1.7
+      INSULATION_CLASS: F
+      KVA_CODE: J
+      MODEL_TYPE: R107DT100LS4-KS
+      MOTOR_AMPS: 8.6/4.3
+      MOTOR_HP: 3
+      MOTOR_VOLTAGE: 230YY/460Y
+      MTG_POSITION: M1
+      OUTPUT_SPEED: 8.5
+      OUT_TORQUE: 22333
+      SHAFT_DIAMETER: 2.875
+      SO_NUMBER: 870260449.10.10.001
+      TORQUE_UNITS: lb-in
+      XTRA_NOTES: CB@0, CE X
+    replacements: 
+    qty: 
+    shelf: 
+  - !ruby/struct:Err
+    message: SO# 870260449.16051605.001 not found
+  - !ruby/struct:Motor
+    nameplate:
+      BRAKE_RECTIFIER: ''
+      BRAKE_VOLTAGE: 230AC
+      CABLE_ENTRY: X
+      CONDUIT_BOX_LOC: 270
+      CONNECTION: R13
+      FLANGE_DIAMETER: ''
+      FREQUENCY: 60
+      GEAR_RATIO: 24.06
+      GEAR_SF: 1.95
+      INSULATION_CLASS: F
+      KVA_CODE: ''
+      MODEL_TYPE: KT47DRE90L4BE2HR/MM15/LN
+      MOTOR_AMPS: 3.0
+      MOTOR_HP: 2.0
+      MOTOR_VOLTAGE: 380-500Y
+      MTG_POSITION: M4AB
+      OUTPUT_SPEED: 11-70.66
+      OUT_TORQUE: 1814
+      SHAFT_DIAMETER: 1.438
+      SO_NUMBER: 870260449.15.15.001
+      TORQUE_UNITS: lb-in
+      XTRA_NOTES: 'Oil=mineral, #Gear Seals=1, Brk Rel@213, Brk Torq=177, Mtr Flg=FG130
+        D160, IP54, S/S Gray. Unit contains other important specifications. Please
+        call SEW.'
+    replacements: 
+    qty: 
+    shelf: 
+  - !ruby/struct:Err
+    message: SO# 870260449.0909.001 not found
+  - !ruby/struct:Err
+    message: SO# 870260449.1313.001 not found
+  - !ruby/struct:Err
+    message: SO# 870260449.1717.001 not found
+  - !ruby/struct:Err
+    message: SO# 870260449.1818.001 not found
+  - !ruby/struct:Err
+    message: SO# 870260449.1919.001 not found
+  - !ruby/struct:Err
+    message: SO# 870260449.2020.001 not found
+- - !ruby/struct:Err
+    message: SO# 890060077.0404.001 not found
+  - !ruby/struct:Err
+    message: SO# 890060077.0707.001 not found
+  - !ruby/struct:Err
+    message: SO# 890060077.0606.001 not found
+  - !ruby/struct:Err
+    message: SO# 890060077.0303.001 not found
+  - !ruby/struct:Err
+    message: SO# 890060077.0101.001 not found
+  - !ruby/struct:Motor
+    nameplate:
+      BRAKE_RECTIFIER: ''
+      BRAKE_VOLTAGE: ''
+      CABLE_ENTRY: X
+      CONDUIT_BOX_LOC: 0
+      CONNECTION: DT79
+      FLANGE_DIAMETER: ''
+      FREQUENCY: 60
+      GEAR_RATIO: 2.91
+      GEAR_SF: 11
+      INSULATION_CLASS: F
+      KVA_CODE: H
+      MODEL_TYPE: RX57DT71D4-KS
+      MOTOR_AMPS: 2.00/1.00
+      MOTOR_HP: 0.5
+      MOTOR_VOLTAGE: 230YY/460Y
+      MTG_POSITION: M1
+      OUTPUT_SPEED: 584
+      OUT_TORQUE: 54
+      SHAFT_DIAMETER: 0.75
+      SO_NUMBER: 890060077.11.11.001
+      TORQUE_UNITS: lb-in
+      XTRA_NOTES: CB@0, CE X
+    replacements: 
+    qty: 
+    shelf: 
+  - !ruby/struct:Err
+    message: SO# 890060077.1212.001 not found
+  - !ruby/struct:Err
+    message: SO# 890060077.1414.001 not found
+  - !ruby/struct:Motor
+    nameplate:
+      BRAKE_RECTIFIER: ''
+      BRAKE_VOLTAGE: ''
+      CABLE_ENTRY: X
+      CONDUIT_BOX_LOC: 270
+      CONNECTION: DT79
+      FLANGE_DIAMETER: ''
+      FREQUENCY: 60
+      GEAR_RATIO: 14.24
+      GEAR_SF: 1.6
+      INSULATION_CLASS: B
+      KVA_CODE: K
+      MODEL_TYPE: S57DT90L4
+      MOTOR_AMPS: 6.2/3.10
+      MOTOR_HP: 2
+      MOTOR_VOLTAGE: 230YY/460Y
+      MTG_POSITION: M4B
+      OUTPUT_SPEED: 121
+      OUT_TORQUE: 938
+      SHAFT_DIAMETER: 1.25
+      SO_NUMBER: 890060077.08.08.001
+      TORQUE_UNITS: lb-in
+      XTRA_NOTES: CB@270, CE X
+    replacements: 
+    qty: 
+    shelf: 
+  - !ruby/struct:Err
+    message: SO# 890060077.0202.001 not found
+  - !ruby/struct:Err
+    message: SO# 890060077.1010.001 not found
+  - !ruby/struct:Err
+    message: SO# 890060077.16051605.001 not found
+  - !ruby/struct:Err
+    message: SO# 890060077.1515.001 not found
+  - !ruby/struct:Err
+    message: SO# 890060077.0909.001 not found
+  - !ruby/struct:Err
+    message: SO# 890060077.1313.001 not found
+  - !ruby/struct:Err
+    message: SO# 890060077.1717.001 not found
+  - !ruby/struct:Err
+    message: SO# 890060077.1818.001 not found
+  - !ruby/struct:Err
+    message: SO# 890060077.1919.001 not found
+  - !ruby/struct:Err
+    message: SO# 890060077.2020.001 not found
+- - !ruby/struct:Err
+    message: SO# 890060078.0404.001 not found
+  - !ruby/struct:Err
+    message: SO# 890060078.0707.001 not found
+  - !ruby/struct:Err
+    message: SO# 890060078.0606.001 not found
+  - !ruby/struct:Err
+    message: SO# 890060078.0303.001 not found
+  - !ruby/struct:Err
+    message: SO# 890060078.0101.001 not found
+  - !ruby/struct:Err
+    message: SO# 890060078.1111.001 not found
+  - !ruby/struct:Err
+    message: SO# 890060078.1212.001 not found
+  - !ruby/struct:Err
+    message: SO# 890060078.1414.001 not found
+  - !ruby/struct:Motor
+    nameplate:
+      BRAKE_RECTIFIER: ''
+      BRAKE_VOLTAGE: ''
+      CABLE_ENTRY: X
+      CONDUIT_BOX_LOC: 270
+      CONNECTION: DT79
+      FLANGE_DIAMETER: ''
+      FREQUENCY: 60
+      GEAR_RATIO: 12.1
+      GEAR_SF: 1.9
+      INSULATION_CLASS: B
+      KVA_CODE: K
+      MODEL_TYPE: S57DT90L4
+      MOTOR_AMPS: 6.2/3.10
+      MOTOR_HP: 2
+      MOTOR_VOLTAGE: 230YY/460Y
+      MTG_POSITION: M4A
+      OUTPUT_SPEED: 142
+      OUT_TORQUE: 801
+      SHAFT_DIAMETER: 1.25
+      SO_NUMBER: 890060078.08.08.001
+      TORQUE_UNITS: lb-in
+      XTRA_NOTES: CB@270, CE X
+    replacements: 
+    qty: 
+    shelf: 
+  - !ruby/struct:Err
+    message: SO# 890060078.0202.001 not found
+  - !ruby/struct:Err
+    message: SO# 890060078.1010.001 not found
+  - !ruby/struct:Err
+    message: SO# 890060078.16051605.001 not found
+  - !ruby/struct:Err
+    message: SO# 890060078.1515.001 not found
+  - !ruby/struct:Err
+    message: SO# 890060078.0909.001 not found
+  - !ruby/struct:Motor
+    nameplate:
+      BRAKE_RECTIFIER: ''
+      BRAKE_VOLTAGE: ''
+      CABLE_ENTRY: ''
+      CONDUIT_BOX_LOC: ''
+      CONNECTION: ''
+      FLANGE_DIAMETER: 160MM
+      FREQUENCY: ''
+      GEAR_RATIO: 19.89
+      GEAR_SF: 1.0
+      INSULATION_CLASS: ''
+      KVA_CODE: ''
+      MODEL_TYPE: SAF37AM56
+      MOTOR_AMPS: ''
+      MOTOR_HP: 0
+      MOTOR_VOLTAGE: ''
+      MTG_POSITION: M2A
+      OUTPUT_SPEED: 88
+      OUT_TORQUE: 442
+      SHAFT_DIAMETER: 20MM
+      SO_NUMBER: 890060078.13.13.001
+      TORQUE_UNITS: lb-in
+      XTRA_NOTES: 'RAL5001 Green Blue, Oil=mineral, #Gear Seals=1'
+    replacements: 
+    qty: 
+    shelf: 
+  - !ruby/struct:Err
+    message: SO# 890060078.1717.001 not found
+  - !ruby/struct:Err
+    message: SO# 890060078.1818.001 not found
+  - !ruby/struct:Err
+    message: SO# 890060078.1919.001 not found
+  - !ruby/struct:Err
+    message: SO# 890060078.2020.001 not found
+:aa:
+- 870261873.04.04.001
+- 870260448.07.07.001
+- 890191835.06.06.001
+- 890230000.04.04.001
+- 870262042.04.04.001
+- 870261881.04.04.001
+- 870262036.04.04.001
+- 870261966.04.04.001
+- 870261960.04.04.001
+- 870262038.04.04.001
+- 870262037.04.04.001
+- 870262064.04.04.001
+- 890251181.07.07.001
+- 870262061.04.04.001
+- 870267843.04.04.001
+- 870261968.04.04.001
+- 870261864.04.04.001
+- 890165434.06.06.001
+- 870260502.04.04.001
+- 890177858.06.06.001
+- 870260613.04.04.001
+- 870262049.04.04.001
+- 870198503.06.06.001
+- 890245009.07.07.001
+- 890251184.07.07.001
+- 890251185.04.04.001
+- 870260457.07.07.001
+- 870262064.04.04.001
+- 870262064.04.04.001
+- 870262064.04.04.001
+- 870262064.04.04.001
+- 870262054.04.04.001
+- 850180282.06.06.001
+- 890006267.04.04.001
+- 870267832.04.04.001
+- 890261826.04.04.001
+- 870261885.04.04.001
+- 890222948.04.04.001
+- 890261826.04.04.001
+- 870261895.04.04.001
+- 870251864.07.07.001
+- 890252439.07.07.001
+- 890264857.07.07.001
+- 890189456.06.06.001
+- 890189527.06.06.001
+- 870260449.07.07.001
+- 890060077.11.11.001
+- 890060078.08.08.001
+:t:
+- &1
+  - - 870261873.04.04.001
+    - FH57DY71M/B/TH
+  - - 870261873.10.10.001
+    - DFT90L4BMG2HRZ
+- &2
+  - - 870260448.07.07.001
+    - FA57DT71C4BMG05HR
+  - - 870260448.15.15.001
+    - CFM71L/BR/TF/RH1L/SB60
+- - - 890191835.06.06.001
+    - FA37DT80N4
+- - - 890230000.04.04.001
+    - FH37DT71D4BMG05HR
+- &3
+  - - 870262042.04.04.001
+    - FH47DY71S/B/TH
+  - - 870262042.12.12.001
+    - S47DRS71S4
+  - - 870262042.15.15.001
+    - ST47/TDRS71M4
+- &4
+  - - 870261881.04.04.001
+    - FH57DY71M/B/TH
+  - - 870261881.12.12.001
+    - SA37DRE80M4/APG8
+- &5
+  - - 870262036.04.04.001
+    - FH57DY71S/B/TH
+  - - 870262036.07.07.001
+    - SA57TDT90S4BMG2HR-KS
+- &6
+  - - 870261966.04.04.001
+    - FH57DY71ML/B/TH
+  - - 870261966.12.12.001
+    - K107DRS180LC4/TF
+- &7
+  - - 870261960.04.04.001
+    - FH67DY90M/B/TH
+  - - 870261960.07.07.001
+    - K47DT100L4
+  - - 870261960.12.12.001
+    - K77DRE100L4
+- - - 870262038.04.04.001
+    - KH47DY71S/B/TH
+- - - 870262037.04.04.001
+    - KH47DY71S/B/TH
+- - - 870262064.04.04.001
+    - FH77DY112L/B/TH
+- - - 890251181.07.07.001
+    - KH77TDV112M4TH
+- &8
+  - - 870262061.04.04.001
+    - FH77DY112L/B/TH
+  - - 870262061.12.12.001
+    - RF17DRS71S4
+  - - 870262061.15.15.001
+    - SA57DRS71S6/DH
+- - - 870267843.04.04.001
+    - KH67BDY90S/B/HR/TH
+- - - 870261968.04.04.001
+    - FH77DY112ML/B/TH
+- &9
+  - - 870261864.04.04.001
+    - KH67TDY90S/B/HR/TH
+  - - 870261864.12.12.001
+    - DRE132M4/FG/V
+  - - 870261864.15.15.001
+    - DRS71M2BE05HR/FC/DH/LN
+- &10
+  - - 890165434.06.06.001
+    - KH77DV100M4BMG4HR
+  - - 890165434.03.03.001
+    - S47DT71C4BMG05UC-KS
+  - - 890165434.14.14.001
+    - S37DRE80M2/LN
+  - - 890165434.09.09.001
+    - SA47TDT80N4
+- &11
+  - - 870260502.04.04.001
+    - DFT90L4BMG2HR
+  - - 870260502.07.07.001
+    - FA77DT100L4BMG4HR
+  - - 870260502.15.15.001
+    - F47AM145
+- - - 890177858.06.06.001
+    - KA67TDT90L4BMG2HRTH
+- &12
+  - - 870260613.04.04.001
+    - R97D36DT100L4
+  - - 870260613.07.07.001
+    - FH87DV112M4BMG8HR
+  - - 870260613.12.12.001
+    - KF77DRE132M4
+- &13
+  - - 870262049.04.04.001
+    - FH77DY112S/B/TH
+  - - 870262049.15.15.001
+    - DRE90M4/FG/DH
+- &14
+  - - 870198503.06.06.001
+    - KA77TDT90L4BMG2HR
+  - - 870198503.12.12.001
+    - KF47DRS90L4
+- - - 890245009.07.07.001
+    - KH57DT80K6BMG1HR
+- - - 890251184.07.07.001
+    - R37DT80K4BMG1HR
+- &15
+  - - 890251185.04.04.001
+    - R27DT80K4Z
+  - - 890251185.07.07.001
+    - R37DT80K4BMG1HR
+  - - 890251185.15.15.001
+    - K47DRE90M4/DH
+- &16
+  - - 870260457.07.07.001
+    - R37DT80K4BMG1HR
+  - - 870260457.10.10.001
+    - DFT90S6-KS
+  - - 870260457.15.15.001
+    - R57DRS90M8/2BE2HR/Z
+- - - 870262064.04.04.001
+    - FH77DY112L/B/TH
+- - - 870262064.04.04.001
+    - FH77DY112L/B/TH
+- - - 870262064.04.04.001
+    - FH77DY112L/B/TH
+- - - 870262064.04.04.001
+    - FH77DY112L/B/TH
+- &17
+  - - 870262054.04.04.001
+    - FH77DY112L/B/TH
+  - - 870262054.12.12.001
+    - S57DRS71M4/DH - 18711
+- &18
+  - - 850180282.06.06.001
+    - KH77DT80N4BMG1HR
+  - - 850180282.14.14.001
+    - FF127DRE180LC4
+- &19
+  - - 890006267.04.04.001
+    - R17DT71C4BMG05HR
+  - - 890006267.07.07.001
+    - "**FH77/GDY112L/B/TH/VY"
+- - - 870267832.04.04.001
+    - KH67BDY90S/B/HR/TH
+- - - 890261826.04.04.001
+    - KA47DT90S8BMG2HRZ
+- &20
+  - - 870261885.04.04.001
+    - R47DY71M/B/TH
+  - - 870261885.15.15.001
+    - R47DRS100M8/2/DH
+- - - 890222948.04.04.001
+    - KH47DT80N4BMG1HR
+- - - 890261826.04.04.001
+    - KA47DT90S8BMG2HRZ
+- &21
+  - - 870261895.04.04.001
+    - KH57DY71M/B/TH
+  - - 870261895.10.10.001
+    - R67AM184
+- - - 870251864.07.07.001
+    - R47CM71L/BR/TF/RH1L/KK
+- - - 890252439.07.07.001
+    - R67SDT90S6/2BMG2HR
+- - - 890264857.07.07.001
+    - DFV100L4
+- &22
+  - - 890189456.06.06.001
+    - DFV132M4TH
+  - - 890189456.09.09.001
+    - S57DT90L12/2
+- &23
+  - - 890189527.06.06.001
+    - DFV132S4
+  - - 890189527.03.03.001
+    - DFV132S4Z-KS
+- &24
+  - - 870260449.07.07.001
+    - FH67DT100L4BMG4HR
+  - - 870260449.10.10.001
+    - R107DT100LS4-KS
+  - - 870260449.15.15.001
+    - KT47DRE90L4BE2HR/MM15/LN
+- &25
+  - - 890060077.11.11.001
+    - RX57DT71D4-KS
+  - - 890060077.08.08.001
+    - S57DT90L4
+- - - 890060078.08.08.001
+    - S57DT90L4
+:p:
+- *1
+- *2
+- *3
+- *4
+- *5
+- *6
+- *7
+- *8
+- *9
+- *10
+- *11
+- *12
+- *13
+- *14
+- *15
+- *16
+- *17
+- *18
+- *19
+- *20
+- *21
+- *22
+- *23
+- *24
+- *25
+:m:
+- - '870261873'
+  - '04'
+  - '04'
+  - '001'
+- - '870260448'
+  - '07'
+  - '07'
+  - '001'
+- - '890191835'
+  - '06'
+  - '06'
+  - '001'
+- - '890230000'
+  - '04'
+  - '04'
+  - '001'
+- - '870262042'
+  - '04'
+  - '04'
+  - '001'
+- - '870261881'
+  - '04'
+  - '04'
+  - '001'
+- - '870262036'
+  - '04'
+  - '04'
+  - '001'
+- - '870261966'
+  - '04'
+  - '04'
+  - '001'
+- - '870261960'
+  - '04'
+  - '04'
+  - '001'
+- - '870262038'
+  - '04'
+  - '04'
+  - '001'
+- - '870262037'
+  - '04'
+  - '04'
+  - '001'
+- - '870262064'
+  - '04'
+  - '04'
+  - '001'
+- - '890251181'
+  - '07'
+  - '07'
+  - '001'
+- - '870262061'
+  - '04'
+  - '04'
+  - '001'
+- - '870267843'
+  - '04'
+  - '04'
+  - '001'
+- - '870261968'
+  - '04'
+  - '04'
+  - '001'
+- - '870261864'
+  - '04'
+  - '04'
+  - '001'
+- - '890165434'
+  - '06'
+  - '06'
+  - '001'
+- - '870260502'
+  - '04'
+  - '04'
+  - '001'
+- - '890177858'
+  - '06'
+  - '06'
+  - '001'
+- - '870260613'
+  - '04'
+  - '04'
+  - '001'
+- - '870262049'
+  - '04'
+  - '04'
+  - '001'
+- - '870198503'
+  - '06'
+  - '06'
+  - '001'
+- - '890245009'
+  - '07'
+  - '07'
+  - '001'
+- - '890251184'
+  - '07'
+  - '07'
+  - '001'
+- - '890251185'
+  - '04'
+  - '04'
+  - '001'
+- - '870260457'
+  - '07'
+  - '07'
+  - '001'
+- - '870262064'
+  - '04'
+  - '04'
+  - '001'
+- - '870262064'
+  - '04'
+  - '04'
+  - '001'
+- - '870262064'
+  - '04'
+  - '04'
+  - '001'
+- - '870262064'
+  - '04'
+  - '04'
+  - '001'
+- - '870262054'
+  - '04'
+  - '04'
+  - '001'
+- - '850180282'
+  - '06'
+  - '06'
+  - '001'
+- - '890006267'
+  - '04'
+  - '04'
+  - '001'
+- - '870267832'
+  - '04'
+  - '04'
+  - '001'
+- - '890261826'
+  - '04'
+  - '04'
+  - '001'
+- - '870261885'
+  - '04'
+  - '04'
+  - '001'
+- - '890222948'
+  - '04'
+  - '04'
+  - '001'
+- - '890261826'
+  - '04'
+  - '04'
+  - '001'
+- - '870261895'
+  - '04'
+  - '04'
+  - '001'
+- - '870251864'
+  - '07'
+  - '07'
+  - '001'
+- - '890252439'
+  - '07'
+  - '07'
+  - '001'
+- - '890264857'
+  - '07'
+  - '07'
+  - '001'
+- - '890189456'
+  - '06'
+  - '06'
+  - '001'
+- - '890189527'
+  - '06'
+  - '06'
+  - '001'
+- - '870260449'
+  - '07'
+  - '07'
+  - '001'
+- - '890060077'
+  - '11'
+  - '11'
+  - '001'
+- - '890060078'
+  - '08'
+  - '08'
+  - '001'
