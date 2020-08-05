@@ -37,3 +37,8 @@ def fmt_all
   DB[:motors].map do |a| fmt a end
   save_db
 end
+
+
+DB[:motors].each do |m|
+  m.qty ||= -1
+end

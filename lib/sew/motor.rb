@@ -37,8 +37,14 @@ GEAR_UNITS = {
 }
 
 
-Motor = Struct.new(:nameplate, :replacements) do
+$SHELVES = [
+ "ZD","ZE","ZF","ZC",
+ 
+]
 
+
+Motor = Struct.new(:nameplate, :replacements, :qty, :shelf) do
+  
   
   def replace so
     if !nm=DB[:motors].find do |m| m.nameplate['SO_NUMBER'].gsub(".",'') == so.gsub(".",'') end
@@ -137,4 +143,18 @@ def fmt m
   m.nameplate = nr
   
   m
+end
+
+def get_so so: ,&b
+  b.call(DB[:motors].find do |m|
+    m.is_a?(Motor) && (m.nameplate['SO_NUMBER'].gsub(".",'') == so.gsub(".",''))
+  end)
+  
+  so
+end
+
+def find_so so: ,&b 
+  DB[:motors].find_all do |m|
+    m.is_a?(Motor) && (m.nameplate['SO_NUMBER'.gsub(".",'')] =~ /#{so.gsub(".",'')}/)
+  end.map &b
 end

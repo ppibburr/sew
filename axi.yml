@@ -25,7 +25,9 @@
     TORQUE_UNITS: lb-in
     XTRA_NOTES: Term.Strip#1830600, CB@0, CE X. Unit contains other important specifications.
       Please call SEW.
-  replacements: 
+  replacements: []
+  qty: -1
+  shelf: ZC
 - &2 !ruby/struct:Motor
   nameplate:
     BRAKE_RECTIFIER: BG1.5
@@ -50,7 +52,9 @@
     SO_NUMBER: 870260448.07.07.001
     TORQUE_UNITS: lb-in
     XTRA_NOTES: CB@0, CE X
-  replacements: 
+  replacements: []
+  qty: -1
+  shelf: ZC
 - &3 !ruby/struct:Motor
   nameplate:
     BRAKE_RECTIFIER: ''
@@ -75,7 +79,9 @@
     SO_NUMBER: 890191835.06.06.001
     TORQUE_UNITS: lb-in
     XTRA_NOTES: CB@0, CE X
-  replacements: 
+  replacements: []
+  qty: -1
+  shelf: ZC
 - &4 !ruby/struct:Motor
   nameplate:
     BRAKE_RECTIFIER: BGE1.5
@@ -100,7 +106,9 @@
     SO_NUMBER: 890230000.04.04.001
     TORQUE_UNITS: lb-in
     XTRA_NOTES: CB@270, CE X
-  replacements: 
+  replacements: []
+  qty: -1
+  shelf: ZC
 - &5 !ruby/struct:Motor
   nameplate:
     BRAKE_RECTIFIER: BME1.5
@@ -126,7 +134,9 @@
     TORQUE_UNITS: lb-in
     XTRA_NOTES: Term.Strip#1830600, CB@270, CE X. Unit contains other important specifications.
       Please call SEW.
-  replacements: 
+  replacements: []
+  qty: -1
+  shelf: ZC
 - &6 !ruby/struct:Motor
   nameplate:
     BRAKE_RECTIFIER: BME1.5
@@ -152,7 +162,9 @@
     TORQUE_UNITS: lb-in
     XTRA_NOTES: Term.Strip#1830600, CB@270, CE X. Unit contains other important specifications.
       Please call SEW.
-  replacements: 
+  replacements: []
+  qty: -1
+  shelf: ZC
 - &7 !ruby/struct:Motor
   nameplate:
     BRAKE_RECTIFIER: BME1.5
@@ -178,7 +190,9 @@
     TORQUE_UNITS: lb-in
     XTRA_NOTES: Term.Strip#1830600, CB@0, CE X. Unit contains other important specifications.
       Please call SEW.
-  replacements: 
+  replacements: []
+  qty: -1
+  shelf: ZC
 - &8 !ruby/struct:Motor
   nameplate:
     BRAKE_RECTIFIER: BME1.5
@@ -204,7 +218,9 @@
     TORQUE_UNITS: lb-in
     XTRA_NOTES: Term.Strip#1830600, CB@270, CE X. Unit contains other important specifications.
       Please call SEW.
-  replacements: 
+  replacements: []
+  qty: -1
+  shelf: ZC
 - &9 !ruby/struct:Motor
   nameplate:
     BRAKE_RECTIFIER: BME1.5
@@ -232,6 +248,8 @@
       Please call SEW.
   replacements:
   - ff
+  qty: -1
+  shelf: ZC
 - &10 !ruby/struct:Motor
   nameplate:
     BRAKE_RECTIFIER: BME1.5
@@ -257,7 +275,9 @@
     TORQUE_UNITS: lb-in
     XTRA_NOTES: Term.Strip#1830600, Term.Strip#1830600, CB@90, CE X. Unit contains
       other important specifications. Please call SEW.
-  replacements: 
+  replacements: []
+  qty: -1
+  shelf: ZD
 - &11 !ruby/struct:Motor
   nameplate:
     BRAKE_RECTIFIER: BME1.5
@@ -283,7 +303,9 @@
     TORQUE_UNITS: lb-in
     XTRA_NOTES: Term.Strip#1830600, Term.Strip#1830600, CB@90, CE X. Unit contains
       other important specifications. Please call SEW.
-  replacements: 
+  replacements: []
+  qty: -1
+  shelf: ZD
 - &12 !ruby/struct:Motor
   nameplate:
     BRAKE_RECTIFIER: BME1.5
@@ -309,7 +331,9 @@
     TORQUE_UNITS: lb-in
     XTRA_NOTES: Term.Strip#1830600, CB@180, CE X. Unit contains other important specifications.
       Please call SEW.
-  replacements: 
+  replacements: []
+  qty: -1
+  shelf: ZC
 - &13 !ruby/struct:Motor
   nameplate:
     BRAKE_RECTIFIER: ''
@@ -334,7 +358,9 @@
     SO_NUMBER: 890251181.07.07.001
     TORQUE_UNITS: lb-in
     XTRA_NOTES: Torque Arm, Term.Strip#1830600, CB@0, CE X
-  replacements: 
+  replacements: []
+  qty: -1
+  shelf: ZC
 - &14 !ruby/struct:Motor
   nameplate:
     BRAKE_RECTIFIER: BME1.5
@@ -360,7 +386,9 @@
     TORQUE_UNITS: lb-in
     XTRA_NOTES: Term.Strip#1830600, CB@0, CE X. Unit contains other important specifications.
       Please call SEW.
-  replacements: 
+  replacements: []
+  qty: -1
+  shelf: ZC
 - &15 !ruby/struct:Motor
   nameplate:
     BRAKE_RECTIFIER: BME1.5
@@ -385,7 +413,9 @@
     SO_NUMBER: 870267843.04.04.001
     TORQUE_UNITS: lb-in
     XTRA_NOTES: ". Unit contains other important specifications. Please call SEW."
-  replacements: 
+  replacements: []
+  qty: -1
+  shelf: ZC
 - &16 !ruby/struct:Motor
   nameplate:
     BRAKE_RECTIFIER: BME1.5
@@ -411,7 +441,9 @@
     TORQUE_UNITS: lb-in
     XTRA_NOTES: Term.Strip#1830600, Term.Strip#1830600, CB@270, CE X. Unit contains
       other important specifications. Please call SEW.
-  replacements: 
+  replacements: []
+  qty: -1
+  shelf: ZC
 - &17 !ruby/struct:Motor
   nameplate:
     BRAKE_RECTIFIER: BME1.5
@@ -437,7 +469,9 @@
     TORQUE_UNITS: lb-in
     XTRA_NOTES: Torque Arm, Term.Strip#1830600, Term.Strip#1830600, CB@0, CE X. Unit
       contains other important specifications. Please call SEW.
-  replacements: 
+  replacements: []
+  qty: -1
+  shelf: ZC
 - &18 !ruby/struct:Motor
   nameplate:
     BRAKE_RECTIFIER: BGE1.5
@@ -462,7 +496,9 @@
     SO_NUMBER: 890165434.06.06.001
     TORQUE_UNITS: lb-in
     XTRA_NOTES: CB@0, CE X
-  replacements: 
+  replacements: []
+  qty: -1
+  shelf: ZC
 - &19 !ruby/struct:Motor
   nameplate:
     BRAKE_RECTIFIER: BG1.5
@@ -487,7 +523,9 @@
     SO_NUMBER: 870260502.04.04.001
     TORQUE_UNITS: lb-in
     XTRA_NOTES: CB@0, CE X
-  replacements: 
+  replacements: []
+  qty: -1
+  shelf: ZC
 - &20 !ruby/struct:Motor
   nameplate:
     BRAKE_RECTIFIER: BGE1.5
@@ -512,7 +550,9 @@
     SO_NUMBER: 890177858.06.06.001
     TORQUE_UNITS: lb-in
     XTRA_NOTES: Torque Arm, Term.Strip#1830600, CB@0, CE X
-  replacements: 
+  replacements: []
+  qty: -1
+  shelf: ZC
 - &21 !ruby/struct:Motor
   nameplate:
     BRAKE_RECTIFIER: ''
@@ -538,7 +578,9 @@
     TORQUE_UNITS: lb-in
     XTRA_NOTES: Oil Sight Tube, CB@0, CE X. Unit contains other important specifications.
       Please call SEW.
-  replacements: 
+  replacements: []
+  qty: -1
+  shelf: ZC
 - &26 !ruby/struct:Motor
   nameplate:
     BRAKE_RECTIFIER: BME1.5
@@ -566,6 +608,8 @@
       other important specifications. Please call SEW.
   replacements:
   - 87.7898823701.0001.20.10
+  qty: -1
+  shelf: ZD
 - &27 !ruby/struct:Motor
   nameplate:
     BRAKE_RECTIFIER: BGE1.5 SR11
@@ -592,6 +636,8 @@
     XTRA_NOTES: Torque Arm, CB@270, CE X
   replacements:
   - 87.7898823703.0001.20.10
+  qty: -1
+  shelf: ZD
 - &25 !ruby/struct:Motor
   nameplate:
     BRAKE_RECTIFIER: BGE1.5 SR11
@@ -618,6 +664,8 @@
     XTRA_NOTES: CB@270, CE X
   replacements:
   - 87.7898823704.0001.20.10
+  qty: -1
+  shelf: ZD
 - &24 !ruby/struct:Motor
   nameplate:
     BRAKE_RECTIFIER: BGE1.5
@@ -644,6 +692,8 @@
     XTRA_NOTES: CB@180, CE X
   replacements:
   - 87.7898823705.0001.20.10
+  qty: -1
+  shelf: ZD
 - &23 !ruby/struct:Motor
   nameplate:
     BRAKE_RECTIFIER: ''
@@ -670,6 +720,8 @@
     XTRA_NOTES: CB@0, CE X
   replacements:
   - 87.7898823706.0001.20.10
+  qty: -1
+  shelf: ZD
 - &22 !ruby/struct:Motor
   nameplate:
     BRAKE_RECTIFIER: BGE1.5 SR11
@@ -696,6 +748,8 @@
     XTRA_NOTES: CB@180, CE X
   replacements:
   - 87.7898823707.0001.20.10
+  qty: -1
+  shelf: ZE
 - !ruby/struct:Motor
   nameplate:
     BRAKE_RECTIFIER: BME1.5
@@ -721,7 +775,9 @@
     TORQUE_UNITS: lb-in
     XTRA_NOTES: Term.Strip#1830600, CB@180, CE X. Unit contains other important specifications.
       Please call SEW.
-  replacements: 
+  replacements: []
+  qty: -1
+  shelf: 
 - !ruby/struct:Motor
   nameplate:
     BRAKE_RECTIFIER: BME1.5
@@ -747,7 +803,9 @@
     TORQUE_UNITS: lb-in
     XTRA_NOTES: Term.Strip#1830600, CB@180, CE X. Unit contains other important specifications.
       Please call SEW.
-  replacements: 
+  replacements: []
+  qty: -1
+  shelf: 
 - !ruby/struct:Motor
   nameplate:
     BRAKE_RECTIFIER: BME1.5
@@ -773,7 +831,9 @@
     TORQUE_UNITS: lb-in
     XTRA_NOTES: Term.Strip#1830600, CB@180, CE X. Unit contains other important specifications.
       Please call SEW.
-  replacements: 
+  replacements: []
+  qty: -1
+  shelf: 
 - !ruby/struct:Motor
   nameplate:
     BRAKE_RECTIFIER: BME1.5
@@ -799,7 +859,471 @@
     TORQUE_UNITS: lb-in
     XTRA_NOTES: Term.Strip#1830600, CB@180, CE X. Unit contains other important specifications.
       Please call SEW.
-  replacements: 
+  replacements: []
+  qty: -1
+  shelf: 
+- &28 !ruby/struct:Motor
+  nameplate:
+    BRAKE_RECTIFIER: BME1.5
+    BRAKE_VOLTAGE: 230AC
+    CABLE_ENTRY: X
+    CONDUIT_BOX_LOC: 0
+    CONNECTION: DT11
+    FLANGE_DIAMETER: ''
+    FREQUENCY: 150
+    GEAR_RATIO: 17.49
+    GEAR_SF: 3.0
+    INSULATION_CLASS: F
+    KVA_CODE: ''
+    MODEL_TYPE: FH77DY112L/B/TH
+    MOTOR_AMPS: 24
+    MOTOR_HP: 12
+    MOTOR_VOLTAGE: 400
+    MTG_POSITION: M6
+    OUTPUT_SPEED: 172
+    OUT_TORQUE: 5390
+    SHAFT_DIAMETER: 50SHR
+    SO_NUMBER: 870262054.04.04.001
+    TORQUE_UNITS: lb-in
+    XTRA_NOTES: Term.Strip#1830600, CB@0, CE X. Unit contains other important specifications.
+      Please call SEW.
+  replacements: []
+  qty: -1
+  shelf: ZC
+- &29 !ruby/struct:Motor
+  nameplate:
+    BRAKE_RECTIFIER: BGE1.5 SR11
+    BRAKE_VOLTAGE: 480AC
+    CABLE_ENTRY: X
+    CONDUIT_BOX_LOC: 0
+    CONNECTION: DT13
+    FLANGE_DIAMETER: ''
+    FREQUENCY: 60
+    GEAR_RATIO: 135.28
+    GEAR_SF: 2.7
+    INSULATION_CLASS: B
+    KVA_CODE: J
+    MODEL_TYPE: KH77DT80N4BMG1HR
+    MOTOR_AMPS: 3.20/1.85
+    MOTOR_HP: 1
+    MOTOR_VOLTAGE: 266'/460Y
+    MTG_POSITION: M3B
+    OUTPUT_SPEED: 13
+    OUT_TORQUE: 5015
+    SHAFT_DIAMETER: 50MM
+    SO_NUMBER: 850180282.06.06.001
+    TORQUE_UNITS: lb-in
+    XTRA_NOTES: Special Volt/Freq. CB@0, CE X
+  replacements: []
+  qty: -1
+  shelf: ZC
+- &30 !ruby/struct:Motor
+  nameplate:
+    BRAKE_RECTIFIER: BG1.5
+    BRAKE_VOLTAGE: 460AC
+    CABLE_ENTRY: X
+    CONDUIT_BOX_LOC: 0
+    CONNECTION: DT79
+    FLANGE_DIAMETER: ''
+    FREQUENCY: 60
+    GEAR_RATIO: 23.15
+    GEAR_SF: 2.7
+    INSULATION_CLASS: B
+    KVA_CODE: J
+    MODEL_TYPE: R17DT71C4BMG05HR
+    MOTOR_AMPS: 1.32/.66
+    MOTOR_HP: 0.33
+    MOTOR_VOLTAGE: 230YY/460Y
+    MTG_POSITION: M1
+    OUTPUT_SPEED: 74
+    OUT_TORQUE: 280
+    SHAFT_DIAMETER: 20MM
+    SO_NUMBER: 890006267.04.04.001
+    TORQUE_UNITS: lb-in
+    XTRA_NOTES: CB@0, CE X
+  replacements: []
+  qty: -1
+  shelf: ZC
+- &31 !ruby/struct:Motor
+  nameplate:
+    BRAKE_RECTIFIER: BME1.5
+    BRAKE_VOLTAGE: 230AC
+    CABLE_ENTRY: ''
+    CONDUIT_BOX_LOC: ''
+    CONNECTION: DT11
+    FLANGE_DIAMETER: ''
+    FREQUENCY: 150
+    GEAR_RATIO: 90.04
+    GEAR_SF: 1.0
+    INSULATION_CLASS: F
+    KVA_CODE: ''
+    MODEL_TYPE: KH67BDY90S/B/HR/TH
+    MOTOR_AMPS: 5.9
+    MOTOR_HP: 3
+    MOTOR_VOLTAGE: 400
+    MTG_POSITION: M1B
+    OUTPUT_SPEED: 33
+    OUT_TORQUE: 7171
+    SHAFT_DIAMETER: 40SHR
+    SO_NUMBER: 870267832.04.04.001
+    TORQUE_UNITS: lb-in
+    XTRA_NOTES: ". Unit contains other important specifications. Please call SEW."
+  replacements: []
+  qty: -1
+  shelf: ZC
+- &32 !ruby/struct:Motor
+  nameplate:
+    BRAKE_RECTIFIER: BGE1.5 SR11
+    BRAKE_VOLTAGE: 460AC
+    CABLE_ENTRY: X
+    CONDUIT_BOX_LOC: 0
+    CONNECTION: DT13
+    FLANGE_DIAMETER: ''
+    FREQUENCY: 60
+    GEAR_RATIO: 75.2
+    GEAR_SF: 1.25
+    INSULATION_CLASS: F
+    KVA_CODE: F
+    MODEL_TYPE: KA47DT90S8BMG2HRZ
+    MOTOR_AMPS: 2.25/1.29
+    MOTOR_HP: 0.5
+    MOTOR_VOLTAGE: 277'/480Y
+    MTG_POSITION: M2A
+    OUTPUT_SPEED: 11
+    OUT_TORQUE: 2830
+    SHAFT_DIAMETER: 35MM
+    SO_NUMBER: 890261826.04.04.001
+    TORQUE_UNITS: lb-in
+    XTRA_NOTES: CB@0, CE X
+  replacements: []
+  qty: -1
+  shelf: ZC
+- &33 !ruby/struct:Motor
+  nameplate:
+    BRAKE_RECTIFIER: BME1.5
+    BRAKE_VOLTAGE: 230AC
+    CABLE_ENTRY: X
+    CONDUIT_BOX_LOC: 0
+    CONNECTION: DT11
+    FLANGE_DIAMETER: ''
+    FREQUENCY: 150
+    GEAR_RATIO: 14.56
+    GEAR_SF: 4.9
+    INSULATION_CLASS: F
+    KVA_CODE: ''
+    MODEL_TYPE: R47DY71M/B/TH
+    MOTOR_AMPS: 2.7
+    MOTOR_HP: 2
+    MOTOR_VOLTAGE: 400
+    MTG_POSITION: M6
+    OUTPUT_SPEED: 206
+    OUT_TORQUE: 476
+    SHAFT_DIAMETER: 30MM
+    SO_NUMBER: 870261885.04.04.001
+    TORQUE_UNITS: lb-in
+    XTRA_NOTES: Term.Strip#1830600, CB@0, CE X. Unit contains other important specifications.
+      Please call SEW.
+  replacements: []
+  qty: -1
+  shelf: ZD
+- &34 !ruby/struct:Motor
+  nameplate:
+    BRAKE_RECTIFIER: BGE1.5
+    BRAKE_VOLTAGE: 460AC
+    CABLE_ENTRY: X
+    CONDUIT_BOX_LOC: 270
+    CONNECTION: DT79
+    FLANGE_DIAMETER: ''
+    FREQUENCY: 60
+    GEAR_RATIO: 63.3
+    GEAR_SF: 1.5
+    INSULATION_CLASS: B
+    KVA_CODE: J
+    MODEL_TYPE: KH47DT80N4BMG1HR
+    MOTOR_AMPS: 3.70/1.85
+    MOTOR_HP: 1
+    MOTOR_VOLTAGE: 230YY/460Y
+    MTG_POSITION: M2B
+    OUTPUT_SPEED: 27
+    OUT_TORQUE: 2347
+    SHAFT_DIAMETER: 35SHR
+    SO_NUMBER: 890222948.04.04.001
+    TORQUE_UNITS: lb-in
+    XTRA_NOTES: CB@270, CE X
+  replacements: []
+  qty: -1
+  shelf: ZD
+- !ruby/struct:Motor
+  nameplate:
+    BRAKE_RECTIFIER: BGE1.5 SR11
+    BRAKE_VOLTAGE: 460AC
+    CABLE_ENTRY: X
+    CONDUIT_BOX_LOC: 0
+    CONNECTION: DT13
+    FLANGE_DIAMETER: ''
+    FREQUENCY: 60
+    GEAR_RATIO: 75.2
+    GEAR_SF: 1.25
+    INSULATION_CLASS: F
+    KVA_CODE: F
+    MODEL_TYPE: KA47DT90S8BMG2HRZ
+    MOTOR_AMPS: 2.25/1.29
+    MOTOR_HP: 0.5
+    MOTOR_VOLTAGE: 277'/480Y
+    MTG_POSITION: M2A
+    OUTPUT_SPEED: 11
+    OUT_TORQUE: 2830
+    SHAFT_DIAMETER: 35MM
+    SO_NUMBER: 890261826.04.04.001
+    TORQUE_UNITS: lb-in
+    XTRA_NOTES: CB@0, CE X
+  replacements: []
+  qty: -1
+  shelf: 
+- &35 !ruby/struct:Motor
+  nameplate:
+    BRAKE_RECTIFIER: BME1.5
+    BRAKE_VOLTAGE: 230AC
+    CABLE_ENTRY: X
+    CONDUIT_BOX_LOC: 0
+    CONNECTION: DT11
+    FLANGE_DIAMETER: ''
+    FREQUENCY: 150
+    GEAR_RATIO: 108.29
+    GEAR_SF: 1.5
+    INSULATION_CLASS: F
+    KVA_CODE: ''
+    MODEL_TYPE: KH57DY71M/B/TH
+    MOTOR_AMPS: 2.7
+    MOTOR_HP: 2
+    MOTOR_VOLTAGE: 400
+    MTG_POSITION: M1B
+    OUTPUT_SPEED: 28
+    OUT_TORQUE: 3545
+    SHAFT_DIAMETER: 40SHR
+    SO_NUMBER: 870261895.04.04.001
+    TORQUE_UNITS: lb-in
+    XTRA_NOTES: Term.Strip#1830600, Term.Strip#1830600, CB@0, CE X. Unit contains
+      other important specifications. Please call SEW.
+  replacements: []
+  qty: 0
+  shelf: ZD
+- &36 !ruby/struct:Motor
+  nameplate:
+    BRAKE_RECTIFIER: BME1.5
+    BRAKE_VOLTAGE: 230
+    CABLE_ENTRY: X
+    CONDUIT_BOX_LOC: 0
+    CONNECTION: DT11
+    FLANGE_DIAMETER: 160MM
+    FREQUENCY: 150
+    GEAR_RATIO: 23.59
+    GEAR_SF: ''
+    INSULATION_CLASS: F
+    KVA_CODE: ''
+    MODEL_TYPE: R47CM71L/BR/TF/RH1L/KK
+    MOTOR_AMPS: 6 / 25
+    MOTOR_HP: 13
+    MOTOR_VOLTAGE: 400
+    MTG_POSITION: M1
+    OUTPUT_SPEED: 127
+    OUT_TORQUE: ''
+    SHAFT_DIAMETER: 30MM
+    SO_NUMBER: 870251864.07.07.001
+    TORQUE_UNITS: lb-in
+    XTRA_NOTES: 
+  replacements: []
+  qty: 1
+  shelf: 
+- &37 !ruby/struct:Motor
+  nameplate:
+    BRAKE_RECTIFIER: BGE1.5
+    BRAKE_VOLTAGE: 460AC
+    CABLE_ENTRY: X
+    CONDUIT_BOX_LOC: 270
+    CONNECTION: DT43
+    FLANGE_DIAMETER: ''
+    FREQUENCY: 60
+    GEAR_RATIO: 56.89
+    GEAR_SF: 3.9
+    INSULATION_CLASS: F
+    KVA_CODE: E
+    MODEL_TYPE: R67SDT90S6/2BMG2HR
+    MOTOR_AMPS: 1.35/2.35
+    MOTOR_HP: ".4/1.2"
+    MOTOR_VOLTAGE: 460Y/Y
+    MTG_POSITION: M1
+    OUTPUT_SPEED: 18/56
+    OUT_TORQUE: 1350
+    SHAFT_DIAMETER: 35MM
+    SO_NUMBER: 890252439.07.07.001
+    TORQUE_UNITS: lb-in
+    XTRA_NOTES: CB@270, CE X
+  replacements: []
+  qty: 1
+  shelf: 
+- &38 !ruby/struct:Motor
+  nameplate:
+    BRAKE_RECTIFIER: ''
+    BRAKE_VOLTAGE: ''
+    CABLE_ENTRY: X
+    CONDUIT_BOX_LOC: 270
+    CONNECTION: DT13
+    FLANGE_DIAMETER: 77
+    FREQUENCY: 60
+    GEAR_RATIO: ''
+    GEAR_SF: ''
+    INSULATION_CLASS: F
+    KVA_CODE: G
+    MODEL_TYPE: DFV100L4
+    MOTOR_AMPS: 11.4/6.6
+    MOTOR_HP: 5
+    MOTOR_VOLTAGE: 266'/460Y
+    MTG_POSITION: M1
+    OUTPUT_SPEED: ''
+    OUT_TORQUE: ''
+    SHAFT_DIAMETER: PIN16
+    SO_NUMBER: 890264857.07.07.001
+    TORQUE_UNITS: lb-in
+    XTRA_NOTES: Special Volt/Freq. GFI 36-IP55, CB@270, CE X
+  replacements: []
+  qty: 1
+  shelf: 
+- &39 !ruby/struct:Motor
+  nameplate:
+    BRAKE_RECTIFIER: ''
+    BRAKE_VOLTAGE: ''
+    CABLE_ENTRY: X
+    CONDUIT_BOX_LOC: 0
+    CONNECTION: DT79
+    FLANGE_DIAMETER: 300MM
+    FREQUENCY: 60
+    GEAR_RATIO: ''
+    GEAR_SF: ''
+    INSULATION_CLASS: B
+    KVA_CODE: G
+    MODEL_TYPE: DFV132M4TH
+    MOTOR_AMPS: 27.4/13.7
+    MOTOR_HP: 10
+    MOTOR_VOLTAGE: 230YY/460Y
+    MTG_POSITION: V1
+    OUTPUT_SPEED: ''
+    OUT_TORQUE: ''
+    SHAFT_DIAMETER: IEC38
+    SO_NUMBER: 890189456.06.06.001
+    TORQUE_UNITS: lb-in
+    XTRA_NOTES: Term.Strip#1830600, CB@0, CE X
+  replacements: []
+  qty: 1
+  shelf: 
+- &40 !ruby/struct:Motor
+  nameplate:
+    BRAKE_RECTIFIER: ''
+    BRAKE_VOLTAGE: ''
+    CABLE_ENTRY: X
+    CONDUIT_BOX_LOC: 0
+    CONNECTION: DT79
+    FLANGE_DIAMETER: 300MM
+    FREQUENCY: 60
+    GEAR_RATIO: ''
+    GEAR_SF: ''
+    INSULATION_CLASS: B
+    KVA_CODE: H
+    MODEL_TYPE: DFV132S4
+    MOTOR_AMPS: 18.8/9.4
+    MOTOR_HP: 7.5
+    MOTOR_VOLTAGE: 230YY/460Y
+    MTG_POSITION: V1
+    OUTPUT_SPEED: ''
+    OUT_TORQUE: ''
+    SHAFT_DIAMETER: IEC38
+    SO_NUMBER: 890189527.06.06.001
+    TORQUE_UNITS: lb-in
+    XTRA_NOTES: CB@0, CE X
+  replacements: []
+  qty: 1
+  shelf: 
+- &41 !ruby/struct:Motor
+  nameplate:
+    BRAKE_RECTIFIER: BG1.5
+    BRAKE_VOLTAGE: 460AC
+    CABLE_ENTRY: X
+    CONDUIT_BOX_LOC: 270
+    CONNECTION: DT79
+    FLANGE_DIAMETER: ''
+    FREQUENCY: 60
+    GEAR_RATIO: 39.26
+    GEAR_SF: 0.9
+    INSULATION_CLASS: B
+    KVA_CODE: G
+    MODEL_TYPE: FH67DT100L4BMG4HR
+    MOTOR_AMPS: 13.6/6.8
+    MOTOR_HP: 5
+    MOTOR_VOLTAGE: 230YY/460Y
+    MTG_POSITION: M1
+    OUTPUT_SPEED: 43
+    OUT_TORQUE: 7364
+    SHAFT_DIAMETER: 40SHR
+    SO_NUMBER: 870260449.07.07.001
+    TORQUE_UNITS: lb-in
+    XTRA_NOTES: CB@270, CE X
+  replacements: []
+  qty: 1
+  shelf: 
+- &42 !ruby/struct:Motor
+  nameplate:
+    BRAKE_RECTIFIER: ''
+    BRAKE_VOLTAGE: ''
+    CABLE_ENTRY: X
+    CONDUIT_BOX_LOC: 0
+    CONNECTION: DT79
+    FLANGE_DIAMETER: ''
+    FREQUENCY: 60
+    GEAR_RATIO: 2.91
+    GEAR_SF: 11
+    INSULATION_CLASS: F
+    KVA_CODE: H
+    MODEL_TYPE: RX57DT71D4-KS
+    MOTOR_AMPS: 2.00/1.00
+    MOTOR_HP: 0.5
+    MOTOR_VOLTAGE: 230YY/460Y
+    MTG_POSITION: M1
+    OUTPUT_SPEED: 584
+    OUT_TORQUE: 54
+    SHAFT_DIAMETER: 0.75
+    SO_NUMBER: 890060077.11.11.001
+    TORQUE_UNITS: lb-in
+    XTRA_NOTES: CB@0, CE X
+  replacements: []
+  qty: 1
+  shelf: ZE
+- &43 !ruby/struct:Motor
+  nameplate:
+    BRAKE_RECTIFIER: ''
+    BRAKE_VOLTAGE: ''
+    CABLE_ENTRY: X
+    CONDUIT_BOX_LOC: 270
+    CONNECTION: DT79
+    FLANGE_DIAMETER: ''
+    FREQUENCY: 60
+    GEAR_RATIO: 12.1
+    GEAR_SF: 1.9
+    INSULATION_CLASS: B
+    KVA_CODE: K
+    MODEL_TYPE: S57DT90L4
+    MOTOR_AMPS: 6.2/3.10
+    MOTOR_HP: 2
+    MOTOR_VOLTAGE: 230YY/460Y
+    MTG_POSITION: M4A
+    OUTPUT_SPEED: 142
+    OUT_TORQUE: 801
+    SHAFT_DIAMETER: 1.25
+    SO_NUMBER: 890060078.08.08.001
+    TORQUE_UNITS: lb-in
+    XTRA_NOTES: CB@270, CE X
+  replacements: []
+  qty: 1
+  shelf: ZE
 :axi:
 - !ruby/struct:Axis
   name: H89 star wheel
@@ -1128,5 +1652,201 @@
   department: MFG
   location: F
   motor: *27
+  manual: 
+  mark: 
+- !ruby/struct:Axis
+  name: '3'
+  department: TEST
+  location: ME
+  motor: *16
+  manual: 
+  mark: 
+- !ruby/struct:Axis
+  name: C21
+  department: MFG
+  location: CUTTER
+  motor: *28
+  manual: 
+  mark: 
+- !ruby/struct:Axis
+  name: F51
+  department: MFG
+  location: CUTTER
+  motor: *28
+  manual: 
+  mark: 
+- !ruby/struct:Axis
+  name: H87 conveyor
+  department: MFG
+  location: SETTER
+  motor: *29
+  manual: 
+  mark: 
+- !ruby/struct:Axis
+  name: H81 up down
+  department: MFG
+  location: SETTER
+  motor: *30
+  manual: 
+  mark: 
+- !ruby/struct:Axis
+  name: G192 bar stop
+  department: PKG
+  location: G
+  motor: *31
+  manual: 
+  mark: 
+- !ruby/struct:Axis
+  name: C conveyors
+  department: PKG
+  location: C
+  motor: *32
+  manual: 
+  mark: 
+- !ruby/struct:Axis
+  name: D conveyors
+  department: PKG
+  location: D
+  motor: *32
+  manual: 
+  mark: 
+- !ruby/struct:Axis
+  name: E conveyors
+  department: PKG
+  location: E
+  motor: *32
+  manual: 
+  mark: 
+- !ruby/struct:Axis
+  name: D129
+  department: PKG
+  location: D
+  motor: *33
+  manual: 
+  mark: 
+- !ruby/struct:Axis
+  name: D139
+  department: PKG
+  location: D
+  motor: *33
+  manual: 
+  mark: 
+- !ruby/struct:Axis
+  name: E149
+  department: PKG
+  location: E
+  motor: *33
+  manual: 
+  mark: 
+- !ruby/struct:Axis
+  name: E159
+  department: PKG
+  location: E
+  motor: *33
+  manual: 
+  mark: 
+- !ruby/struct:Axis
+  name: G68
+  department: MFG
+  location: GLAZE
+  motor: *34
+  manual: 
+  mark: 
+- !ruby/struct:Axis
+  name: C118
+  department: PKG
+  location: C
+  motor: *32
+  manual: 
+  mark: 
+- !ruby/struct:Axis
+  name: C119
+  department: PKG
+  location: C
+  motor: *32
+  manual: 
+  mark: 
+- !ruby/struct:Axis
+  name: H91
+  department: MFG
+  location: H
+  motor: *35
+  manual: 
+  mark: 
+- !ruby/struct:Axis
+  name: F172
+  department: PKG
+  location: F
+  motor: *36
+  manual: 
+  mark: 
+- !ruby/struct:Axis
+  name: F178
+  department: PKG
+  location: F
+  motor: *36
+  manual: 
+  mark: 
+- !ruby/struct:Axis
+  name: H207 up down
+  department: PKG
+  location: H
+  motor: *37
+  manual: 
+  mark: 
+- !ruby/struct:Axis
+  name: WASTE conveyor
+  department: PKG
+  location: F
+  motor: *38
+  manual: 
+  mark: 
+- !ruby/struct:Axis
+  name: TR3 hydraulic
+  department: TR
+  location: TR3
+  motor: *39
+  manual: 
+  mark: 
+- !ruby/struct:Axis
+  name: TR1 hydraulics
+  department: TR
+  location: TR1
+  motor: *40
+  manual: 
+  mark: 
+- !ruby/struct:Axis
+  name: G72 pusher
+  department: MFG
+  location: GLAZE
+  motor: *41
+  manual: 
+  mark: 
+- !ruby/struct:Axis
+  name: F54
+  department: MFG
+  location: CUTTER
+  motor: *42
+  manual: 
+  mark: 
+- !ruby/struct:Axis
+  name: C24
+  department: MFG
+  location: CUTTER
+  motor: *42
+  manual: 
+  mark: 
+- !ruby/struct:Axis
+  name: C24 east chamfer
+  department: MFG
+  location: CUTTER
+  motor: *43
+  manual: 
+  mark: 
+- !ruby/struct:Axis
+  name: F54 west chamfer
+  department: MFG
+  location: CUTTER
+  motor: *43
   manual: 
   mark: 

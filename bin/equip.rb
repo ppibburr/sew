@@ -4,6 +4,7 @@ require 'sew/equipment'
 require 'optparse'
 
 options={}
+yaml = nil
 OptionParser.new do |opts|
   opts.banner = "Usage: #{$0} [options] [ID]"
 
@@ -13,6 +14,10 @@ OptionParser.new do |opts|
   
   opts.on("-l", "--location NAME", "list all in location") do |v|
     options[:location] = v
+  end  
+
+  opts.on("-y", "--yaml", "full yaml output") do |v|
+    yaml = true
   end  
 
   opts.on("-s", "--so-number DIGITS", "list all with motors matching DIGITS (accepts partial so numbers)") do |v|
@@ -40,6 +45,10 @@ else
 end
 
 if a
-  a=a.map do |a| "#{a.motor.nameplate['SO_NUMBER']} #{a.department.ljust(15)} #{a.location.ljust(15)} #{a.name}" end
+  if !yaml
+    a=a.map do |a| "#{a.motor.nameplate['SO_NUMBER']} #{a.department.ljust(15)} #{a.location.ljust(15)} #{a.name}" end
+  else
+  
+  end
   puts a.to_yaml
 end

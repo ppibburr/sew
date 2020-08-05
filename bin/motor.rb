@@ -14,8 +14,10 @@ def tag so: nil
       m = DB[:motors].find do |m| m.replacements.find do |q| q.gsub(".",'') == so.gsub(".",'') end end
     end
   
-    `wkhtmltoimage  --width 640 http://0.0.0.0:4567/sew/print/#{so} #{so}.png`
-    `cat #{so}.png | lp -o landscape -o fit-to-page`
+    2.times do
+      `wkhtmltoimage  --width 640 http://0.0.0.0:4567/sew/print/#{so} #{so}.png`
+      `cat #{so}.png | lp -o landscape -o fit-to-page`
+    end
   else
     DB[:axi].map do |a| 
       m = a.motor
@@ -31,9 +33,22 @@ def tag so: nil
 
 end
 
+def order
+  DB[:motors].find_all do |q| (q.is_a?(Motor) && q.qty <= 0) end.map do |m| m.nameplate['SO_NUMBER'] end
+end
+
+DB[:motors].find_all do |q|  !q.is_a?(Motor) end.each do |m|
+  DB[:motors].delete m
+end
+
+DB[:motors].each do |m| m.replacements ||= [] end
+
+save_db
+
 
 def qr
   DB[:motors].each do |m|
+  
     so = m.nameplate['SO_NUMBER']
     if !File.exist?(f="#{ENV['HOME']}/git/sew/qr/#{so=so.gsub(".",'')}.png")
       `qrencode -o #{f} http://10.33.15.11:4567/sew/#{so}`
@@ -105,6 +120,9 @@ OptionParser.new do |opts|
     qr;exit
   end 
 
+  opts.on("-I", "--inventory", "list depleted units") do |v|
+    puts order.to_yaml;exit
+  end 
 
   opts.on("-G", "--gear-unit", "view gear unit info for SO#") do |v|
     options[:view_gear] = true
